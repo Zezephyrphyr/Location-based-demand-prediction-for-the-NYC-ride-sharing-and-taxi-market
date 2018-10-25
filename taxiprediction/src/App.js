@@ -9,11 +9,13 @@ const noteStyles = {
 }
 
   const mapStyles = {
-    width: '100%',
+    width: '80%',
     height: '100%'
   };
 
     document.body.style.background = 'black';
+
+
 
   export class MapContainer extends Component {
 
@@ -40,6 +42,10 @@ const noteStyles = {
       }
     };
 
+
+
+
+
     render() {
       return (
         <div className = "Note" style = {noteStyles}>
@@ -48,7 +54,7 @@ const noteStyles = {
 
           <h3>Notes</h3>
           <ol>
-          <li>I'm currently using my goolg api key, it has limit up to 25000 map loads and 2500 requests per day. 
+          <li>I'm currently using my goolg api key, it has limit up to 25000 map loads and 2500 requests per day.
           Be careful of the testing please, thanks！T.T </li>
           <li>We are using react.js and corresponding google map library for developing.</li>
           </ol>
@@ -62,9 +68,9 @@ const noteStyles = {
 
           <h3>Instructions</h3>
             <ol>
-              <li>Install react.js following 
+              <li>Install react.js following
               http://medium.com/web-tutorials-club/reactjs-with-create-react-app-and-sublime-text-984e7fb46455 </li>
-              <li>Go to the project folder, Install google-maps-react following 
+              <li>Go to the project folder, Install google-maps-react following
               https://github.com/fullstackreact/google-maps-react</li>
               <li>Run by "npm start" (save changes of codes and it will automatically show) </li>
             </ol>
@@ -75,17 +81,35 @@ const noteStyles = {
             </ol>
 
           <div className = "MapContainer">
+
             <Map
               google={this.props.google}
-              zoom={14}
+
+              zoom={10}
               style={mapStyles}
-              initialCenter={{ lat: -1.2884, lng: 36.8233 }}
+              initialCenter={{ lat: 40.6974881, lng: -73.979681 }}
+
+
             >
+
 
               <Marker
                 onClick={this.onMarkerClick}
                 name={'Kenyatta International Convention Centre'}
+                position={{lat: 40.8029407, lng: -74.1876679}}
               />
+              <Marker
+                onClick={this.onMarkerClick}
+              title={'Marker1.'}
+              name={'Marker1'}
+              position={{lat: 40.8029407, lng: -74.2076679}} />
+              <Marker
+                onClick={this.onMarkerClick}
+              name={'Marker2'}
+              position={{lat: 40.8029407, lng: -74.2276679}} />
+
+
+
 
               <InfoWindow
                 marker={this.state.activeMarker}
@@ -100,7 +124,9 @@ const noteStyles = {
               </InfoWindow>
 
             </Map>
+
           </div>
+
 
         </div>
        );
