@@ -1,138 +1,278 @@
-  import React, { Component } from 'react';
-  //import './App.css';
-  import { Map, GoogleApiWrapper } from 'google-maps-react';
-  import { InfoWindow, Marker } from 'google-maps-react';
+import React, {Component} from 'react';
+//import './App.css';
+import {Map, GoogleApiWrapper} from 'google-maps-react';
+import {InfoWindow, Marker} from 'google-maps-react';
+import DatePicker from 'react-datepicker';
+import moment from "moment";
+import "react-datepicker/dist/react-datepicker.css";
+import PropTypes from 'prop-types';
+import 'rc-slider/assets/index.css';
+import 'rc-tooltip/assets/bootstrap.css';
+import Tooltip from 'rc-tooltip';
+import Slider from 'rc-slider';
+import 'semantic-ui-css/semantic.min.css'
+import {
+    Button,
+    Checkbox,
+    Grid,
+    Header,
+    Segment,
+    Sidebar,
+    Label,
+    Form,
+    Input,
+    Radio,
+    Select,
+    TextArea
+} from 'semantic-ui-react'
 
-const noteStyles = {
-   backgroundColor: 'black',
-   color: 'white',
-}
+//const createSliderWithTooltip = Slider.createSliderWithTooltip;
 
-  const mapStyles = {
-    width: '80%',
+//slider-related variable and methods
+const Handle = Slider.Handle;
+
+//slider value handle
+const handle = (props) => {
+    const {value, dragging, index, ...restProps} = props;
+    return (
+        <Tooltip
+            prefixCls="rc-slider-tooltip"
+            overlay={value}
+            visible={dragging}
+            placement="top"
+            key={index}
+        >
+            <Handle value={value} {...restProps} />
+        </Tooltip>
+    );
+};
+
+//minimum date and maximum date for selection
+const minDays = new Date(2014, 3, 1);
+const maxDays = new Date(2014, 8, 30);
+
+//map size
+const mapStyles = {
+    width: '100%',
     height: '100%'
-  };
-
-    document.body.style.background = 'black';
+};
 
 
+//main class
+export class MapContainer extends Component {
 
-  export class MapContainer extends Component {
-
-
+    //state variables
     state = {
-      showingInfoWindow: false,  //Hides or the shows the infoWindow
-      activeMarker: {},          //Shows the active marker upon click
-      selectedPlace: {}          //Shows the infoWindow to the selected place upon a marker
+        showingInfoWindow: false,  //Hides or the shows the infoWindow
+        activeMarker: {},          //Shows the active marker upon click - map related features
+        selectedPlace: {},          //Shows the infoWindow to the selected place upon a marker - map related features
+        startDate: moment("2014-06-01"), //the selected date
+        hour: 12,
+        lngValue: 40.8029407, //starting logitude - center of new york city
+        latValue: -74.1876679, // starting latitude
+        tmpt: 70, //may be removed if not necessary
+        weth: 'Sunny', //may be removed if not necessary
+        visible: false, //may be removed if not necessary
+        data: null //heatmap data source
     };
 
+
+    //map related functions
     onMarkerClick = (props, marker, e) =>
-      this.setState({
-        selectedPlace: props,
-        activeMarker: marker,
-        showingInfoWindow: true
-      });
+        this.setState({
+            selectedPlace: props,
+            activeMarker: marker,
+            showingInfoWindow: true
+        });
 
     onClose = props => {
-      if (this.state.showingInfoWindow) {
-        this.setState({
-          showingInfoWindow: false,
-          activeMarker: null
-        });
-      }
+        if (this.state.showingInfoWindow) {
+            this.setState({
+                showingInfoWindow: false,
+                activeMarker: null
+            });
+        }
     };
 
+    //date update
+    handleDateChange = (date) => {
+        this.setState({startDate: date});
+    };
 
-
-
-
-    render() {
-      return (
-        <div className = "Note" style = {noteStyles}>
-
-          <h2>Location-based demand prediction for the NYC ride-sharing and taxi market</h2>
-
-          <h3>Notes</h3>
-          <ol>
-          <li>I'm currently using my goolg api key, it has limit up to 25000 map loads and 2500 requests per day.
-          Be careful of the testing please, thanks！T.T </li>
-          <li>We are using react.js and corresponding google map library for developing.</li>
-          </ol>
-
-          <h3>To Do</h3>
-            <ol>
-              <li>NYC Marker Map </li>
-              <li>Side bar</li>
-              <li>Filtering</li>
-            </ol>
-
-          <h3>Instructions</h3>
-            <ol>
-              <li>Install react.js following
-              http://medium.com/web-tutorials-club/reactjs-with-create-react-app-and-sublime-text-984e7fb46455 </li>
-              <li>Go to the project folder, Install google-maps-react following
-              https://github.com/fullstackreact/google-maps-react</li>
-              <li>Run by "npm start" (save changes of codes and it will automatically show) </li>
-            </ol>
-
-          <h3>Tutorials</h3>
-            <ol>
-              <li>https://scotch.io/tutorials/react-apps-with-the-google-maps-api-and-google-maps-react#toc-conclusion </li>
-            </ol>
-
-          <div className = "MapContainer">
-
-            <Map
-              google={this.props.google}
-
-              zoom={10}
-              style={mapStyles}
-              initialCenter={{ lat: 40.6974881, lng: -73.979681 }}
-
-
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //!!!!!!NEEDS TO BE MODIFIED FOR DATA AND HEATMAP INTEGRATION!!!!!!!!!!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //hour update
+    handleHourChange = (props) => {
+        const {value, dragging, index,...restProps} = props;
+        //if hour changed, change the variable
+        if (value != Number(this.state.hour)) {this.state.hour = value};
+        return (
+            <Tooltip
+                prefixCls="rc-slider-tooltip"
+                overlay={value}
+                visible={dragging}
+                placement="top"
+                key={index}
             >
+                <Handle value={value} {...restProps}/>
+            </Tooltip>
+        );
 
-
-              <Marker
-                onClick={this.onMarkerClick}
-                name={'Kenyatta International Convention Centre'}
-                position={{lat: 40.8029407, lng: -74.1876679}}
-              />
-              <Marker
-                onClick={this.onMarkerClick}
-              title={'Marker1.'}
-              name={'Marker1'}
-              position={{lat: 40.8029407, lng: -74.2076679}} />
-              <Marker
-                onClick={this.onMarkerClick}
-              name={'Marker2'}
-              position={{lat: 40.8029407, lng: -74.2276679}} />
-
-
-
-
-              <InfoWindow
-                marker={this.state.activeMarker}
-                visible={this.state.showingInfoWindow}
-                onClose={this.onClose}
-              >
-
-                <div>
-                  <h4>{this.state.selectedPlace.name}</h4>
-                </div>
-
-              </InfoWindow>
-
-            </Map>
-
-          </div>
-
-
-        </div>
-       );
+        //!!!!!NEEDS TO BE MODIFIED!!!!!
+        //CHANGE MAP ON HOUR CHANGE
     }
-  }
 
-  export default GoogleApiWrapper({
+    //longitude update
+    handleLngChange = (event) => {
+        this.setState({lngValue: event.target.value});
+    };
+
+    //latitude update
+    handleLatChange = (event) => {
+        this.setState({latValue: event.target.value});
+    };
+
+    //temperature update
+    handleTmptChange = (event) => {
+        this.setState({tmpt: event.target.value});
+    };
+
+    //weather update
+    handleWethChange = (event) => {
+        this.setState({weth: event.target.value});
+    };
+
+    //sidebar disploy or not button
+    handleSelectionChange = (e, {checked}) => this.setState({visible: checked})
+
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //!!!!!!NEEDS TO BE MODIFIED FOR DATA AND HEATMAP INTEGRATION!!!!!!!!!!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //This method will be called on confirm button clicked and after first render
+    componentDidMount = () => {
+        let date = this.state.startDate; //current date
+        let datestring = date.toISOString().split("T")[0]; //parsed date format for url
+        alert(datestring + " hour: "+this.state.hour); // testing use only
+        let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+datestring+"&hour=16";
+        fetch(url).then(response => response.json()).then = (data) => {
+            this.setState({data});
+            //!!!!!!!MODIFY HERE FOR OPERATIONS ON DATA!!!!!!!!!
+        };
+    }
+
+    //Loading Pages
+    render() {
+        return (
+            <div className="All">
+                <Checkbox checked={this.state.visible} label='Show Selection' onChange={this.handleSelectionChange}
+                          toggle/>
+                <Sidebar.Pushable as={Segment} style = {{height:'100vh'}}>
+                    <Sidebar
+                        as={Segment}
+                        animation={'overlay'}
+                        direction={'left'}
+                        visible={this.state.visible}
+                        style = {{width:320}}
+
+                    >
+                        <Grid textAlign='center'>
+                            <Grid.Row>
+                                <Header as='h3'>Customer Density Map</Header>
+                            </Grid.Row>
+                            <Grid.Row>
+                                <label> Date: &nbsp; </label>
+                                <DatePicker
+                                    openToDate={moment("2014-06-01")}
+                                    selected={this.state.startDate}
+                                    onChange={this.handleDateChange}
+                                    dateFormat="ll"
+                                    minDate={minDays}
+                                    maxDate={maxDays}
+                                />
+                            </Grid.Row>
+                            <Grid.Row>
+                                <label>
+                                    &nbsp;&nbsp;&nbsp;Longitude:&nbsp;
+                                    <input type="text" value={this.state.lngValue} onChange={this.handleLngChange}/>
+                                </label>
+                            </Grid.Row>
+                            <Grid.Row>
+                                <label>
+                                    &nbsp;&nbsp;&nbsp;Latitude:&nbsp;
+                                    <input type="text" value={this.state.latValue} onChange={this.handleLatChange}/>
+                                </label>
+                            </Grid.Row>
+                            <Grid.Row>
+                                <label>
+                                    &nbsp;&nbsp;&nbsp;Temperature:&nbsp;
+                                    <input type="text" value={this.state.tmpt} onChange={this.handleTmptChange}/>
+                                </label>
+                            </Grid.Row>
+                            <Grid.Row>
+                                <label>
+                                    &nbsp;&nbsp;&nbsp;Weather:&nbsp;
+                                    <input type="text" value={this.state.weth} onChange={this.handleWethChange}/>
+                                </label>
+
+                            </Grid.Row>
+                            <Grid.Row>
+                                <label style = {{margin: 10}}>
+                                    Hours:
+                                </label>
+                                <Slider style={{width: 270, margin: 0, display: "inline-block"}} min={0} max={24} defaultValue={12} handle={this.handleHourChange}/>
+                            </Grid.Row>
+                            <Grid.Row/>
+                            <Button onClick = {this.componentDidMount}> Confirm </Button>
+                            <Grid.Row/>
+                        </Grid>
+                    </Sidebar>
+                    <Sidebar.Pusher dimmed={this.state.visible}>
+                        <div className="MapContainer">
+
+                            <Map
+                                google={this.props.google}
+
+                                zoom={10}
+                                style={mapStyles}
+                                initialCenter={{lat: 40.6974881, lng: -73.979681}}
+
+
+                            >
+
+
+                                <Marker
+                                    onClick={this.onMarkerClick}
+                                    name={'Kenyatta International Convention Centre'}
+                                    position={{lat: 40.8029407, lng: -74.1876679}}
+                                />
+
+
+                                <InfoWindow
+                                    marker={this.state.activeMarker}
+                                    visible={this.state.showingInfoWindow}
+                                    onClose={this.onClose}
+                                >
+
+                                    <div>
+                                        <h4>{this.state.selectedPlace.name}</h4>
+                                    </div>
+
+                                </InfoWindow>
+
+                            </Map>
+
+                        </div>
+
+                    </Sidebar.Pusher>
+                </Sidebar.Pushable>
+
+
+            </div>
+        );
+    }
+}
+
+export default GoogleApiWrapper({
     apiKey: ['AIzaSyBITWvoHqr-SOsoWrC1of17do9eXnZcSXI']
-  })(MapContainer);
+})(MapContainer);
