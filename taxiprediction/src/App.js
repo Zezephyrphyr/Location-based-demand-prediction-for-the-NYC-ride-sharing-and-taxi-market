@@ -112,6 +112,7 @@ export class MapContainer extends Component {
         super(props);
         this.heatmap = null;
         this.googlemapRef = React.createRef();
+        this.data = null;
         this.    //state variables
             state = {
             showingInfoWindow: false,  //Hides or the shows the infoWindow
@@ -123,7 +124,7 @@ export class MapContainer extends Component {
             lngValue: 40.8029407, //starting logitude - center of new york city
             latValue: -74.1876679, // starting latitude
             visible: false, //may be removed if not necessary
-            data: null,
+
             lastHour: new Date().getHours()
         };
         this.update();
@@ -223,7 +224,7 @@ export class MapContainer extends Component {
                 this.heatmap.setMap(null);
                 var gmap = this.googlemapRef.current.map;
                 this.heatmap = new window.google.maps.visualization.HeatmapLayer({
-                    maxIntensity: 1000,
+                    maxIntensity: 15,
                     data: this.state.data[this.state.hour],
                     opacity:0.5,
                     radius:15
@@ -248,16 +249,17 @@ export class MapContainer extends Component {
                 Promise.all(responses.map(res => res.json())
             ).then(data => {
                 var result2 = this.parseData2(data);
-                this.setState({data:result2});
+                this.data = result2;
                 var gmap = this.googlemapRef.current.map;
                 console.log(gmap);
-                //console.log(result2);
+                console.log(result2);
                 if (this.heatmap!=null){
                     this.heatmap.setMap(null);
                 }
                 this.heatmap = new window.google.maps.visualization.HeatmapLayer({
-                        maxIntensity: 1000,
-                        data: this.state.data[this.state.hour],
+                        gradient: gradient,
+                        maxIntensity: 15,
+                        data: this.data[this.state.hour],
                         opacity:0.5,
                         radius:15
                 });
