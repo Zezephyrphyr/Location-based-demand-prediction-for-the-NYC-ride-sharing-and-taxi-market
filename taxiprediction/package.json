@@ -3,10 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "css-loader": "^1.0.1",
+    "date-fns": "^2.0.0-alpha.21",
+    "file-loader": "^2.0.0",
+    "google-map-react": "^1.1.1",
     "google-maps-react": "^2.0.2",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "rc-slider": "^8.6.3",
     "react": "^16.6.0",
+    "react-datepicker": "^1.8.0",
+    "react-datetime": "^2.16.2",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "2.0.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

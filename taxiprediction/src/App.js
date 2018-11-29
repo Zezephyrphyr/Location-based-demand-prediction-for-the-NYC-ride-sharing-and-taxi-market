@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 //import './App.css';
-import {Map, GoogleApiWrapper} from 'google-maps-react';
+import {withGoogleMap,Map, GoogleApiWrapper,Polygon, HeatMap,} from 'google-maps-react';
 import {InfoWindow, Marker} from 'google-maps-react';
 import DatePicker from 'react-datepicker';
 import moment from "moment";
 import "react-datepicker/dist/react-datepicker.css";
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
 import Tooltip from 'rc-tooltip';
@@ -18,65 +18,127 @@ import {
     Header,
     Segment,
     Sidebar,
-    Label,
-    Form,
-    Input,
-    Radio,
-    Select,
-    TextArea
 } from 'semantic-ui-react'
 
-//const createSliderWithTooltip = Slider.createSliderWithTooltip;
 
 //slider-related variable and methods
 const Handle = Slider.Handle;
 
-//slider value handle
-const handle = (props) => {
-    const {value, dragging, index, ...restProps} = props;
-    return (
-        <Tooltip
-            prefixCls="rc-slider-tooltip"
-            overlay={value}
-            visible={dragging}
-            placement="top"
-            key={index}
-        >
-            <Handle value={value} {...restProps} />
-        </Tooltip>
-    );
-};
-
 //minimum date and maximum date for selection
-const minDays = new Date(2014, 3, 1);
-const maxDays = new Date(2014, 8, 30);
+const minDays = new Date();
+const maxDays = new Date();
+maxDays.setDate(minDays.getDate() + 7);
 
-//map size
-const mapStyles = {
-    width: '100%',
-    height: '100%'
-};
+const gradient = [
+    'rgba(0, 255, 255, 0)',
+    'rgba(0, 255, 255, 1)',
+    'rgba(0, 191, 255, 1)',
+    'rgba(0, 127, 255, 1)',
+    'rgba(0, 63, 255, 1)',
+    'rgba(0, 0, 255, 1)',
+    'rgba(0, 0, 223, 1)',
+    'rgba(0, 0, 191, 1)',
+    'rgba(0, 0, 159, 1)',
+    'rgba(0, 0, 127, 1)',
+    'rgba(63, 0, 91, 1)',
+    'rgba(127, 0, 63, 1)',
+    'rgba(191, 0, 31, 1)',
+    'rgba(255, 0, 0, 1)'
+];
+
+
+const north = 40.90493915804564;
+const south = 40.48846518521376;
+const east = -73.72326885045277;
+const west = -74.27971341040893;
+
+var boundPoints = [
+    { lat: 40.90493915804564, lng: -73.72326885045277 },
+    { lat: 40.90493915804564, lng: -74.27971341040893 },
+    { lat: 40.48846518521376, lng: -73.72326885045277 },
+    { lat: 40.48846518521376, lng: -73.72326885045277 }
+]
+
+const N = 30;
+var latUnit = (north-south)/N;
+var lngUnit = (east-west)/N;
+
+var latMappings = [];
+var lngMappings = [];
+for (var x = 0; x<N; x++) {
+    lngMappings[x] = west + (x+0.5)*lngUnit;
+}
+for (var y = 0; y<N;y++){
+    latMappings[y] = south + (y+0.5)*latUnit;
+}
+
+//testing setup
+
+var positions = [];
+for (var z = 0; z<24;z++) {
+    var currentHour = [];
+    for (x = 0; x<N; x++){
+        for (y = 0; y<N; y++){
+            for (var w = 0; w< x*z; w++) {
+                currentHour.push({lat: latMappings[y], lng: lngMappings[x]});
+            }
+        }
+    }
+    positions.push(currentHour);
+}
+
+
+//parse 24*900 array to 24 weighted positions
+function parseData(data){
+    var positions = [];
+    for (var i = 0; i<24; i++){
+        var currentHourData = data[i];
+        var currentHourParsed = [];
+        for (var j = 0; j<N*N;j++){
+            var item = currentHourData[j];
+            var indX = item.x;
+            var indY = item.y;
+            var weight = Math.round(item.demand*10)-12;
+            if (weight > 100) weight = 100;
+            if (weight < 0) weight = 0;
+            for (var k = 0; k<weight;k++){
+                currentHourParsed.push({lat: latMappings[indY], lng: lngMappings[indX], weight:i});
+            }
+        }
+        positions.push(currentHourParsed);
+    }
+    return positions;
+}
 
 
 //main class
 export class MapContainer extends Component {
 
-    //state variables
-    state = {
-        showingInfoWindow: false,  //Hides or the shows the infoWindow
-        activeMarker: {},          //Shows the active marker upon click - map related features
-        selectedPlace: {},          //Shows the infoWindow to the selected place upon a marker - map related features
-        startDate: moment("2014-06-01"), //the selected date
-        hour: 12,
-        lngValue: 40.8029407, //starting logitude - center of new york city
-        latValue: -74.1876679, // starting latitude
-        tmpt: 70, //may be removed if not necessary
-        weth: 'Sunny', //may be removed if not necessary
-        visible: false, //may be removed if not necessary
-        data: null //heatmap data source
+    constructor(props){
+        super(props);
+        this.    //state variables
+            state = {
+            showingInfoWindow: false,  //Hides or the shows the infoWindow
+            activeMarker: {},          //Shows the active marker upon click - map related features
+            selectedPlace: {},          //Shows the infoWindow to the selected place upon a marker - map related features
+            selectedDate: moment(), //the selected date
+            lastSelectedDate: moment().subtract(1, "days"),
+            hour: new Date().getHours(),
+            lngValue: 40.8029407, //starting logitude - center of new york city
+            latValue: -74.1876679, // starting latitude
+            visible: false, //may be removed if not necessary
+            positions: positions,
+        };
+        //this.update();
+    }
+
+
+
+    componentWillMount =  () => {
+        //var data = this.update();
+        //this.setState({data : data});
     };
-
-
+    /*
     //map related functions
     onMarkerClick = (props, marker, e) =>
         this.setState({
@@ -93,10 +155,11 @@ export class MapContainer extends Component {
             });
         }
     };
+    */
 
     //date update
     handleDateChange = (date) => {
-        this.setState({startDate: date});
+        this.setState({selectedDate: date});
     };
 
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -106,7 +169,7 @@ export class MapContainer extends Component {
     handleHourChange = (props) => {
         const {value, dragging, index,...restProps} = props;
         //if hour changed, change the variable
-        if (value != Number(this.state.hour)) {this.state.hour = value};
+        if (value != Number(this.state.hour)) {this.state.hour = value;}
         return (
             <Tooltip
                 prefixCls="rc-slider-tooltip"
@@ -123,26 +186,6 @@ export class MapContainer extends Component {
         //CHANGE MAP ON HOUR CHANGE
     }
 
-    //longitude update
-    handleLngChange = (event) => {
-        this.setState({lngValue: event.target.value});
-    };
-
-    //latitude update
-    handleLatChange = (event) => {
-        this.setState({latValue: event.target.value});
-    };
-
-    //temperature update
-    handleTmptChange = (event) => {
-        this.setState({tmpt: event.target.value});
-    };
-
-    //weather update
-    handleWethChange = (event) => {
-        this.setState({weth: event.target.value});
-    };
-
     //sidebar disploy or not button
     handleSelectionChange = (e, {checked}) => this.setState({visible: checked})
 
@@ -150,16 +193,35 @@ export class MapContainer extends Component {
     //!!!!!!NEEDS TO BE MODIFIED FOR DATA AND HEATMAP INTEGRATION!!!!!!!!!!!
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //This method will be called on confirm button clicked and after first render
-    componentDidMount = () => {
-        let date = this.state.startDate; //current date
-        let datestring = date.toISOString().split("T")[0]; //parsed date format for url
-        alert(datestring + " hour: "+this.state.hour); // testing use only
-        let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+datestring+"&hour=16";
-        fetch(url).then(response => response.json()).then = (data) => {
-            this.setState({data});
-            //!!!!!!!MODIFY HERE FOR OPERATIONS ON DATA!!!!!!!!!
-        };
+    update = () => {
+        if (this.state.selectedDate.isSame(this.state.lastSelectedDate,'day')) {return}
+        this.setState({lastSelectedDate: this.state.selectedDate});
+        let dS = this.state.selectedDate.toArray(); //current date
+        let dateString = dS[0] + "-" + (dS[1]+1) + "-" + dS[2]; //parsed date format for url
+        alert(dateString + " hour: "+this.state.hour); // testing use only
+        let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+dateString+"&hour=";
+        var urlAry = [];
+        for (var i = 0; i< 24; i++) {
+            urlAry.push(url + i);
+            console.debug(url + i);
+        }
+
+        Promise.all(urlAry.map(url => fetch(url))).then(responses =>
+                Promise.all(responses.map(res => res.json())
+            ).then(data => {
+                var result = parseData(data);
+                this.setState({positions: result});
+
+                console.log(this.state.positions);
+            }));
+        /*
+        fetch(url+"1")
+            .then(response => response.json())
+            .then(json => console.log(json));
+           */
+
     }
+
 
     //Loading Pages
     render() {
@@ -183,8 +245,8 @@ export class MapContainer extends Component {
                             <Grid.Row>
                                 <label> Date: &nbsp; </label>
                                 <DatePicker
-                                    openToDate={moment("2014-06-01")}
-                                    selected={this.state.startDate}
+                                    openToDate={moment()}
+                                    selected={this.state.selectedDate}
                                     onChange={this.handleDateChange}
                                     dateFormat="ll"
                                     minDate={minDays}
@@ -192,38 +254,13 @@ export class MapContainer extends Component {
                                 />
                             </Grid.Row>
                             <Grid.Row>
-                                <label>
-                                    &nbsp;&nbsp;&nbsp;Longitude:&nbsp;
-                                    <input type="text" value={this.state.lngValue} onChange={this.handleLngChange}/>
-                                </label>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <label>
-                                    &nbsp;&nbsp;&nbsp;Latitude:&nbsp;
-                                    <input type="text" value={this.state.latValue} onChange={this.handleLatChange}/>
-                                </label>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <label>
-                                    &nbsp;&nbsp;&nbsp;Temperature:&nbsp;
-                                    <input type="text" value={this.state.tmpt} onChange={this.handleTmptChange}/>
-                                </label>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <label>
-                                    &nbsp;&nbsp;&nbsp;Weather:&nbsp;
-                                    <input type="text" value={this.state.weth} onChange={this.handleWethChange}/>
-                                </label>
-
-                            </Grid.Row>
-                            <Grid.Row>
                                 <label style = {{margin: 10}}>
                                     Hours:
                                 </label>
-                                <Slider style={{width: 270, margin: 0, display: "inline-block"}} min={0} max={24} defaultValue={12} handle={this.handleHourChange}/>
+                                <Slider style={{width: 270, margin: 0, display: "inline-block"}} min={0} max={24} defaultValue={this.state.hour} handle={this.handleHourChange}/>
                             </Grid.Row>
                             <Grid.Row/>
-                            <Button onClick = {this.componentDidMount}> Confirm </Button>
+                            <Button onClick = {this.update}> Confirm </Button>
                             <Grid.Row/>
                         </Grid>
                     </Sidebar>
@@ -231,36 +268,24 @@ export class MapContainer extends Component {
                         <div className="MapContainer">
 
                             <Map
+                                style={{height: '100%', width: '100%', position: 'relative'}}
+                                className='map'
                                 google={this.props.google}
-
                                 zoom={10}
-                                style={mapStyles}
-                                initialCenter={{lat: 40.6974881, lng: -73.979681}}
-
-
+                                initialCenter={{
+                                    lat: 40.7128,
+                                    lng: -74.0060
+                                }}
                             >
+                                <HeatMap
+                                    gradient={gradient}
+                                    opacity={0.5}
+                                    positions={this.state.positions[this.state.hour]}
+                                    radius={7}
 
-
-                                <Marker
-                                    onClick={this.onMarkerClick}
-                                    name={'Kenyatta International Convention Centre'}
-                                    position={{lat: 40.8029407, lng: -74.1876679}}
                                 />
-
-
-                                <InfoWindow
-                                    marker={this.state.activeMarker}
-                                    visible={this.state.showingInfoWindow}
-                                    onClose={this.onClose}
-                                >
-
-                                    <div>
-                                        <h4>{this.state.selectedPlace.name}</h4>
-                                    </div>
-
-                                </InfoWindow>
-
                             </Map>
+
 
                         </div>
 
@@ -274,5 +299,6 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: ['SOMEGOOGLEAPIKEY']
+    apiKey: ['AIzaSyBITWvoHqr-SOsoWrC1of17do9eXnZcSXI'],
+    libraries: ['visualization']
 })(MapContainer);
