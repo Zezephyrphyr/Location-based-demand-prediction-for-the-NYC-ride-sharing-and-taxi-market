@@ -79,7 +79,7 @@ for (var z = 0; z<24;z++) {
     var currentHour = [];
     for (x = 0; x<N; x++){
         for (y = 0; y<N; y++){
-            for (var w = 0; w< x*z; w++) {
+            for (var w = 0; w< x; w++) {
                 currentHour.push({lat: latMappings[y], lng: lngMappings[x]});
             }
         }
