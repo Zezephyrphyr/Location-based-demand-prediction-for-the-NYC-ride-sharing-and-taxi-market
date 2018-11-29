@@ -23,7 +23,6 @@ import {
 
 //slider-related variable and methods
 const Handle = Slider.Handle;
-
 //minimum date and maximum date for selection
 const minDays = new Date();
 const maxDays = new Date();
@@ -52,12 +51,6 @@ const south = 40.48846518521376;
 const east = -73.72326885045277;
 const west = -74.27971341040893;
 
-var boundPoints = [
-    { lat: 40.90493915804564, lng: -73.72326885045277 },
-    { lat: 40.90493915804564, lng: -74.27971341040893 },
-    { lat: 40.48846518521376, lng: -73.72326885045277 },
-    { lat: 40.48846518521376, lng: -73.72326885045277 }
-]
 
 const N = 30;
 var latUnit = (north-south)/N;
@@ -73,7 +66,7 @@ for (var y = 0; y<N;y++){
 }
 
 //testing setup
-
+/*
 var positions = [];
 for (var z = 0; z<24;z++) {
     var currentHour = [];
@@ -86,8 +79,8 @@ for (var z = 0; z<24;z++) {
     }
     positions.push(currentHour);
 }
-
-
+*/
+/*
 //parse 24*900 array to 24 weighted positions
 function parseData(data){
     var positions = [];
@@ -109,13 +102,16 @@ function parseData(data){
     }
     return positions;
 }
-
+*/
 
 //main class
 export class MapContainer extends Component {
 
+
     constructor(props){
         super(props);
+        this.heatmap = null;
+        this.googlemapRef = React.createRef();
         this.    //state variables
             state = {
             showingInfoWindow: false,  //Hides or the shows the infoWindow
@@ -127,12 +123,35 @@ export class MapContainer extends Component {
             lngValue: 40.8029407, //starting logitude - center of new york city
             latValue: -74.1876679, // starting latitude
             visible: false, //may be removed if not necessary
-            positions: positions,
+            data: null,
+            lastHour: new Date().getHours()
         };
-        //this.update();
+        this.update();
     }
 
+    componentWillUnmount () {
+        clearTimeout(this.timeout)
+    }
 
+    parseData2(data){
+        var positions = [];
+        for (var i = 0; i<24; i++){
+            var currentHourData = data[i];
+            var currentHourParsed = [];
+            for (var j = 0; j<N*N;j++){
+                var item = currentHourData[j];
+                var indX = item.x;
+                var indY = item.y;
+                var weight = item.demand;
+                if (weight > 100) weight = 5000;
+                if (weight < 0) weight = 0;
+                var point = new window.google.maps.LatLng(latMappings[indY], lngMappings[indX]);
+                currentHourParsed.push({location: point, weight:weight});
+            }
+            positions.push(currentHourParsed);
+        }
+        return positions;
+    }
 
     componentWillMount =  () => {
         //var data = this.update();
@@ -169,7 +188,7 @@ export class MapContainer extends Component {
     handleHourChange = (props) => {
         const {value, dragging, index,...restProps} = props;
         //if hour changed, change the variable
-        if (value != Number(this.state.hour)) {this.state.hour = value;}
+        if (value != Number(this.state.hour)) { this.state.hour = value; }
         return (
             <Tooltip
                 prefixCls="rc-slider-tooltip"
@@ -194,7 +213,27 @@ export class MapContainer extends Component {
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //This method will be called on confirm button clicked and after first render
     update = () => {
-        if (this.state.selectedDate.isSame(this.state.lastSelectedDate,'day')) {return}
+        this.setState({opacity:0.7});
+        if (this.state.selectedDate.isSame(this.state.lastSelectedDate,'day')) {
+            alert("Previous Hour: " + this.state.lastHour + "; This Hour: " + this.state.hour);
+            if (this.state.hour == this.state.lastHour){
+                return;
+            }
+            else {
+                this.heatmap.setMap(null);
+                var gmap = this.googlemapRef.current.map;
+                this.heatmap = new window.google.maps.visualization.HeatmapLayer({
+                    maxIntensity: 1000,
+                    data: this.state.data[this.state.hour],
+                    opacity:0.5,
+                    radius:15
+                });
+                this.heatmap.setMap(gmap);
+                this.setState({lastHour: this.state.hour});
+                return;
+            }
+        }
+        this.setState({lastHour: this.state.hour});
         this.setState({lastSelectedDate: this.state.selectedDate});
         let dS = this.state.selectedDate.toArray(); //current date
         let dateString = dS[0] + "-" + (dS[1]+1) + "-" + dS[2]; //parsed date format for url
@@ -205,14 +244,24 @@ export class MapContainer extends Component {
             urlAry.push(url + i);
             console.debug(url + i);
         }
-
         Promise.all(urlAry.map(url => fetch(url))).then(responses =>
                 Promise.all(responses.map(res => res.json())
             ).then(data => {
-                var result = parseData(data);
-                this.setState({positions: result});
-
-                console.log(this.state.positions);
+                var result2 = this.parseData2(data);
+                this.setState({data:result2});
+                var gmap = this.googlemapRef.current.map;
+                console.log(gmap);
+                //console.log(result2);
+                if (this.heatmap!=null){
+                    this.heatmap.setMap(null);
+                }
+                this.heatmap = new window.google.maps.visualization.HeatmapLayer({
+                        maxIntensity: 1000,
+                        data: this.state.data[this.state.hour],
+                        opacity:0.5,
+                        radius:15
+                });
+                this.heatmap.setMap(gmap);
             }));
         /*
         fetch(url+"1")
@@ -225,6 +274,17 @@ export class MapContainer extends Component {
 
     //Loading Pages
     render() {
+        var points = [
+            { lat: 40.90493915804564, lng: -73.72326885045277 },
+            { lat: 40.90493915804564, lng: -74.27971341040893 },
+            { lat: 40.48846518521376, lng: -73.72326885045277 },
+            { lat: 40.48846518521376, lng: -73.72326885045277 }
+        ]
+        var bounds = new this.props.google.maps.LatLngBounds();
+        for (var i = 0; i < points.length; i++) {
+            bounds.extend(points[i]);
+        }
+
         return (
             <div className="All">
                 <Checkbox checked={this.state.visible} label='Show Selection' onChange={this.handleSelectionChange}
@@ -271,19 +331,14 @@ export class MapContainer extends Component {
                                 style={{height: '100%', width: '100%', position: 'relative'}}
                                 className='map'
                                 google={this.props.google}
+                                ref={this.googlemapRef}
                                 zoom={10}
                                 initialCenter={{
                                     lat: 40.7128,
                                     lng: -74.0060
                                 }}
+                                bounds={bounds}
                             >
-                                <HeatMap
-                                    gradient={gradient}
-                                    opacity={0.5}
-                                    positions={this.state.positions[this.state.hour]}
-                                    radius={7}
-
-                                />
                             </Map>
 
 
