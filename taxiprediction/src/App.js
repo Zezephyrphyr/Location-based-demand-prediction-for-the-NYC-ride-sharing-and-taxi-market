@@ -21,6 +21,31 @@ import {
 } from 'semantic-ui-react'
 
 
+const gradient = [
+    'rgba(0,255,0,0)',
+    'rgba(43,255,0,0)',
+    'rgba(128,255,0,1)',
+    'rgba(128,255,0,1)',
+    'rgba(170,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(255,255,0,1)',
+    'rgba(255,213,0,1)',
+    'rgba(255,170,0,1)',
+    'rgba(255,128,0,1)',
+    'rgba(255,85,0,1)',
+    'rgba(255,43,0,1)',
+    'rgba(255,0,0,1)',
+    'rgba(255,0,0,1)',
+    'rgba(255,0,0,1)',
+    'rgba(255,0,0,1)',
+]
+
 //slider-related variable and methods
 const Handle = Slider.Handle;
 //minimum date and maximum date for selection
@@ -106,9 +131,9 @@ export class MapContainer extends Component {
                 var item = currentHourData[j];
                 var indX = item.x;
                 var indY = item.y;
-                var weight = item.demand;
-                if (weight > 1000) weight = 1000;
-                if (weight < 2) weight = 0;
+                var weight = Math.log(item.demand);
+                // if (weight > 3000) weight = 1000;
+                // if (weight < 2) weight = 0;
                 //var logWeight = Math.log(weight);
                 var point = new window.google.maps.LatLng(latMappings[indY], lngMappings[indX]);
                 currentHourParsed.push({location: point, weight:weight});
@@ -185,11 +210,11 @@ export class MapContainer extends Component {
                     } );
                     console.log(this.dataAry);
                     this.heatmap = new window.google.maps.visualization.HeatmapLayer({
-                        //  gradient: gradient,
+                        gradient: gradient,
                         maxIntensity: 15,
                         data: this.dataAry,
                         opacity:0.5,
-                        radius:15
+                        radius: 25
                     });
                     this.heatmap.setMap(gmap);
                 }
