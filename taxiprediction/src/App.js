@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 //import './App.css';
 import {withGoogleMap,Map, GoogleApiWrapper,Polygon, HeatMap,} from 'google-maps-react';
 import {InfoWindow, Marker} from 'google-maps-react';
-import DatePicker from 'react-datepicker';
-import moment from 'moment';
 import "react-datepicker/dist/react-datepicker.css";
 //import PropTypes from 'prop-types';
 import 'rc-slider/assets/index.css';
@@ -13,6 +11,7 @@ import Slider from 'rc-slider';
 import 'semantic-ui-css/semantic.min.css'
 import {
     Button,
+    Dropdown
 } from 'semantic-ui-react'
 
 
@@ -103,13 +102,33 @@ export class MapContainer extends Component {
         this.data = null;
       //  this.lngValue = 40.8029407;
       //  this.latValue = -74.1876679;
+        this.dateAry = [];
+        var yesterday = "";
+        for (var i = -1; i<8;i++){
+            var currentDate = new Date();
+            currentDate.setDate(currentDate.getDate() + i);
+            var month = '' + (currentDate.getMonth() + 1);
+            var day = '' + currentDate.getDate();
+            var year = currentDate.getFullYear();
+            if (month.length < 2) month = '0' + month;
+            if (day.length < 2) day = '0' + day;
+
+            var str = [year, month, day].join('-');
+            if (i == -1){
+                yesterday = str;
+            }
+            else {this.dateAry.push({value: str, key: str, text:  str});}
+        }
+        console.log(this.dateAry)
+
         this.dataAry = new window.google.maps.MVCArray();
-        this.lastSelectedDate = moment().subtract(1, "days");
+        this.lastSelectedDate = yesterday;
         this.state = { //state variables
-            selectedDate: moment(), //the selected date
+            selectedDate: this.dateAry[0]['value'] , //the selected date
             hour: new Date().getHours(),
             visible: false, //may be removed if not necessary
         };
+        console.log(this.state.selectedDate)
         this.update();
     }
 
@@ -139,8 +158,9 @@ export class MapContainer extends Component {
     }
 
     //date update
-    handleDateChange = (date) => {
-        this.setState({selectedDate: date});
+    handleDateChange = (e, { value }) => {
+        console.log(value);
+        this.setState({selectedDate: value});
     };
 
     //hour update
@@ -175,14 +195,12 @@ export class MapContainer extends Component {
     //This method will be called on confirm button clicked and after first render
     update = () => {
         this.setState({opacity:0.7});
-        if (this.state.selectedDate.isSame(this.lastSelectedDate,'day')) {
+        if (this.state.selectedDate == this.lastSelectedDate) {
             return;
         }
         this.lastSelectedDate = this.state.selectedDate;
-        let dS = this.state.selectedDate.toArray(); //current date
-        let dateString = dS[0] + "-" + (dS[1]+1) + "-" + dS[2]; //parsed date format for url
         //alert(dateString + " hour: "+this.state.hour); // testing use only
-        let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+dateString+"&hour=";
+        let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+this.state.selectedDate+"&hour=";
         var urlAry = [];
         for (var i = 0; i< 24; i++) {
             urlAry.push(url + i);
@@ -260,16 +278,13 @@ export class MapContainer extends Component {
                         </div>
                 <div style = {{position: 'absolute', top: 0}}>
                     <label style={{ display: "inline-block"}}> Date: &nbsp; </label>
-                    <DatePicker
-                        openToDate={moment()}
-                        selected={this.state.selectedDate}
-                        onChange={this.handleDateChange}
-                        dateFormat="ll"
-                        minDate={minDays}
-                        maxDate={maxDays}
-                        style={{ display: "inline-block"}}
-                    />
+                    <Dropdown style={{ display: "inline-block"}}
+                              placeholder={this.dateAry[0]['value']}
+                              selection options={this.dateAry}
+                              onChange= {this.handleDateChange}
+                              value={this.state.selectedDate}
 
+                    />
                     <label style = {{margin: 10, display: "inline-block"}}>
                         Hours:
                     </label>
