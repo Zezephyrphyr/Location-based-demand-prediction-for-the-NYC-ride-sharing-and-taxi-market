@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 //import './App.css';
-import {withGoogleMap,Map, GoogleApiWrapper,Polygon, HeatMap,} from 'google-maps-react';
-import {InfoWindow, Marker} from 'google-maps-react';
+import {Map, GoogleApiWrapper} from 'google-maps-react';
 import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
 import Tooltip from 'rc-tooltip';
@@ -80,7 +79,7 @@ export class MapContainer extends Component {
             if (day.length < 2) day = '0' + day;
 
             var str = [year, month, day].join('-');
-            if (i == -1){
+            if (i === -1){
                 yesterday = str;
             }
             else {this.dateAry.push({value: str, key: str, text:  str});}
@@ -127,9 +126,9 @@ export class MapContainer extends Component {
     handleHourChange = (props) => {
         const {value, dragging, index,...restProps} = props;
         //if hour changed, change the variable
-        if (value != Number(this.state.hour)) {
+        if (value !== Number(this.state.hour)) {
             this.setState({hour: value});
-            if (this.state.selectedDate == this.lastSelectedDate){
+            if (this.state.selectedDate === this.lastSelectedDate){
                 if (this.heatmap!=null) {
                     this.dataAry.clear();
                     this.data[this.state.hour].forEach(element => {
@@ -155,7 +154,7 @@ export class MapContainer extends Component {
     //This method will be called on confirm button clicked and after first render
     update = () => {
         this.setState({opacity:0.7});
-        if (this.state.selectedDate == this.lastSelectedDate) {
+        if (this.state.selectedDate === this.lastSelectedDate) {
             return;
         }
         this.lastSelectedDate = this.state.selectedDate;
