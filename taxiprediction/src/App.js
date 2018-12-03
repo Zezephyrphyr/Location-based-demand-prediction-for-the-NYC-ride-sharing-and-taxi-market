@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {withGoogleMap,Map, GoogleApiWrapper,Polygon, HeatMap,} from 'google-maps-react';
 import {InfoWindow, Marker} from 'google-maps-react';
 import DatePicker from 'react-datepicker';
-import moment from "moment";
+import moment from 'moment';
 import "react-datepicker/dist/react-datepicker.css";
 //import PropTypes from 'prop-types';
 import 'rc-slider/assets/index.css';
@@ -13,11 +13,6 @@ import Slider from 'rc-slider';
 import 'semantic-ui-css/semantic.min.css'
 import {
     Button,
-    Checkbox,
-    Grid,
-    Header,
-    Segment,
-    Sidebar,
 } from 'semantic-ui-react'
 
 
@@ -72,6 +67,31 @@ function parseData(data){
 }
 */
 
+const gradient = [
+    'rgba(0,255,0,0)',
+    'rgba(43,255,0,0)',
+    'rgba(128,255,0,1)',
+    'rgba(128,255,0,1)',
+    'rgba(170,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(213,255,0,1)',
+    'rgba(255,255,0,1)',
+    'rgba(255,213,0,1)',
+    'rgba(255,170,0,1)',
+    'rgba(255,128,0,1)',
+    'rgba(255,85,0,1)',
+    'rgba(255,43,0,1)',
+    'rgba(255,0,0,1)',
+    'rgba(255,0,0,1)',
+    'rgba(255,0,0,1)',
+    'rgba(255,0,0,1)',
+]
+
 //main class
 export class MapContainer extends Component {
 
@@ -81,8 +101,8 @@ export class MapContainer extends Component {
         this.heatmap = null;
         this.googlemapRef = React.createRef();
         this.data = null;
-        this.lngValue = 40.8029407;
-        this.latValue = -74.1876679;
+      //  this.lngValue = 40.8029407;
+      //  this.latValue = -74.1876679;
         this.dataAry = new window.google.maps.MVCArray();
         this.lastSelectedDate = moment().subtract(1, "days");
         this.state = { //state variables
@@ -107,9 +127,9 @@ export class MapContainer extends Component {
                 var indX = item.x;
                 var indY = item.y;
                 var weight = item.demand;
-                if (weight > 1000) weight = 1000;
-                if (weight < 2) weight = 0;
-                //var logWeight = Math.log(weight);
+                //if (weight > 1000) weight = 1000;
+                //if (weight < 2) weight = 0;
+                var weight = Math.log(item.demand);
                 var point = new window.google.maps.LatLng(latMappings[indY], lngMappings[indX]);
                 currentHourParsed.push({location: point, weight:weight});
             }
@@ -150,12 +170,7 @@ export class MapContainer extends Component {
             </Tooltip>
         );
 
-        //!!!!!NEEDS TO BE MODIFIED!!!!!
-        //CHANGE MAP ON HOUR CHANGE
     }
-
-    //sidebar disploy or not button
-    handleSelectionChange = (e, {checked}) => this.setState({visible: checked})
 
     //This method will be called on confirm button clicked and after first render
     update = () => {
@@ -166,7 +181,7 @@ export class MapContainer extends Component {
         this.lastSelectedDate = this.state.selectedDate;
         let dS = this.state.selectedDate.toArray(); //current date
         let dateString = dS[0] + "-" + (dS[1]+1) + "-" + dS[2]; //parsed date format for url
-        alert(dateString + " hour: "+this.state.hour); // testing use only
+        //alert(dateString + " hour: "+this.state.hour); // testing use only
         let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+dateString+"&hour=";
         var urlAry = [];
         for (var i = 0; i< 24; i++) {
@@ -185,11 +200,11 @@ export class MapContainer extends Component {
                     } );
                     console.log(this.dataAry);
                     this.heatmap = new window.google.maps.visualization.HeatmapLayer({
-                        //  gradient: gradient,
+                        gradient: gradient,
                         maxIntensity: 15,
                         data: this.dataAry,
                         opacity:0.5,
-                        radius:15
+                        radius: 25
                     });
                     this.heatmap.setMap(gmap);
                 }
@@ -226,48 +241,9 @@ export class MapContainer extends Component {
 
         return (
             <div className="All">
-                <Checkbox checked={this.state.visible} label='Show Selection' onChange={this.handleSelectionChange}
-                          toggle/>
-                <Sidebar.Pushable as={Segment} style = {{height:'100vh'}}>
-                    <Sidebar
-                        as={Segment}
-                        animation={'overlay'}
-                        direction={'left'}
-                        visible={this.state.visible}
-                        style = {{width:320}}
-
-                    >
-                        <Grid textAlign='center'>
-                            <Grid.Row>
-                                <Header as='h3'>Customer Density Map</Header>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <label> Date: &nbsp; </label>
-                                <DatePicker
-                                    openToDate={moment()}
-                                    selected={this.state.selectedDate}
-                                    onChange={this.handleDateChange}
-                                    dateFormat="ll"
-                                    minDate={minDays}
-                                    maxDate={maxDays}
-                                />
-                            </Grid.Row>
-                            <Grid.Row>
-                                <label style = {{margin: 10}}>
-                                    Hours:
-                                </label>
-                                <Slider style={{width: 270, margin: 0, display: "inline-block"}} min={0} max={23} defaultValue={this.state.hour} handle={this.handleHourChange}/>
-                            </Grid.Row>
-                            <Grid.Row/>
-                            <Button onClick = {this.update}> Confirm </Button>
-                            <Grid.Row/>
-                        </Grid>
-                    </Sidebar>
-                    <Sidebar.Pusher dimmed={this.state.visible}>
-                        <div className="MapContainer">
-
+                    <div className="MapContainer">
                             <Map
-                                style={{height: '100%', width: '100%', position: 'relative'}}
+                                style={{height: '95%', width: '100%',position: 'fixed', top:40}}
                                 className='map'
                                 google={this.props.google}
                                 ref={this.googlemapRef}
@@ -282,9 +258,26 @@ export class MapContainer extends Component {
 
 
                         </div>
+                <div style = {{position: 'absolute', top: 0}}>
+                    <label style={{ display: "inline-block"}}> Date: &nbsp; </label>
+                    <DatePicker
+                        openToDate={moment()}
+                        selected={this.state.selectedDate}
+                        onChange={this.handleDateChange}
+                        dateFormat="ll"
+                        minDate={minDays}
+                        maxDate={maxDays}
+                        style={{ display: "inline-block"}}
+                    />
 
-                    </Sidebar.Pusher>
-                </Sidebar.Pushable>
+                    <label style = {{margin: 10, display: "inline-block"}}>
+                        Hours:
+                    </label>
+                    <label style={{ display: "inline-block"}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+                    <Slider style={{width: 270, margin: 0, display: "inline-block"}} min={0} max={23} defaultValue={this.state.hour} handle={this.handleHourChange}/>
+                    <label style={{ display: "inline-block"}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+                    <Button onClick = {this.update}> Confirm </Button>
+                </div>
 
 
             </div>
