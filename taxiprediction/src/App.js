@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-//import './App.css';
 import {Map, GoogleApiWrapper} from 'google-maps-react';
 import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
