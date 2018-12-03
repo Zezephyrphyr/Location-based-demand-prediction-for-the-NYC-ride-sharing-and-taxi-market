@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 //import './App.css';
 import {withGoogleMap,Map, GoogleApiWrapper,Polygon, HeatMap,} from 'google-maps-react';
 import {InfoWindow, Marker} from 'google-maps-react';
-import "react-datepicker/dist/react-datepicker.css";
-//import PropTypes from 'prop-types';
 import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
 import Tooltip from 'rc-tooltip';
@@ -17,11 +15,6 @@ import {
 
 //slider-related variable and methods
 const Handle = Slider.Handle;
-//minimum date and maximum date for selection
-const minDays = new Date();
-const maxDays = new Date();
-maxDays.setDate(minDays.getDate() + 7);
-
 const north = 40.90493915804564;
 const south = 40.48846518521376;
 const east = -73.72326885045277;
@@ -40,31 +33,6 @@ for (var x = 0; x<N; x++) {
 for (var y = 0; y<N;y++){
     latMappings[y] = south + (y+0.5)*latUnit;
 }
-
-//testing setup
-/*
-//parse 24*900 array to 24 weighted positions
-function parseData(data){
-    var positions = [];
-    for (var i = 0; i<24; i++){
-        var currentHourData = data[i];
-        var currentHourParsed = [];
-        for (var j = 0; j<N*N;j++){
-            var item = currentHourData[j];
-            var indX = item.x;
-            var indY = item.y;
-            var weight = Math.round(item.demand*10)-12;
-            if (weight > 100) weight = 100;
-            if (weight < 0) weight = 0;
-            for (var k = 0; k<weight;k++){
-                currentHourParsed.push({lat: latMappings[indY], lng: lngMappings[indX], weight:i});
-            }
-        }
-        positions.push(currentHourParsed);
-    }
-    return positions;
-}
-*/
 
 const gradient = [
     'rgba(0,255,0,0)',
@@ -100,8 +68,6 @@ export class MapContainer extends Component {
         this.heatmap = null;
         this.googlemapRef = React.createRef();
         this.data = null;
-      //  this.lngValue = 40.8029407;
-      //  this.latValue = -74.1876679;
         this.dateAry = [];
         var yesterday = "";
         for (var i = -1; i<8;i++){
@@ -119,7 +85,6 @@ export class MapContainer extends Component {
             }
             else {this.dateAry.push({value: str, key: str, text:  str});}
         }
-        console.log(this.dateAry)
 
         this.dataAry = new window.google.maps.MVCArray();
         this.lastSelectedDate = yesterday;
@@ -128,7 +93,6 @@ export class MapContainer extends Component {
             hour: new Date().getHours(),
             visible: false, //may be removed if not necessary
         };
-        console.log(this.state.selectedDate)
         this.update();
     }
 
@@ -145,9 +109,6 @@ export class MapContainer extends Component {
                 var item = currentHourData[j];
                 var indX = item.x;
                 var indY = item.y;
-                var weight = item.demand;
-                //if (weight > 1000) weight = 1000;
-                //if (weight < 2) weight = 0;
                 var weight = Math.log(item.demand);
                 var point = new window.google.maps.LatLng(latMappings[indY], lngMappings[indX]);
                 currentHourParsed.push({location: point, weight:weight});
@@ -159,7 +120,6 @@ export class MapContainer extends Component {
 
     //date update
     handleDateChange = (e, { value }) => {
-        console.log(value);
         this.setState({selectedDate: value});
     };
 
@@ -199,12 +159,10 @@ export class MapContainer extends Component {
             return;
         }
         this.lastSelectedDate = this.state.selectedDate;
-        //alert(dateString + " hour: "+this.state.hour); // testing use only
         let url = "https://owtjarn4j7.execute-api.us-east-1.amazonaws.com/prod/rides?date="+this.state.selectedDate+"&hour=";
         var urlAry = [];
         for (var i = 0; i< 24; i++) {
             urlAry.push(url + i);
-            console.debug(url + i);
         }
         Promise.all(urlAry.map(url => fetch(url))).then(responses =>
                 Promise.all(responses.map(res => res.json())
@@ -212,11 +170,9 @@ export class MapContainer extends Component {
                 this.data = this.parseData2(data);
                 if (this.heatmap == null){
                     var gmap = this.googlemapRef.current.map;
-                    console.log(this.data);
                     this.data[this.state.hour].forEach(element =>{
                         this.dataAry.push(element);
                     } );
-                    console.log(this.dataAry);
                     this.heatmap = new window.google.maps.visualization.HeatmapLayer({
                         gradient: gradient,
                         maxIntensity: 15,
@@ -227,7 +183,6 @@ export class MapContainer extends Component {
                     this.heatmap.setMap(gmap);
                 }
                 else{
-                    console.log(this.data);
                     this.dataAry.clear();
                     this.data[this.state.hour].forEach(element =>{
                         this.dataAry.push(element);
@@ -235,12 +190,6 @@ export class MapContainer extends Component {
                 }
 
             }));
-        /*
-        fetch(url+"1")
-            .then(response => response.json())
-            .then(json => console.log(json));
-           */
-
     }
 
 
