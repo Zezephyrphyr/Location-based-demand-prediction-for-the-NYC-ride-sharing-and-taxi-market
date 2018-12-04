@@ -1,13 +1,6 @@
 # Location-based-demand-prediction-for-the-NYC-ride-sharing-and-taxi-market
 CS6220 Group Project
 
-To Do
-
-1. NYC Marker Map
-2. Side bar
-3. Filtering
-
-
 Instructions
 
 1. Install react.js following http://medium.com/web-tutorials-club/reactjs-with-create-react-app-and-sublime-text-984e7fb46455
