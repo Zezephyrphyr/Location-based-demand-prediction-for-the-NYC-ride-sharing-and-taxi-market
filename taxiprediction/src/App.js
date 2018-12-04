@@ -166,6 +166,7 @@ export class MapContainer extends Component {
                 Promise.all(responses.map(res => res.json())
             ).then(data => {
                 this.data = this.parseData2(data);
+                alert("Data Loaded for date: "+this.state.selectedDate);
                 if (this.heatmap == null){
                     var gmap = this.googlemapRef.current.map;
                     this.data[this.state.hour].forEach(element =>{
