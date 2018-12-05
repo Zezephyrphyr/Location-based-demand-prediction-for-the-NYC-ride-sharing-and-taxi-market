@@ -8,3 +8,8 @@ Instructions
 2. Go to the taxiprediction, Run "npm install"
 
 3. Run "npm start" (save changes of codes and it will automatically show)
+
+
+*notice: can only enter dates with incoming 7 days after now,
+
+*option: run UI_INTERFACE_MAPPLOT.py in prototype_python_version_UI folder to see python version visualization prototype
