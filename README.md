@@ -1,15 +1,8 @@
 # Location-based-demand-prediction-for-the-NYC-ride-sharing-and-taxi-market
-CS6220 Group Project
+
 
 Instructions
 
-1. Install react.js following http://medium.com/web-tutorials-club/reactjs-with-create-react-app-and-sublime-text-984e7fb46455
-
-2. Go to the taxiprediction, Run "npm install"
-
-3. Run "npm start" (save changes of codes and it will automatically show)
-
-
-*notice: can only enter dates with incoming 7 days after now,
-
-*option: run UI_INTERFACE_MAPPLOT.py in prototype_python_version_UI folder to see python version visualization prototype
+1.Click Demo.mov to see how our front-end interacts with backend data.
+2.Check .pptx to see our design and implementation of this project.
+3.Final folder contains all codes from frontend to backend.

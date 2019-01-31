@@ -1,0 +1,15 @@
+Step 1: Download the package from Github, go to package directory, go to taxiprediction folder.
+
+Step 2: (Make sure react is installed) Run "npm install", the dependencies will be installed in minutes.
+
+Step 3: After the lsat step finished, run "npm start", it may take some while to start the server.
+
+Step 4: In the webpage, one can see a dropdown list for today to 7 days later, a slider bar for hour selection and a confirm button.
+
+Step 5: Initially, the webpage is loaded with today's data. Slide the hour slider to see the demand change for different time in the day.
+
+Step 6: Once another date is selected from the dropdown list, the hour slider bar is frozen until the confirm button is clicked to reload data for the selected date.
+
+Step 7: An alert message will pop up when the data reloading is finished. Now user can use the slider bar to see the changes again.
+
+Step 8: One can compare the demand difference for the same hour in different dates as well. 

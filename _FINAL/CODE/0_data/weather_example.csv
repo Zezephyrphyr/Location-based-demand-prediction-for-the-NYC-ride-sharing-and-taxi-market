@@ -1,0 +1,817 @@
+datetime_est,clds,primary_wave_height,max_temp,min_temp,primary_wave_period,pressure_desc,expire_time_gmt,terse_phrase,obs_id,qualifier,wdir,gust,primary_swell_direction,primary_swell_period,icon_extd,primary_swell_height,blunt_phrase,valid_time_gmt,wc,precip_total,vis,wx_icon,snow_hrly,obs_name,wspd,precip_hrly,secondary_swell_height,water_temp,wdir_cardinal,wx_phrase,temp,uv_desc,feels_like,pressure_tend,heat_index,rh,pressure,secondary_swell_direction,secondary_swell_period,dewPt,qualifier_svrty,key,day_ind,class,uv_index
+2013-12-31 23:51:00,CLR,,,21,,,1388559060,,KNYC,,290,18,,,3300,,,1388551860,16,,10,33,,Nyc/Central Park,10,,,,WNW,Fair,26,Low,16,,26,41,30.1,,,5,,KNYC,N,observation,0
+2014-01-01 00:51:00,CLR,,,25,,Rising,1388562660,,KNYC,,260,,,,3300,,,1388555460,25,,10,33,,Nyc/Central Park,3,,,,W,Fair,25,Low,25,1,25,45,30.11,,,6,,KNYC,N,observation,0
+2014-01-01 01:51:00,CLR,,,,,,1388566260,,KNYC,,280,20,,,3300,,,1388559060,16,,10,33,,Nyc/Central Park,9,,,,W,Fair,25,Low,16,,25,43,30.14,,,5,,KNYC,N,observation,0
+2014-01-01 02:51:00,CLR,,,,,,1388569860,,KNYC,,300,17,,,3300,,,1388562660,14,,10,33,,Nyc/Central Park,9,,,,WNW,Fair,24,Low,14,,24,46,30.16,,,6,,KNYC,N,observation,0
+2014-01-01 03:51:00,CLR,,,,,Rising,1388573460,,KNYC,,280,,,,3300,,,1388566260,14,,10,33,,Nyc/Central Park,9,,,,W,Fair,24,Low,14,1,24,46,30.17,,,6,,KNYC,N,observation,0
+2014-01-01 04:51:00,CLR,,,,,,1388577060,,KNYC,,,,,,3300,,,1388569860,24,,10,33,,Nyc/Central Park,,,,,CALM,Fair,24,Low,24,,24,48,30.18,,,7,,KNYC,N,observation,0
+2014-01-01 05:51:00,CLR,,,,,,1388580660,,KNYC,,,,,,3300,,,1388573460,24,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,24,Low,24,,24,53,30.19,,,9,,KNYC,N,observation,0
+2014-01-01 06:51:00,CLR,,25,24,,Rising,1388584260,,KNYC,,270,,,,3300,,,1388577060,19,,10,33,,Nyc/Central Park,5,,,,W,Fair,25,Low,19,1,25,51,30.2,,,9,,KNYC,N,observation,0
+2014-01-01 07:51:00,CLR,,,,,,1388587860,,KNYC,,,,,,3300,,,1388580660,21,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,26,Low,21,,26,53,30.21,,,11,,KNYC,N,observation,0
+2014-01-01 08:51:00,CLR,,,,,,1388591460,,KNYC,,,,,,3400,,,1388584260,22,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,28,Low,22,,28,51,30.22,,,12,,KNYC,D,observation,0
+2014-01-01 09:51:00,CLR,,,,,Rising,1388595060,,KNYC,,280,,,,3400,,,1388587860,19,,10,34,,Nyc/Central Park,9,,,,W,Fair,28,Low,19,1,28,51,30.23,,,12,,KNYC,D,observation,0
+2014-01-01 10:51:00,CLR,,,,,,1388598660,,KNYC,,270,,,,3400,,,1388591460,20,,10,34,,Nyc/Central Park,10,,,,W,Fair,29,Low,20,,29,49,30.22,,,12,,KNYC,D,observation,0
+2014-01-01 11:51:00,BKN,,,,,,1388602260,,KNYC,,290,,,,2800,,,1388595060,23,,10,28,,Nyc/Central Park,7,,,,WNW,Mostly Cloudy,30,,23,,30,47,30.2,,,12,,KNYC,D,observation,-72
+2014-01-01 12:51:00,FEW,,31,25,,Falling Rapidly,1388605860,,KNYC,,,,,,3400,,,1388598660,31,,10,34,,Nyc/Central Park,,,,,CALM,Fair,31,,31,2,31,50,30.18,,,14,,KNYC,D,observation,-20
+2014-01-01 13:51:00,FEW,,,,,,1388609460,,KNYC,,240,,,,3400,,,1388602260,25,,10,34,,Nyc/Central Park,8,,,,WSW,Fair,32,,25,,,50,30.17,,,15,,KNYC,D,observation,-13
+2014-01-01 14:51:00,CLR,,,,,,1388613060,,KNYC,,300,,,,3400,,,1388605860,25,,10,34,,Nyc/Central Park,8,,,,WNW,Fair,32,Low,25,,,52,30.16,,,16,,KNYC,D,observation,0
+2014-01-01 15:51:00,OVC,,,,,Steady,1388616660,,KNYC,,,,,,2600,,,1388609460,,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,32,,,0,,52,30.16,,,16,,KNYC,D,observation,-6
+2014-01-01 17:51:00,CLR,,,,,,1388623860,,KNYC,,,,,,3300,,,1388616660,33,,10,33,,Nyc/Central Park,,,,,CALM,Fair,33,Low,33,,33,48,30.15,,,15,,KNYC,N,observation,0
+2014-01-01 18:51:00,CLR,,33,31,,Falling,1388627460,,KNYC,,50,,,,3300,,,1388620260,27,,10,33,,Nyc/Central Park,5,,,,NE,Fair,32,Low,27,2,,54,30.14,,,17,,KNYC,N,observation,0
+2014-01-01 19:51:00,SCT,,,,,,1388631060,,KNYC,,60,,,,2900,,,1388623860,28,,10,29,,Nyc/Central Park,6,,,,ENE,Partly Cloudy,33,Low,28,,33,54,30.14,,,18,,KNYC,N,observation,0
+2014-01-01 20:51:00,OVC,,,,,,1388634660,,KNYC,,,,,,2600,,,1388627460,27,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,32,Low,27,,,56,30.13,,,18,,KNYC,N,observation,0
+2014-01-01 21:51:00,OVC,,,,,Falling Rapidly,1388638260,,KNYC,,70,,,,2600,,,1388631060,26,,10,26,,Nyc/Central Park,7,,,,ENE,Cloudy,32,Low,26,2,,59,30.11,,,19,,KNYC,N,observation,0
+2014-01-01 21:58:00,OVC,,,,,,1388638680,,KNYC,,60,,,,2600,,,1388631480,25,,10,26,,Nyc/Central Park,8,,,,ENE,Cloudy,32,Low,25,,,59,30.14,,,19,,KNYC,N,observation,0
+2014-01-01 22:51:00,OVC,,,,,,1388641860,,KNYC,,60,,,,2600,,,1388634660,23,,10,26,,Nyc/Central Park,12,,,,ENE,Cloudy,32,Low,23,,,59,30.1,,,19,,KNYC,N,observation,0
+2014-01-01 23:51:00,OVC,,33,24,,,1388645460,,KNYC,,60,,,,2600,,,1388638260,25,,10,26,,Nyc/Central Park,8,,,,ENE,Cloudy,32,Low,25,,,59,30.08,,,19,,KNYC,N,observation,0
+2014-01-02 00:51:00,OVC,,33,,,Falling Rapidly,1388649060,,KNYC,,,18,,,2600,,,1388641860,28,,10,26,,Nyc/Central Park,6,,,,VAR,Cloudy,33,Low,28,2,33,59,30.05,,,20,,KNYC,N,observation,0
+2014-01-02 01:51:00,OVC,,,,,,1388652660,,KNYC,,70,18,,,2600,,,1388645460,25,,10,26,,Nyc/Central Park,8,,,,ENE,Cloudy,32,Low,25,,,61,30.03,,,20,,KNYC,N,observation,0
+2014-01-02 02:51:00,OVC,,,,,,1388656260,,KNYC,,70,17,,,2600,,,1388649060,25,,10,26,,Nyc/Central Park,8,,,,ENE,Cloudy,32,Low,25,,,66,30.01,,,22,,KNYC,N,observation,0
+2014-01-02 03:51:00,OVC,,,,,Falling Rapidly,1388659860,,KNYC,,70,23,,,2600,,,1388652660,19,,7,26,,Nyc/Central Park,16,,,,ENE,Cloudy,30,Low,19,2,30,75,29.99,,,23,,KNYC,N,observation,0
+2014-01-02 04:15:00,OVC,,,,,,1388661300,,KNYC,,70,21,,,2600,,,1388654100,19,,5,26,,Nyc/Central Park,12,0.0,,,ENE,Cloudy,29,Low,19,,29,78,30.0,,,23,,KNYC,N,observation,0
+2014-01-02 04:51:00,OVC,,,,,,1388663460,,KNYC,,70,22,,,2600,,,1388656260,20,,8,26,,Nyc/Central Park,10,0.0,,,ENE,Cloudy,29,Low,20,,29,75,29.97,,,22,,KNYC,N,observation,0
+2014-01-02 05:20:00,OVC,,,,,,1388665200,,KNYC,,60,21,,,2600,,,1388658000,17,,1,26,,Nyc/Central Park,13,0.0,,,ENE,Cloudy,28,Low,17,,28,78,29.98,,,22,,KNYC,N,observation,0
+2014-01-02 05:36:00,OVC,,,,,,1388666160,,KNYC,,50,22,,,2600,,,1388658960,15,,3,26,,Nyc/Central Park,16,0.01,,,NE,Cloudy,27,Low,15,,27,81,29.98,,,22,,KNYC,N,observation,0
+2014-01-02 05:51:00,OVC,,,,,,1388667060,,KNYC,,60,22,,,2600,,,1388659860,19,,8,26,,Nyc/Central Park,9,0.02,,,ENE,Cloudy,28,Low,19,,28,78,29.95,,,22,,KNYC,N,observation,0
+2014-01-02 06:51:00,OVC,,33,27,,Falling,1388670660,,KNYC,,70,24,,,2600,,,1388663460,14,,10,26,,Nyc/Central Park,17,,,,ENE,Cloudy,27,Low,14,2,27,78,29.94,,,21,,KNYC,N,observation,0
+2014-01-02 07:51:00,OVC,,,,,,1388674260,,KNYC,,50,22,,,2600,,,1388667060,15,,10,26,,Nyc/Central Park,15,,,,NE,Cloudy,27,,15,,27,75,29.92,,,20,,KNYC,N,observation,-4
+2014-01-02 08:51:00,OVC,,,,,,1388677860,,KNYC,,70,23,,,2600,,,1388670660,15,,10,26,,Nyc/Central Park,15,,,,ENE,Cloudy,27,,15,,27,72,29.92,,,19,,KNYC,D,observation,-18
+2014-01-02 09:51:00,OVC,,,,,Falling,1388681460,,KNYC,,50,24,,,2600,,,1388674260,14,,10,26,,Nyc/Central Park,14,,,,NE,Cloudy,26,,14,2,26,78,29.9,,,20,,KNYC,D,observation,-50
+2014-01-02 10:51:00,OVC,,,,,,1388685060,,KNYC,,60,24,,,2600,,,1388677860,16,,10,26,,Nyc/Central Park,10,,,,ENE,Cloudy,26,,16,,26,75,29.86,,,19,,KNYC,D,observation,-82
+2014-01-02 11:51:00,OVC,,,,,,1388688660,,KNYC,,70,21,,,2600,,,1388681460,15,,10,26,,Nyc/Central Park,13,,,,ENE,Cloudy,26,,15,,26,75,29.79,,,19,,KNYC,D,observation,-98
+2014-01-02 12:51:00,OVC,,27,26,,Falling,1388692260,,KNYC,,60,22,,,2600,,,1388685060,16,,10,26,,Nyc/Central Park,12,,,,ENE,Cloudy,26,,16,2,26,75,29.77,,,19,,KNYC,D,observation,-89
+2014-01-02 13:51:00,OVC,,,,,,1388695860,,KNYC,,50,24,,,2600,,,1388688660,17,,10,26,,Nyc/Central Park,9,,,,NE,Cloudy,26,,17,,26,75,29.73,,,19,,KNYC,D,observation,-60
+2014-01-02 14:51:00,OVC,,,,,,1388699460,,KNYC,,50,21,,,2600,,,1388692260,16,,10,26,,Nyc/Central Park,10,,,,NE,Cloudy,26,,16,,26,75,29.7,,,19,,KNYC,D,observation,-26
+2014-01-02 15:51:00,OVC,,,,,Falling,1388703060,,KNYC,,40,23,,,2600,,,1388695860,16,,10,26,,Nyc/Central Park,10,,,,NE,Cloudy,26,,16,2,26,75,29.68,,,19,,KNYC,D,observation,-6
+2014-01-02 16:51:00,OVC,,,,,,1388706660,,KNYC,,40,24,,,2600,,,1388699460,14,,10,26,,Nyc/Central Park,15,,,,NE,Cloudy,26,Low,14,,26,75,29.65,,,19,,KNYC,D,observation,0
+2014-01-02 17:51:00,OVC,,,,,,1388710260,,KNYC,,60,24,,,2600,,,1388703060,12,,10,26,,Nyc/Central Park,16,,,,ENE,Cloudy,25,Low,12,,25,78,29.62,,,19,,KNYC,N,observation,0
+2014-01-02 18:51:00,OVC,,26,25,,Falling,1388713860,,KNYC,,60,22,,,2600,,,1388706660,16,,1,26,,Nyc/Central Park,9,0.0,,,ENE,Cloudy,25,Low,16,2,25,75,29.6,,,18,,KNYC,N,observation,0
+2014-01-02 20:51:00,OVC,,,,,,1388721060,,KNYC,,50,24,,,2600,,,1388713860,8,,0.5,26,,Nyc/Central Park,17,0.07,,,NE,Cloudy,22,Low,8,,22,85,29.54,,,18,,KNYC,N,observation,0
+2014-01-02 21:51:00,OVC,,,,,Falling Rapidly,1388724660,,KNYC,,50,25,,,2600,,,1388717460,8,,0.5,26,,Nyc/Central Park,14,0.07,,,NE,Cloudy,21,Low,8,2,21,81,29.53,,,16,,KNYC,N,observation,0
+2014-01-02 22:51:00,OVC,,,,,,1388728260,,KNYC,,40,24,,,2600,,,1388721060,6,,0.5,26,,Nyc/Central Park,15,0.07,,,NE,Cloudy,20,Low,6,,20,78,29.51,,,14,,KNYC,N,observation,0
+2014-01-02 23:51:00,OVC,,33,18,,,1388731860,,KNYC,,50,26,,,2600,,,1388724660,7,,0.5,26,,Nyc/Central Park,9,0.06,,,NE,Cloudy,18,Low,7,,18,84,29.51,,,14,,KNYC,N,observation,0
+2014-01-03 00:37:00,OVC,,,,,,1388734620,,KNYC,,50,26,,,2600,,,1388727420,4,,0.5,26,,Nyc/Central Park,13,0.04,,,NE,Cloudy,17,Low,4,,17,81,29.51,,,12,,KNYC,N,observation,0
+2014-01-03 00:51:00,OVC,,25,16,,Falling Rapidly,1388735460,,KNYC,,20,21,,,2600,,,1388728260,4,,0.25,26,,Nyc/Central Park,10,0.06,,,NNE,Cloudy,16,Low,4,2,16,81,29.48,,,11,,KNYC,N,observation,0
+2014-01-03 01:51:00,OVC,,,,,,1388739060,,KNYC,,20,22,,,2600,,,1388731860,-3,,0.25,26,,Nyc/Central Park,14,0.06,,,NNE,Cloudy,12,Low,-3,,12,80,29.48,,,7,,KNYC,N,observation,0
+2014-01-03 02:51:00,OVC,,,,,,1388742660,,KNYC,,30,22,,,2600,,,1388735460,-4,,0.25,26,,Nyc/Central Park,13,0.05,,,NNE,Cloudy,11,Low,-4,,11,81,29.5,,,6,,KNYC,N,observation,0
+2014-01-03 03:51:00,OVC,,,,,Rising Rapidly,1388746260,,KNYC,,340,23,,,2600,,,1388739060,-3,,0.25,26,,Nyc/Central Park,12,0.04,,,NNW,Cloudy,11,Low,-3,1,11,81,29.52,,,6,,KNYC,N,observation,0
+2014-01-03 04:51:00,OVC,,,,,,1388749860,,KNYC,,360,29,,,2600,,,1388742660,-5,,0.25,26,,Nyc/Central Park,15,0.04,,,N,Cloudy,11,Low,-5,,11,81,29.57,,,6,,KNYC,N,observation,0
+2014-01-03 05:51:00,OVC,,,,,,1388753460,,KNYC,,360,23,,,2600,,,1388746260,-4,,0.75,26,,Nyc/Central Park,13,0.03,,,N,Cloudy,11,Low,-4,,11,77,29.62,,,5,,KNYC,N,observation,0
+2014-01-03 06:51:00,OVC,,16,11,,Rising Rapidly,1388757060,,KNYC,,360,22,,,2600,,,1388749860,-2,,1,26,,Nyc/Central Park,9,0.0,,,N,Cloudy,11,Low,-2,1,11,77,29.67,,,5,,KNYC,N,observation,0
+2014-01-03 07:51:00,OVC,,,,,,1388760660,,KNYC,,350,26,,,2600,,,1388753460,-3,,1,26,,Nyc/Central Park,9,0.02,,,N,Cloudy,10,,-3,,10,73,29.74,,,3,,KNYC,N,observation,-4
+2014-01-03 08:51:00,OVC,,,,,,1388764260,,KNYC,,350,22,,,2600,,,1388757060,-6,,2,26,,Nyc/Central Park,16,0.0,,,N,Cloudy,11,,-6,,11,73,29.82,,,4,,KNYC,D,observation,-18
+2014-01-03 09:51:00,OVC,,,,,Rising,1388767860,,KNYC,,,,,,2600,,,1388760660,,,4,26,,Nyc/Central Park,,0.0,,,,Cloudy,13,,,1,13,71,29.84,,,5,,KNYC,D,observation,-51
+2014-01-03 10:51:00,OVC,,,,,,1388771460,,KNYC,,,,,,2600,,,1388764260,,,10,26,,Nyc/Central Park,,0.0,,,,Cloudy,14,,,,14,64,29.86,,,4,,KNYC,D,observation,-83
+2014-01-03 11:51:00,FEW,,,,,,1388775060,,KNYC,,290,26,,,3400,,,1388767860,8,,10,34,,Nyc/Central Park,8,,,,WNW,Fair,18,,8,,18,52,29.89,,,3,,KNYC,D,observation,-23
+2014-01-03 13:51:00,CLR,,,,,,1388782260,,KNYC,,320,23,,,3400,,,1388775060,6,,10,34,,Nyc/Central Park,10,,,,NW,Fair,18,Low,6,,18,48,29.97,,,1,,KNYC,D,observation,0
+2014-01-03 14:51:00,CLR,,,,,,1388785860,,KNYC,,310,23,,,3400,,,1388778660,3,,10,34,,Nyc/Central Park,12,,,,NW,Fair,16,Low,3,,16,47,30.02,,,-1,,KNYC,D,observation,0
+2014-01-03 15:51:00,CLR,,,,,Rising,1388789460,,KNYC,,310,21,,,3400,,,1388782260,3,,10,34,,Nyc/Central Park,12,,,,NW,Fair,16,Low,3,1,16,45,30.06,,,-2,,KNYC,D,observation,0
+2014-01-03 16:51:00,CLR,,,,,,1388793060,,KNYC,,310,21,,,3400,,,1388785860,2,,10,34,,Nyc/Central Park,12,,,,NW,Fair,15,Low,2,,15,45,30.11,,,-3,,KNYC,D,observation,0
+2014-01-03 17:51:00,CLR,,,,,,1388796660,,KNYC,,320,16,,,3300,,,1388789460,3,,10,33,,Nyc/Central Park,8,,,,NW,Fair,14,Low,3,,14,47,30.17,,,-3,,KNYC,N,observation,0
+2014-01-03 18:51:00,CLR,,18,13,,Rising,1388800260,,KNYC,,310,22,,,3300,,,1388793060,0,,10,33,,Nyc/Central Park,10,,,,NW,Fair,13,Low,0,1,13,45,30.21,,,-5,,KNYC,N,observation,0
+2014-01-03 19:51:00,CLR,,,,,,1388803860,,KNYC,,320,16,,,3300,,,1388796660,0,,10,33,,Nyc/Central Park,9,,,,NW,Fair,12,Low,0,,12,42,30.25,,,-7,,KNYC,N,observation,0
+2014-01-03 20:51:00,CLR,,,,,,1388807460,,KNYC,,310,,,,3300,,,1388800260,0,,10,33,,Nyc/Central Park,7,,,,NW,Fair,11,Low,0,,11,47,30.27,,,-6,,KNYC,N,observation,0
+2014-01-03 21:51:00,CLR,,,,,,1388811060,,KNYC,,300,,,,3300,,,1388803860,1,,10,33,,Nyc/Central Park,6,,,,WNW,Fair,10,Low,1,,10,48,30.31,,,-6,,KNYC,N,observation,0
+2014-01-03 22:51:00,CLR,,,,,,1388814660,,KNYC,,,,,,3300,,,1388807460,2,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,10,Low,2,,10,51,30.28,,,-5,,KNYC,N,observation,0
+2014-01-03 23:51:00,CLR,,18,9,,,1388818260,,KNYC,,300,,,,3300,,,1388811060,-2,,10,33,,Nyc/Central Park,7,,,,WNW,Fair,9,Low,-2,,9,53,30.29,,,-5,,KNYC,N,observation,0
+2014-01-04 00:49:00,CLR,,13,9,,Rising,1388821740,,KNYC,,,,,,3300,,,1388814540,-2,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,9,Low,-2,1,9,53,30.28,,,-5,,KNYC,N,observation,0
+2014-01-04 03:51:00,CLR,,,,,Steady,1388832660,,KNYC,,,,,,3300,,,1388825460,9,,10,33,,Nyc/Central Park,,,,,CALM,Fair,9,Low,9,0,9,56,30.31,,,-4,,KNYC,N,observation,0
+2014-01-04 04:51:00,CLR,,,,,,1388836260,,KNYC,,,,,,3300,,,1388829060,10,,10,33,,Nyc/Central Park,,,,,CALM,Fair,10,Low,10,,10,61,30.3,,,-1,,KNYC,N,observation,0
+2014-01-04 05:51:00,CLR,,,,,,1388839860,,KNYC,,,,,,3300,,,1388832660,11,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,11,Low,11,,11,59,30.3,,,-1,,KNYC,N,observation,0
+2014-01-04 06:51:00,BKN,,12,8,,Rising Rapidly,1388843460,,KNYC,,300,,,,2700,,,1388836260,3,,10,27,,Nyc/Central Park,5,,,,WNW,Mostly Cloudy,11,Low,3,1,11,61,30.34,,,0,,KNYC,N,observation,0
+2014-01-04 07:51:00,CLR,,,,,,1388847060,,KNYC,,,,,,3300,,,1388839860,11,,10,33,,Nyc/Central Park,,,,,CALM,Fair,11,Low,11,,11,64,30.34,,,1,,KNYC,N,observation,0
+2014-01-04 08:51:00,CLR,,,,,,1388850660,,KNYC,,290,,,,3400,,,1388843460,5,,10,34,,Nyc/Central Park,6,,,,WNW,Fair,14,Low,5,,14,56,30.34,,,1,,KNYC,D,observation,0
+2014-01-04 09:51:00,CLR,,,,,,1388854260,,KNYC,,,,,,3400,,,1388847060,18,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,18,Low,18,,18,44,30.35,,,-1,,KNYC,D,observation,0
+2014-01-04 10:51:00,CLR,,,,,,1388857860,,KNYC,,260,,,,3400,,,1388850660,12,,10,34,,Nyc/Central Park,6,,,,W,Fair,20,Low,12,,20,37,30.32,,,-3,,KNYC,D,observation,0
+2014-01-04 11:51:00,CLR,,,,,,1388861460,,KNYC,,280,,,,3400,,,1388854260,13,,10,34,,Nyc/Central Park,6,,,,W,Fair,21,Low,13,,21,38,30.28,,,-1,,KNYC,D,observation,0
+2014-01-04 12:51:00,CLR,,22,10,,Falling,1388865060,,KNYC,,230,,,,3400,,,1388857860,13,,10,34,,Nyc/Central Park,8,,,,SW,Fair,22,Low,13,2,22,35,30.25,,,-2,,KNYC,D,observation,0
+2014-01-04 13:51:00,CLR,,,,,,1388868660,,KNYC,,260,,,,3400,,,1388861460,14,,10,34,,Nyc/Central Park,9,,,,W,Fair,24,Low,14,,24,34,30.23,,,-1,,KNYC,D,observation,0
+2014-01-04 14:51:00,CLR,,,,,,1388872260,,KNYC,,240,20,,,3400,,,1388865060,16,,10,34,,Nyc/Central Park,8,,,,WSW,Fair,25,Low,16,,25,36,30.2,,,1,,KNYC,D,observation,0
+2014-01-04 15:51:00,CLR,,,,,Falling,1388875860,,KNYC,,290,,,,3400,,,1388868660,19,,10,34,,Nyc/Central Park,5,,,,WNW,Fair,25,Low,19,2,25,41,30.19,,,4,,KNYC,D,observation,0
+2014-01-04 16:51:00,CLR,,,,,,1388879460,,KNYC,,,,,,3400,,,1388872260,26,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,26,Low,26,,26,39,30.16,,,4,,KNYC,D,observation,0
+2014-01-04 17:51:00,CLR,,,,,,1388883060,,KNYC,,260,,,,3300,,,1388875860,21,,10,33,,Nyc/Central Park,5,,,,W,Fair,26,Low,21,,26,44,30.16,,,7,,KNYC,N,observation,0
+2014-01-04 18:51:00,CLR,,28,22,,Falling,1388886660,,KNYC,,,,,,3300,,,1388879460,28,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,28,Low,28,2,28,41,30.16,,,7,,KNYC,N,observation,0
+2014-01-04 19:51:00,CLR,,,,,,1388890260,,KNYC,,,,,,3300,,,1388883060,22,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,29,Low,22,,29,43,30.16,,,9,,KNYC,N,observation,0
+2014-01-04 20:51:00,CLR,,,,,,1388893860,,KNYC,,,,,,3300,,,1388886660,21,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,28,Low,21,,28,47,30.16,,,10,,KNYC,N,observation,0
+2014-01-04 21:51:00,CLR,,,,,Falling Rapidly,1388897460,,KNYC,,270,,,,3300,,,1388890260,22,,10,33,,Nyc/Central Park,5,,,,W,Fair,27,Low,22,2,27,51,30.15,,,11,,KNYC,N,observation,0
+2014-01-04 22:51:00,CLR,,,,,,1388901060,,KNYC,,,,,,3300,,,1388893860,27,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,27,Low,27,,27,56,30.13,,,13,,KNYC,N,observation,0
+2014-01-04 23:51:00,CLR,,29,8,,,1388904660,,KNYC,,,,,,3300,,,1388897460,22,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,28,Low,22,,28,61,30.12,,,16,,KNYC,N,observation,0
+2014-01-05 00:51:00,CLR,,29,27,,Falling Rapidly,1388908260,,KNYC,,240,17,,,3300,,,1388901060,22,,10,33,,Nyc/Central Park,7,,,,WSW,Fair,29,Low,22,2,29,61,30.09,,,17,,KNYC,N,observation,0
+2014-01-05 01:51:00,CLR,,,,,,1388911860,,KNYC,,,,,,3300,,,1388904660,24,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,29,Low,24,,29,61,30.11,,,17,,KNYC,N,observation,0
+2014-01-05 02:51:00,CLR,,,,,,1388915460,,KNYC,,290,,,,3300,,,1388908260,27,,10,33,,Nyc/Central Park,3,,,,WNW,Fair,27,Low,27,,27,66,30.12,,,17,,KNYC,N,observation,0
+2014-01-05 03:51:00,CLR,,,,,Steady,1388919060,,KNYC,,240,,,,3300,,,1388911860,23,,10,33,,Nyc/Central Park,5,,,,WSW,Fair,28,Low,23,0,28,66,30.1,,,18,,KNYC,N,observation,0
+2014-01-05 04:51:00,CLR,,,,,,1388922660,,KNYC,,,,,,3300,,,1388915460,28,,10,33,,Nyc/Central Park,,,,,CALM,Fair,28,Low,28,,28,69,30.1,,,19,,KNYC,N,observation,0
+2014-01-05 05:51:00,FEW,,,,,,1388926260,,KNYC,,,,,,3300,,,1388919060,28,,10,33,,Nyc/Central Park,,,,,CALM,Fair,28,Low,28,,28,69,30.11,,,19,,KNYC,N,observation,0
+2014-01-05 06:51:00,OVC,,30,27,,Steady,1388929860,,KNYC,,280,,,,2600,,,1388922660,24,,10,26,,Nyc/Central Park,5,,,,W,Cloudy,29,Low,24,0,29,67,30.1,,,19,,KNYC,N,observation,0
+2014-01-05 07:51:00,OVC,,,,,,1388933460,,KNYC,,270,,,,2600,,,1388926260,30,,9,26,,Nyc/Central Park,3,,,,W,Cloudy,30,,30,,30,66,30.12,,,20,,KNYC,N,observation,-4
+2014-01-05 08:51:00,OVC,,,,,,1388937060,,KNYC,,,,,,2600,,,1388929860,31,,6,26,,Nyc/Central Park,,,,,CALM,Cloudy,31,,31,,31,72,30.13,,,23,,KNYC,D,observation,-19
+2014-01-05 09:23:00,OVC,,,,,,1388938980,,KNYC,,,,,,2600,,,1388931780,31,,3,26,,Nyc/Central Park,,0.01,,,CALM,Cloudy,31,,31,,31,82,30.16,,,26,,KNYC,D,observation,-35
+2014-01-05 09:32:00,OVC,,,,,,1388939520,,KNYC,,,,,,2600,,,1388932320,31,,1,26,,Nyc/Central Park,,0.01,,,CALM,Cloudy,31,,31,,31,82,30.16,,,26,,KNYC,D,observation,-40
+2014-01-05 09:51:00,OVC,,,,,Rising,1388940660,,KNYC,,,,,,2600,,,1388933460,,,1,26,,Nyc/Central Park,,0.02,,,CALM,Cloudy,32,,,1,,85,30.14,,,28,,KNYC,D,observation,-51
+2014-01-05 09:59:00,OVC,,,,,,1388941140,,KNYC,,,,,,2600,,,1388933940,31,,1,26,,Nyc/Central Park,,0.0,,,CALM,Cloudy,31,,31,,31,89,30.16,,,28,,KNYC,D,observation,-56
+2014-01-05 10:01:00,OVC,,,,,,1388941260,,KNYC,,,,,,2600,,,1388934060,31,,0.75,26,,Nyc/Central Park,,0.0,,,CALM,Cloudy,31,,31,,31,89,30.16,,,28,,KNYC,D,observation,-57
+2014-01-05 10:29:00,OVC,,,,,,1388942940,,KNYC,,,,,,2600,,,1388935740,31,,1,26,,Nyc/Central Park,,0.02,,,CALM,Cloudy,31,,31,,31,89,30.16,,,28,,KNYC,D,observation,-73
+2014-01-05 10:37:00,OVC,,,,,,1388943420,,KNYC,,,,,,2600,,,1388936220,31,,0.75,26,,Nyc/Central Park,,0.03,,,CALM,Cloudy,31,,31,,31,89,30.15,,,28,,KNYC,D,observation,-77
+2014-01-05 10:39:00,OVC,,,,,,1388943540,,KNYC,,,,,,2600,,,1388936340,,,1,26,,Nyc/Central Park,,0.03,,,CALM,Cloudy,32,,,,,88,30.15,,,29,,KNYC,D,observation,-78
+2014-01-05 10:51:00,OVC,,,,,,1388944260,,KNYC,,,,,,2600,,,1388937060,,,1,26,,Nyc/Central Park,,0.04,,,CALM,Cloudy,32,,,,,88,30.12,,,29,,KNYC,D,observation,-84
+2014-01-05 11:30:00,OVC,,,,,,1388946600,,KNYC,,,,,,2600,,,1388939400,,,1,26,,Nyc/Central Park,,0.01,,,CALM,Cloudy,32,,,,,88,30.11,,,29,,KNYC,D,observation,-97
+2014-01-05 11:37:00,OVC,,,,,,1388947020,,KNYC,,,,,,2600,,,1388939820,,,0.75,26,,Nyc/Central Park,,0.02,,,CALM,Cloudy,32,,,,,88,30.11,,,29,,KNYC,D,observation,-99
+2014-01-05 11:51:00,OVC,,,,,,1388947860,,KNYC,,,,,,2600,,,1388940660,,,0.5,26,,Nyc/Central Park,,0.03,,,CALM,Cloudy,32,,,,,88,30.08,,,29,,KNYC,D,observation,-100
+2014-01-05 12:26:00,OVC,,,,,,1388949960,,KNYC,,50,,,,2600,,,1388942760,,,0.75,26,,Nyc/Central Park,3,0.01,,,NE,Cloudy,32,,,,,92,30.08,,,30,,KNYC,D,observation,-98
+2014-01-05 12:39:00,OVC,,,,,,1388950740,,KNYC,,40,,,,2600,,,1388943540,27,,0.75,26,,Nyc/Central Park,5,0.02,,,NE,Cloudy,32,,27,,,88,30.07,,,29,,KNYC,D,observation,-95
+2014-01-05 12:51:00,OVC,,,28,,Falling Rapidly,1388951460,,KNYC,,40,,,,2600,,,1388944260,27,,0.75,26,,Nyc/Central Park,5,0.02,,,NE,Cloudy,32,,27,2,,88,30.04,,,29,,KNYC,D,observation,-92
+2014-01-05 13:16:00,OVC,,,,,,1388952960,,KNYC,,110,,,,2600,,,1388945760,27,,0.75,26,,Nyc/Central Park,5,0.0,,,ESE,Cloudy,32,,27,,,88,30.05,,,29,,KNYC,D,observation,-82
+2014-01-05 13:24:00,OVC,,,,,,1388953440,,KNYC,,80,,,,2600,,,1388946240,25,,1,26,,Nyc/Central Park,8,0.0,,,E,Cloudy,32,,25,,,88,30.04,,,29,,KNYC,D,observation,-78
+2014-01-05 13:35:00,OVC,,,,,,1388954100,,KNYC,,90,,,,2600,,,1388946900,25,,2,26,,Nyc/Central Park,8,0.0,,,E,Cloudy,32,,25,,,88,30.04,,,29,,KNYC,D,observation,-72
+2014-01-05 13:51:00,OVC,,,,,,1388955060,,KNYC,,,,,,2600,,,1388947860,27,,2,26,,Nyc/Central Park,5,0.0,,,VAR,Cloudy,32,,27,,,88,30.02,,,29,,KNYC,D,observation,-63
+2014-01-05 14:51:00,OVC,,,,,,1388958660,,KNYC,,70,,,,2600,,,1388951460,29,,2,26,,Nyc/Central Park,5,,,,ENE,Cloudy,33,,29,,33,89,30.0,,,30,,KNYC,D,observation,-28
+2014-01-05 15:51:00,OVC,,,,,Falling,1388962260,,KNYC,,80,,,,2600,,,1388955060,29,,2,26,,Nyc/Central Park,6,,,,E,Cloudy,34,,29,2,34,85,29.99,,,30,,KNYC,D,observation,-6
+2014-01-05 16:51:00,OVC,,,,,,1388965860,,KNYC,,,,,,2600,,,1388958660,30,,4,26,,Nyc/Central Park,6,,,,VAR,Cloudy,35,Low,30,,35,89,29.96,,,,,KNYC,D,observation,0
+2014-01-05 17:51:00,OVC,,,,,,1388969460,,KNYC,,,,,,2600,,,1388962260,30,,3,26,,Nyc/Central Park,6,,,,VAR,Cloudy,35,Low,30,,35,89,29.93,,,,,KNYC,N,observation,0
+2014-01-05 18:51:00,OVC,,36,,,Falling Rapidly,1388973060,,KNYC,,70,,,,2600,,,1388965860,30,,1,26,,Nyc/Central Park,7,,,,ENE,Cloudy,36,Low,30,2,36,89,29.89,,,33,,KNYC,N,observation,0
+2014-01-05 19:51:00,OVC,,,,,,1388976660,,KNYC,,,,,,2600,,,1388969460,32,,0.5,26,,Nyc/Central Park,5,,,,VAR,Cloudy,36,Low,32,,36,93,29.84,,,34,,KNYC,N,observation,0
+2014-01-05 20:51:00,OVC,,,,,,1388980260,,KNYC,,60,,,,2600,,,1388973060,37,,0.5,26,,Nyc/Central Park,3,0.02,,,ENE,Cloudy,37,Low,37,,37,93,29.8,,,35,,KNYC,N,observation,0
+2014-01-05 21:51:00,OVC,,,,,Falling Rapidly,1388983860,,KNYC,,50,,,,2600,,,1388976660,38,,0.5,26,,Nyc/Central Park,3,0.01,,,NE,Cloudy,38,Low,38,2,38,93,29.74,,,36,,KNYC,N,observation,0
+2014-01-05 22:51:00,OVC,,,,,,1388987460,,KNYC,,130,,,,2600,,,1388980260,37,,0.25,26,,Nyc/Central Park,5,,,,SE,Cloudy,40,Low,37,,40,93,29.66,,,38,,KNYC,N,observation,0
+2014-01-06 00:51:00,OVC,,,,,,1388994660,,KNYC,,190,,,,2600,,,1388987460,52,,1,26,,Nyc/Central Park,8,,,,S,Cloudy,52,Low,52,,52,93,29.55,,,50,,KNYC,N,observation,0
+2014-01-06 01:51:00,OVC,,,,,,1388998260,,KNYC,,180,21,,,2600,,,1388991060,52,,1,26,,Nyc/Central Park,9,0.06,,,S,Cloudy,52,Low,52,,52,93,29.5,,,50,,KNYC,N,observation,0
+2014-01-06 02:51:00,OVC,,,,,,1389001860,,KNYC,,190,17,,,2600,,,1388994660,54,,3,26,,Nyc/Central Park,10,,,,S,Cloudy,54,Low,54,,54,93,29.47,,,52,,KNYC,N,observation,0
+2014-01-06 03:51:00,OVC,,,,,Steady,1389005460,,KNYC,,170,,,,2600,,,1388998260,53,,1,26,,Nyc/Central Park,7,,,,S,Cloudy,53,Low,53,0,53,93,29.41,,,51,,KNYC,N,observation,0
+2014-01-06 04:51:00,OVC,,,,,,1389009060,,KNYC,,,,,,2600,,,1389001860,53,,0.75,26,,Nyc/Central Park,6,,,,VAR,Cloudy,53,Low,53,,53,93,29.37,,,51,,KNYC,N,observation,0
+2014-01-06 05:51:00,OVC,,,,,,1389012660,,KNYC,,180,,,,2600,,,1389005460,52,,0.5,26,,Nyc/Central Park,8,,,,S,Cloudy,52,Low,52,,52,97,29.34,,,51,,KNYC,N,observation,0
+2014-01-06 06:51:00,OVC,,54,51,,Steady,1389016260,,KNYC,,170,22,,,2600,,,1389009060,53,,0.5,26,,Nyc/Central Park,10,,,,S,Cloudy,53,Low,53,0,53,96,29.29,,,52,,KNYC,N,observation,0
+2014-01-06 07:51:00,OVC,,,,,,1389019860,,KNYC,,180,18,,,2600,,,1389012660,54,,4,26,,Nyc/Central Park,10,0.02,,,S,Cloudy,54,,54,,54,93,29.27,,,52,,KNYC,N,observation,-4
+2014-01-06 08:51:00,OVC,,,,,,1389023460,,KNYC,,160,,,,2600,,,1389016260,55,,4,26,,Nyc/Central Park,7,0.07,,,SSE,Cloudy,55,,55,,55,89,29.24,,,52,,KNYC,D,observation,-19
+2014-01-06 09:51:00,OVC,,,,,,1389027060,,KNYC,,,,,,2600,,,1389019860,,,3,26,,Nyc/Central Park,,0.11,,,,Cloudy,48,,,,48,86,29.33,,,44,,KNYC,D,observation,-51
+2014-01-06 10:51:00,BKN,,,,,,1389030660,,KNYC,,270,,,,2800,,,1389023460,44,,10,28,,Nyc/Central Park,6,0.06,,,W,Mostly Cloudy,47,,44,,47,83,29.29,,,42,,KNYC,D,observation,-63
+2014-01-06 11:51:00,OVC,,,,,,1389034260,,KNYC,,290,20,,,2600,,,1389027060,44,,10,26,,Nyc/Central Park,7,0.0,,,WNW,Cloudy,47,,44,,47,74,29.28,,,39,,KNYC,D,observation,-101
+2014-01-06 12:51:00,OVC,,55,43,,Steady,1389037860,,KNYC,,280,25,,,2600,,,1389030660,36,,10,26,,Nyc/Central Park,13,0.0,,,W,Cloudy,43,,36,0,43,74,29.29,,,35,,KNYC,D,observation,-93
+2014-01-06 13:51:00,OVC,,,,,,1389041460,,KNYC,,250,,,,2600,,,1389034260,34,,10,26,,Nyc/Central Park,9,0.01,,,WSW,Cloudy,40,,34,,40,70,29.29,,,31,,KNYC,D,observation,-64
+2014-01-06 14:51:00,OVC,,,,,,1389045060,,KNYC,,,,,,2600,,,1389037860,36,,10,26,,Nyc/Central Park,6,,,,VAR,Cloudy,40,,36,,40,68,29.32,,,30,,KNYC,D,observation,-29
+2014-01-06 15:51:00,OVC,,,,,Rising Rapidly,1389048660,,KNYC,,310,,,,2600,,,1389041460,36,,,26,,Nyc/Central Park,8,,,,NW,Cloudy,41,,36,1,41,57,29.33,,,27,,KNYC,D,observation,-6
+2014-01-06 16:51:00,OVC,,,,,,1389052260,,KNYC,,,,,,2600,,,1389045060,35,,,26,,Nyc/Central Park,6,,,,VAR,Cloudy,39,Low,35,,39,49,29.35,,,21,,KNYC,D,observation,0
+2014-01-06 17:51:00,OVC,,,,,,1389055860,,KNYC,,300,21,,,2600,,,1389048660,30,,,26,,Nyc/Central Park,9,,,,WNW,Cloudy,37,Low,30,,37,46,29.38,,,18,,KNYC,N,observation,0
+2014-01-06 18:51:00,OVC,,43,36,,Rising Rapidly,1389059460,,KNYC,,,16,,,2600,,,1389052260,30,,,26,,Nyc/Central Park,7,,,,VAR,Cloudy,36,Low,30,1,36,43,29.42,,,15,,KNYC,N,observation,0
+2014-01-06 19:51:00,OVC,,,,,,1389063060,,KNYC,,290,26,,,2600,,,1389055860,25,,,26,,Nyc/Central Park,12,,,,WNW,Cloudy,34,Low,25,,34,48,29.44,,,16,,KNYC,N,observation,0
+2014-01-06 20:51:00,BKN,,,,,,1389066660,,KNYC,,,,,,2700,,,1389059460,,,,27,,Nyc/Central Park,,,,,,Mostly Cloudy,32,Low,,,,47,29.46,,,14,,KNYC,N,observation,0
+2014-01-06 21:51:00,CLR,,,,,Rising,1389070260,,KNYC,,,,,,3300,,,1389063060,,,,33,,Nyc/Central Park,,,,,,Fair,30,Low,,1,30,43,29.49,,,10,,KNYC,N,observation,0
+2014-01-06 22:51:00,CLR,,,,,,1389073860,,KNYC,,290,26,,,3300,,,1389066660,13,,,33,,Nyc/Central Park,15,,,,WNW,Fair,25,Low,13,,25,45,29.51,,,6,,KNYC,N,observation,0
+2014-01-06 23:51:00,CLR,,55,20,,,1389077460,,KNYC,,,,,,3300,,,1389070260,,,,33,,Nyc/Central Park,,,,,,Fair,20,Low,,,20,48,29.56,,,3,,KNYC,N,observation,0
+2014-01-07 00:51:00,CLR,,36,14,,Rising Rapidly,1389081060,,KNYC,,290,33,,,3300,,,1389073860,-1,,,33,,Nyc/Central Park,15,,,,WNW,Fair,14,Low,-1,1,14,37,29.61,,,-8,,KNYC,N,observation,0
+2014-01-07 01:51:00,CLR,,,,,,1389084660,,KNYC,,290,33,,,3300,,,1389077460,-5,,,33,,Nyc/Central Park,17,,,,WNW,Fair,12,Low,-5,,12,41,29.64,,,-8,,KNYC,N,observation,0
+2014-01-07 02:51:00,CLR,,,,,,1389088260,,KNYC,,280,31,,,3300,,,1389081060,-5,,,33,,Nyc/Central Park,15,,,,W,Fair,11,Low,-5,,11,40,29.7,,,-9,,KNYC,N,observation,0
+2014-01-07 03:51:00,CLR,,,,,Rising Rapidly,1389091860,,KNYC,,290,36,,,3300,,,1389084660,-7,,,33,,Nyc/Central Park,14,,,,WNW,Fair,9,Low,-7,1,9,40,29.76,,,-11,,KNYC,N,observation,0
+2014-01-07 04:51:00,CLR,,,,,,1389095460,,KNYC,,280,32,,,3390,,,1389088260,-12,,,33,,Nyc/Central Park,22,,,,W,Fair / Windy,8,Low,-12,,8,40,29.78,,,-12,,KNYC,N,observation,0
+2014-01-07 05:51:00,CLR,,,,,,1389099060,,KNYC,,270,31,,,3300,,,1389091860,-9,,,33,,Nyc/Central Park,12,,,,W,Fair,6,Low,-9,,6,39,29.82,,,-14,,KNYC,N,observation,0
+2014-01-07 06:51:00,CLR,,14,5,,Rising Rapidly,1389102660,,KNYC,,290,33,,,3300,,,1389095460,-11,,,33,,Nyc/Central Park,12,,,,WNW,Fair,5,Low,-11,1,5,41,29.89,,,-14,,KNYC,N,observation,0
+2014-01-07 07:51:00,CLR,,,,,,1389106260,,KNYC,,290,32,,,3300,,,1389099060,-14,,,33,,Nyc/Central Park,14,,,,WNW,Fair,4,Low,-14,,4,41,29.92,,,-15,,KNYC,N,observation,0
+2014-01-07 08:51:00,CLR,,,,,,1389109860,,KNYC,,290,32,,,3490,,,1389102660,-17,,,34,,Nyc/Central Park,21,,,,WNW,Fair / Windy,4,Low,-17,,4,39,29.96,,,-16,,KNYC,D,observation,0
+2014-01-07 09:51:00,CLR,,,,,,1389113460,,KNYC,,300,29,,,3400,,,1389106260,-13,,,34,,Nyc/Central Park,15,,,,WNW,Fair,5,Low,-13,,5,37,,,,-16,,KNYC,D,observation,0
+2014-01-07 10:51:00,CLR,,,,,,1389117060,,KNYC,,300,30,,,3400,,,1389109860,-12,,,34,,Nyc/Central Park,15,,,,WNW,Fair,6,Low,-12,,6,36,30.02,,,-16,,KNYC,D,observation,0
+2014-01-07 11:51:00,CLR,,,,,,1389120660,,KNYC,,290,31,,,3400,,,1389113460,-12,,,34,,Nyc/Central Park,18,,,,WNW,Fair,7,Low,-12,,7,34,29.98,,,-16,,KNYC,D,observation,0
+2014-01-07 12:51:00,CLR,,8,4,,,1389124260,,KNYC,,280,26,,,3400,,,1389117060,-5,,,34,,Nyc/Central Park,9,,,,W,Fair,8,Low,-5,,8,34,29.99,,,-15,,KNYC,D,observation,0
+2014-01-07 13:51:00,CLR,,,,,,1389127860,,KNYC,,290,29,,,3400,,,1389120660,-8,,,34,,Nyc/Central Park,16,,,,WNW,Fair,9,Low,-8,,9,35,30.01,,,-14,,KNYC,D,observation,0
+2014-01-07 14:51:00,CLR,,,,,,1389131460,,KNYC,,260,23,,,3400,,,1389124260,-6,,,34,,Nyc/Central Park,14,,,,W,Fair,10,Low,-6,,10,37,30.04,,,-12,,KNYC,D,observation,0
+2014-01-07 15:51:00,CLR,,,,,Rising,1389135060,,KNYC,,270,30,,,3400,,,1389127860,-9,,,34,,Nyc/Central Park,17,,,,W,Fair,9,Low,-9,1,9,36,30.05,,,-13,,KNYC,D,observation,0
+2014-01-07 16:51:00,CLR,,,,,,1389138660,,KNYC,,290,24,,,3400,,,1389131460,-6,,,34,,Nyc/Central Park,12,,,,WNW,Fair,9,Low,-6,,9,40,30.06,,,-11,,KNYC,D,observation,0
+2014-01-07 17:51:00,CLR,,,,,,1389142260,,KNYC,,290,26,,,3300,,,1389135060,-8,,,33,,Nyc/Central Park,15,,,,WNW,Fair,9,Low,-8,,9,40,30.08,,,-11,,KNYC,N,observation,0
+2014-01-07 18:51:00,CLR,,10,8,,Rising,1389145860,,KNYC,,280,25,,,3300,,,1389138660,-8,,10,33,,Nyc/Central Park,16,,,,W,Fair,9,Low,-8,1,9,42,30.09,,,-10,,KNYC,N,observation,0
+2014-01-07 19:51:00,CLR,,,,,,1389149460,,KNYC,,,22,,,3300,,,1389142260,1,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,9,Low,1,,9,42,30.12,,,-10,,KNYC,N,observation,0
+2014-01-07 20:51:00,CLR,,,,,,1389153060,,KNYC,,290,,,,3300,,,1389145860,-1,,10,33,,Nyc/Central Park,6,,,,WNW,Fair,9,Low,-1,,9,44,30.16,,,-9,,KNYC,N,observation,0
+2014-01-07 21:51:00,CLR,,,,,Rising,1389156660,,KNYC,,260,23,,,3300,,,1389149460,1,,10,33,,Nyc/Central Park,5,,,,W,Fair,9,Low,1,1,9,44,30.18,,,-9,,KNYC,N,observation,0
+2014-01-07 22:51:00,CLR,,,,,,1389160260,,KNYC,,,18,,,3300,,,1389153060,-2,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,9,Low,-2,,9,44,30.19,,,-9,,KNYC,N,observation,0
+2014-01-07 23:51:00,CLR,,19,4,,,1389163860,,KNYC,,,,,,3300,,,1389156660,1,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,9,Low,1,,9,46,30.2,,,-8,,KNYC,N,observation,0
+2014-01-08 00:51:00,CLR,,9,9,,Rising Rapidly,1389167460,,KNYC,,,,,,3300,,,1389160260,,,10,33,,Nyc/Central Park,,,,,,Fair,9,Low,,1,9,46,30.22,,,-8,,KNYC,N,observation,0
+2014-01-08 01:51:00,CLR,,,,,,1389171060,,KNYC,,290,,,,3300,,,1389163860,-3,,10,33,,Nyc/Central Park,8,,,,WNW,Fair,9,Low,-3,,9,46,30.24,,,-8,,KNYC,N,observation,0
+2014-01-08 02:51:00,CLR,,,,,,1389174660,,KNYC,,300,20,,,3300,,,1389167460,-5,,10,33,,Nyc/Central Park,10,,,,WNW,Fair,9,Low,-5,,9,48,30.28,,,-7,,KNYC,N,observation,0
+2014-01-08 03:51:00,CLR,,,,,Rising,1389178260,,KNYC,,,,,,3300,,,1389171060,1,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,9,Low,1,1,9,48,30.28,,,-7,,KNYC,N,observation,0
+2014-01-08 04:51:00,CLR,,,,,,1389181860,,KNYC,,290,20,,,3300,,,1389174660,-7,,10,33,,Nyc/Central Park,13,,,,WNW,Fair,9,Low,-7,,9,51,30.3,,,-6,,KNYC,N,observation,0
+2014-01-08 05:51:00,CLR,,,,,,1389185460,,KNYC,,290,21,,,3300,,,1389178260,-7,,10,33,,Nyc/Central Park,13,,,,WNW,Fair,9,Low,-7,,9,51,30.27,,,-6,,KNYC,N,observation,0
+2014-01-08 06:51:00,CLR,,9,9,,Rising Rapidly,1389189060,,KNYC,,290,21,,,3300,,,1389181860,-7,,10,33,,Nyc/Central Park,13,,,,WNW,Fair,9,Low,-7,1,9,51,30.29,,,-6,,KNYC,N,observation,0
+2014-01-08 07:51:00,CLR,,,,,,1389192660,,KNYC,,,,,,3300,,,1389185460,-2,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,9,Low,-2,,9,53,30.34,,,-5,,KNYC,N,observation,0
+2014-01-08 08:51:00,CLR,,,,,,1389196260,,KNYC,,,16,,,3400,,,1389189060,2,,10,34,,Nyc/Central Park,5,,,,VAR,Fair,10,Low,2,,10,51,30.36,,,-5,,KNYC,D,observation,0
+2014-01-08 09:51:00,CLR,,,,,Rising,1389199860,,KNYC,,260,,,,3400,,,1389192660,-1,,10,34,,Nyc/Central Park,10,,,,W,Fair,12,Low,-1,1,12,46,30.38,,,-5,,KNYC,D,observation,0
+2014-01-08 10:51:00,CLR,,,,,,1389203460,,KNYC,,300,,,,3400,,,1389196260,2,,10,34,,Nyc/Central Park,9,,,,WNW,Fair,14,Low,2,,14,45,30.35,,,-4,,KNYC,D,observation,0
+2014-01-08 11:51:00,SCT,,,,,,1389207060,,KNYC,,,,,,3000,,,1389199860,9,,10,30,,Nyc/Central Park,5,,,,VAR,Partly Cloudy,16,,9,,16,43,30.31,,,-3,,KNYC,D,observation,-50
+2014-01-08 12:51:00,CLR,,19,9,,,1389210660,,KNYC,,290,,,,3400,,,1389203460,11,,10,34,,Nyc/Central Park,6,,,,WNW,Fair,19,Low,11,,19,40,,,,-2,,KNYC,D,observation,0
+2014-01-08 13:51:00,OVC,,,,,,1389214260,,KNYC,,300,,,,2600,,,1389207060,12,,10,26,,Nyc/Central Park,6,,,,WNW,Cloudy,20,,12,,20,38,30.29,,,-2,,KNYC,D,observation,-66
+2014-01-08 14:51:00,SCT,,,,,,1389217860,,KNYC,,,,,,3000,,,1389210660,15,,10,30,,Nyc/Central Park,5,,,,VAR,Partly Cloudy,21,,15,,21,38,30.29,,,-1,,KNYC,D,observation,-14
+2014-01-08 15:51:00,CLR,,,,,,1389221460,,KNYC,,,,,,3400,,,1389214260,13,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,21,Low,13,,21,40,30.3,,,0,,KNYC,D,observation,0
+2014-01-08 16:51:00,CLR,,,,,,1389225060,,KNYC,,,17,,,3400,,,1389217860,12,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,20,Low,12,,20,40,30.3,,,-1,,KNYC,D,observation,0
+2014-01-08 17:51:00,CLR,,,,,,1389228660,,KNYC,,270,,,,3300,,,1389221460,11,,10,33,,Nyc/Central Park,7,,,,W,Fair,20,Low,11,,20,40,30.31,,,-1,,KNYC,N,observation,0
+2014-01-08 18:51:00,CLR,,22,18,,Rising Rapidly,1389232260,,KNYC,,,,,,3300,,,1389225060,,,10,33,,Nyc/Central Park,,,,,,Fair,21,Low,,1,21,40,30.34,,,0,,KNYC,N,observation,0
+2014-01-08 19:51:00,CLR,,,,,,1389235860,,KNYC,,250,,,,3300,,,1389228660,11,,10,33,,Nyc/Central Park,9,,,,WSW,Fair,21,Low,11,,21,40,30.33,,,0,,KNYC,N,observation,0
+2014-01-08 20:51:00,CLR,,,,,,1389239460,,KNYC,,,,,,3300,,,1389232260,15,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,21,Low,15,,21,40,30.35,,,0,,KNYC,N,observation,0
+2014-01-08 21:51:00,OVC,,,,,Falling,1389243060,,KNYC,,,,,,2600,,,1389235860,21,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,21,Low,21,2,21,40,30.34,,,0,,KNYC,N,observation,0
+2014-01-08 22:51:00,OVC,,,,,,1389246660,,KNYC,,290,,,,2600,,,1389239460,14,,10,26,,Nyc/Central Park,6,,,,WNW,Cloudy,22,Low,14,,22,38,30.34,,,0,,KNYC,N,observation,0
+2014-01-08 23:51:00,OVC,,22,9,,,1389250260,,KNYC,,,,,,2600,,,1389243060,16,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,22,Low,16,,22,42,30.33,,,2,,KNYC,N,observation,0
+2014-01-09 00:51:00,OVC,,22,20,,Falling Rapidly,1389253860,,KNYC,,,,,,2600,,,1389246660,16,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,22,Low,16,2,22,42,30.32,,,2,,KNYC,N,observation,0
+2014-01-09 01:51:00,OVC,,,,,,1389257460,,KNYC,,270,,,,2600,,,1389250260,15,,10,26,,Nyc/Central Park,7,,,,W,Cloudy,23,Low,15,,23,40,30.32,,,2,,KNYC,N,observation,0
+2014-01-09 02:51:00,CLR,,,,,,1389261060,,KNYC,,,,,,3300,,,1389253860,,,10,33,,Nyc/Central Park,,,,,,Fair,24,Low,,,24,40,30.34,,,3,,KNYC,N,observation,0
+2014-01-09 03:51:00,CLR,,,,,Rising Rapidly,1389264660,,KNYC,,,,,,3300,,,1389257460,23,,10,33,,Nyc/Central Park,,,,,CALM,Fair,23,Low,23,1,23,44,30.34,,,4,,KNYC,N,observation,0
+2014-01-09 04:51:00,CLR,,,,,,1389268260,,KNYC,,290,,,,3300,,,1389261060,15,,10,33,,Nyc/Central Park,7,,,,WNW,Fair,23,Low,15,,23,53,30.35,,,8,,KNYC,N,observation,0
+2014-01-09 05:51:00,CLR,,,,,,1389271860,,KNYC,,,,,,3300,,,1389264660,,,10,33,,Nyc/Central Park,,,,,,Fair,23,Low,,,23,55,30.39,,,9,,KNYC,N,observation,0
+2014-01-09 06:51:00,CLR,,24,22,,Rising,1389275460,,KNYC,,,,,,3300,,,1389268260,22,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,22,Low,22,1,22,58,30.4,,,9,,KNYC,N,observation,0
+2014-01-09 07:51:00,CLR,,,,,,1389279060,,KNYC,,300,,,,3300,,,1389271860,22,,10,33,,Nyc/Central Park,3,,,,WNW,Fair,22,Low,22,,22,58,30.43,,,9,,KNYC,N,observation,0
+2014-01-09 08:51:00,CLR,,,,,,1389282660,,KNYC,,,,,,3400,,,1389275460,23,,10,34,,Nyc/Central Park,,,,,CALM,Fair,23,Low,23,,23,55,30.45,,,9,,KNYC,D,observation,0
+2014-01-09 09:51:00,CLR,,,,,Rising,1389286260,,KNYC,,,,,,3400,,,1389279060,18,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,25,Low,18,1,25,49,30.47,,,8,,KNYC,D,observation,0
+2014-01-09 10:51:00,CLR,,,,,,1389289860,,KNYC,,,,,,3400,,,1389282660,26,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,26,Low,26,,26,47,30.47,,,8,,KNYC,D,observation,0
+2014-01-09 11:51:00,CLR,,,,,,1389293460,,KNYC,,80,,,,3400,,,1389286260,29,,10,34,,Nyc/Central Park,3,,,,E,Fair,29,Low,29,,29,41,30.45,,,8,,KNYC,D,observation,0
+2014-01-09 12:51:00,CLR,,31,22,,Falling Rapidly,1389297060,,KNYC,,,,,,3400,,,1389289860,30,,10,34,,Nyc/Central Park,,,,,CALM,Fair,30,Low,30,2,30,40,30.42,,,8,,KNYC,D,observation,0
+2014-01-09 13:51:00,CLR,,,,,,1389300660,,KNYC,,,,,,3400,,,1389293460,31,,10,34,,Nyc/Central Park,,,,,CALM,Fair,31,Low,31,,31,37,30.42,,,7,,KNYC,D,observation,0
+2014-01-09 14:51:00,CLR,,,,,,1389304260,,KNYC,,260,,,,3400,,,1389297060,,,10,34,,Nyc/Central Park,3,,,,W,Fair,32,Low,,,,35,30.42,,,7,,KNYC,D,observation,0
+2014-01-09 15:51:00,CLR,,,,,Rising Rapidly,1389307860,,KNYC,,290,,,,3400,,,1389300660,26,,10,34,,Nyc/Central Park,5,,,,WNW,Fair,31,Low,26,1,31,37,30.43,,,7,,KNYC,D,observation,0
+2014-01-09 16:51:00,CLR,,,,,,1389311460,,KNYC,,,,,,3400,,,1389304260,31,,10,34,,Nyc/Central Park,,,,,CALM,Fair,31,Low,31,,31,37,30.45,,,7,,KNYC,D,observation,0
+2014-01-09 18:51:00,CLR,,,30,,Rising,1389318660,,KNYC,,,,,,3300,,,1389311460,30,,10,33,,Nyc/Central Park,,,,,CALM,Fair,30,Low,30,1,30,38,30.46,,,7,,KNYC,N,observation,0
+2014-01-09 19:51:00,CLR,,,,,,1389322260,,KNYC,,80,,,,3300,,,1389315060,30,,10,33,,Nyc/Central Park,3,,,,E,Fair,30,Low,30,,30,45,30.45,,,11,,KNYC,N,observation,0
+2014-01-09 20:51:00,CLR,,,,,,1389325860,,KNYC,,,,,,3300,,,1389318660,29,,10,33,,Nyc/Central Park,,,,,CALM,Fair,29,Low,29,,29,47,30.44,,,11,,KNYC,N,observation,0
+2014-01-09 21:51:00,CLR,,,,,Falling,1389329460,,KNYC,,160,,,,3300,,,1389322260,29,,10,33,,Nyc/Central Park,3,,,,SSE,Fair,29,Low,29,2,29,49,30.44,,,12,,KNYC,N,observation,0
+2014-01-09 22:51:00,SCT,,,,,,1389333060,,KNYC,,180,,,,2900,,,1389325860,23,,10,29,,Nyc/Central Park,7,,,,S,Partly Cloudy,30,Low,23,,30,47,30.43,,,12,,KNYC,N,observation,0
+2014-01-09 23:51:00,FEW,,,22,,,1389336660,,KNYC,,180,,,,3300,,,1389329460,25,,10,33,,Nyc/Central Park,5,,,,S,Fair,30,Low,25,,30,51,30.42,,,14,,KNYC,N,observation,0
+2014-01-10 00:51:00,FEW,,31,29,,Falling Rapidly,1389340260,,KNYC,,180,,,,3300,,,1389333060,23,,10,33,,Nyc/Central Park,8,,,,S,Fair,31,Low,23,2,31,54,30.39,,,16,,KNYC,N,observation,0
+2014-01-10 01:51:00,BKN,,,,,,1389343860,,KNYC,,,,,,2700,,,1389336660,,,10,27,,Nyc/Central Park,3,,,,VAR,Mostly Cloudy,32,Low,,,,56,30.38,,,18,,KNYC,N,observation,0
+2014-01-10 02:17:00,OVC,,,,,,1389345420,,KNYC,,,,,,2600,,,1389338220,31,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,31,Low,31,,31,59,30.42,,,18,,KNYC,N,observation,0
+2014-01-10 02:46:00,OVC,,,,,,1389347160,,KNYC,,20,,,,2600,,,1389339960,,,10,26,,Nyc/Central Park,3,,,,NNE,Cloudy,32,Low,,,,55,30.41,,,18,,KNYC,N,observation,0
+2014-01-10 02:51:00,OVC,,,,,,1389347460,,KNYC,,,,,,2600,,,1389340260,31,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,31,Low,31,,31,59,30.38,,,18,,KNYC,N,observation,0
+2014-01-10 03:51:00,OVC,,,,,Falling Rapidly,1389351060,,KNYC,,60,,,,2600,,,1389343860,31,,10,26,,Nyc/Central Park,3,,,,ENE,Cloudy,31,Low,31,2,31,59,30.37,,,18,,KNYC,N,observation,0
+2014-01-10 04:51:00,OVC,,,,,,1389354660,,KNYC,,60,,,,2600,,,1389347460,31,,10,26,,Nyc/Central Park,3,,,,ENE,Cloudy,31,Low,31,,31,61,30.06,,,19,,KNYC,N,observation,0
+2014-01-10 05:51:00,OVC,,,,,,1389358260,,KNYC,,60,,,,2600,,,1389351060,26,,10,26,,Nyc/Central Park,5,,,,ENE,Cloudy,31,Low,26,,31,61,30.32,,,19,,KNYC,N,observation,0
+2014-01-10 06:10:00,OVC,,,,,,1389359400,,KNYC,,80,,,,2600,,,1389352200,,,10,26,,Nyc/Central Park,3,,,,E,Cloudy,32,Low,,,,56,30.34,,,18,,KNYC,N,observation,0
+2014-01-10 06:51:00,OVC,,,31,,Falling,1389361860,,KNYC,,60,,,,2600,,,1389354660,26,,8,26,,Nyc/Central Park,6,,,,ENE,Cloudy,32,Low,26,2,,64,30.31,,,21,,KNYC,N,observation,0
+2014-01-10 07:51:00,OVC,,,,,,1389365460,,KNYC,,70,,,,2600,,,1389358260,,,8,26,,Nyc/Central Park,3,0.04,,,ENE,Cloudy,32,,,,,66,30.31,,,22,,KNYC,N,observation,-4
+2014-01-10 08:03:00,OVC,,,,,,1389366180,,KNYC,,100,,,,2600,,,1389358980,,,6,26,,Nyc/Central Park,3,0.03,,,E,Cloudy,32,,,,,66,30.33,,,22,,KNYC,N,observation,-5
+2014-01-10 08:24:00,OVC,,,,,,1389367440,,KNYC,,,,,,2600,,,1389360240,,,6,26,,Nyc/Central Park,3,0.03,,,VAR,Cloudy,32,,,,,69,30.33,,,23,,KNYC,D,observation,-9
+2014-01-10 08:36:00,OVC,,,,,,1389368160,,KNYC,,,,,,2600,,,1389360960,29,,10,26,,Nyc/Central Park,5,0.03,,,VAR,Cloudy,33,,29,,33,66,30.33,,,23,,KNYC,D,observation,-13
+2014-01-10 08:49:00,OVC,,,,,,1389368940,,KNYC,,,,,,2600,,,1389361740,34,,7,26,,Nyc/Central Park,,0.03,,,CALM,Cloudy,34,,34,,34,65,30.34,,,23,,KNYC,D,observation,-19
+2014-01-10 08:51:00,OVC,,,,,,1389369060,,KNYC,,,,,,2600,,,1389361860,33,,5,26,,Nyc/Central Park,,0.03,,,CALM,Cloudy,33,,33,,33,66,30.32,,,23,,KNYC,D,observation,-20
+2014-01-10 09:32:00,OVC,,,,,,1389371520,,KNYC,,,,,,2600,,,1389364320,,,2,26,,Nyc/Central Park,,0.17,,,CALM,Cloudy,32,,,,,82,30.34,,,27,,KNYC,D,observation,-42
+2014-01-10 09:51:00,OVC,,,,,Steady,1389372660,,KNYC,,20,,,,2600,,,1389365460,27,,1,26,,Nyc/Central Park,5,0.18,,,NNE,Cloudy,32,,27,0,,82,30.31,,,27,,KNYC,D,observation,-53
+2014-01-10 09:58:00,OVC,,,,,,1389373080,,KNYC,,,,,,2600,,,1389365880,,,2,26,,Nyc/Central Park,3,0.15,,,VAR,Cloudy,32,,,,,85,30.34,,,28,,KNYC,D,observation,-58
+2014-01-10 10:35:00,OVC,,,,,,1389375300,,KNYC,,,,,,2600,,,1389368100,29,,2,26,,Nyc/Central Park,5,0.51,,,VAR,Cloudy,33,,29,,33,85,30.32,,,29,,KNYC,D,observation,-80
+2014-01-10 10:44:00,OVC,,,,,,1389375840,,KNYC,,80,,,,2600,,,1389368640,29,,3,26,,Nyc/Central Park,5,0.51,,,E,Cloudy,33,,29,,33,85,30.32,,,29,,KNYC,D,observation,-84
+2014-01-10 10:51:00,OVC,,,,,,1389376260,,KNYC,,50,,,,2600,,,1389369060,29,,3,26,,Nyc/Central Park,5,0.68,,,NE,Cloudy,33,,29,,33,85,30.29,,,29,,KNYC,D,observation,-88
+2014-01-10 10:59:00,OVC,,,,,,1389376740,,KNYC,,30,,,,2600,,,1389369540,33,,1,26,,Nyc/Central Park,3,0.13,,,NNE,Cloudy,33,,33,,33,85,30.32,,,29,,KNYC,D,observation,-92
+2014-01-10 11:29:00,OVC,,,,,,1389378540,,KNYC,,10,,,,2600,,,1389371340,33,,2,26,,Nyc/Central Park,3,0.33,,,N,Cloudy,33,,33,,33,89,30.29,,,30,,KNYC,D,observation,-102
+2014-01-10 11:37:00,OVC,,,,,,1389379020,,KNYC,,,,,,2600,,,1389371820,33,,2,26,,Nyc/Central Park,3,0.33,,,VAR,Cloudy,33,,33,,33,89,30.29,,,30,,KNYC,D,observation,-104
+2014-01-10 11:47:00,OVC,,,,,,1389379620,,KNYC,,40,,,,2600,,,1389372420,30,,3,26,,Nyc/Central Park,5,0.33,,,NE,Cloudy,34,,30,,34,87,30.28,,,30,,KNYC,D,observation,-105
+2014-01-10 11:51:00,OVC,,,,,,1389379860,,KNYC,,30,,,,2600,,,1389372660,30,,3,26,,Nyc/Central Park,5,0.33,,,NNE,Cloudy,34,,30,,34,85,30.25,,,30,,KNYC,D,observation,-106
+2014-01-10 12:35:00,OVC,,,,,,1389382500,,KNYC,,,,,,2600,,,1389375300,34,,2,26,,Nyc/Central Park,,,,,CALM,Cloudy,34,,34,,34,85,30.25,,,30,,KNYC,D,observation,-102
+2014-01-10 12:46:00,OVC,,,,,,1389383160,,KNYC,,,,,,2600,,,1389375960,34,,3,26,,Nyc/Central Park,,,,,CALM,Cloudy,34,,34,,34,87,30.25,,,30,,KNYC,D,observation,-99
+2014-01-10 12:51:00,OVC,,35,,,Falling,1389383460,,KNYC,,,,,,2600,,,1389376260,34,,3,26,,Nyc/Central Park,3,,,,VAR,Cloudy,34,,34,2,34,82,30.22,,,29,,KNYC,D,observation,-98
+2014-01-10 13:00:00,OVC,,,,,,1389384000,,KNYC,,,,,,2600,,,1389376800,34,,2,26,,Nyc/Central Park,,,,,CALM,Cloudy,34,,34,,34,85,30.24,,,30,,KNYC,D,observation,-94
+2014-01-10 13:18:00,OVC,,,,,,1389385080,,KNYC,,,,,,2600,,,1389377880,34,,2,26,,Nyc/Central Park,,,,,CALM,Cloudy,34,,34,,34,85,30.24,,,30,,KNYC,D,observation,-86
+2014-01-10 13:51:00,OVC,,,,,,1389387060,,KNYC,,,,,,2600,,,1389379860,35,,1,26,,Nyc/Central Park,,,,,CALM,Cloudy,35,,35,,35,82,30.2,,,30,,KNYC,D,observation,-68
+2014-01-10 14:08:00,OVC,,,,,,1389388080,,KNYC,,,,,,2600,,,1389380880,35,,1,26,,Nyc/Central Park,,,,,CALM,Cloudy,35,,35,,35,85,30.23,,,31,,KNYC,D,observation,-58
+2014-01-10 14:51:00,OVC,,,,,,1389390660,,KNYC,,50,,,,2600,,,1389383460,35,,1,26,,Nyc/Central Park,3,,,,NE,Cloudy,35,,35,,35,85,30.19,,,31,,KNYC,D,observation,-32
+2014-01-10 14:59:00,OVC,,,,,,1389391140,,KNYC,,,,,,2600,,,1389383940,35,,0.75,26,,Nyc/Central Park,,,,,CALM,Cloudy,35,,35,,35,89,30.21,,,,,KNYC,D,observation,-27
+2014-01-10 15:38:00,OVC,,,,,,1389393480,,KNYC,,30,,,,2600,,,1389386280,35,,1,26,,Nyc/Central Park,3,,,,NNE,Cloudy,35,,35,,35,89,30.21,,,,,KNYC,D,observation,-11
+2014-01-10 15:51:00,OVC,,,,,Falling,1389394260,,KNYC,,30,,,,2600,,,1389387060,35,,1,26,,Nyc/Central Park,3,,,,NNE,Cloudy,35,,35,2,35,89,30.18,,,,,KNYC,D,observation,-7
+2014-01-10 16:01:00,OVC,,,,,,1389394860,,KNYC,,40,,,,2600,,,1389387660,35,,0.75,26,,Nyc/Central Park,3,,,,NE,Cloudy,35,,35,,35,89,30.21,,,,,KNYC,D,observation,-6
+2014-01-10 16:10:00,OVC,,,,,,1389395400,,KNYC,,30,,,,2600,,,1389388200,35,,0.75,26,,Nyc/Central Park,3,,,,NNE,Cloudy,35,,35,,35,92,30.21,,,33,,KNYC,D,observation,-5
+2014-01-10 16:51:00,OVC,,,,,,1389397860,,KNYC,,,,,,2600,,,1389390660,35,,1,26,,Nyc/Central Park,,,,,CALM,Cloudy,35,Low,35,,35,92,30.17,,,33,,KNYC,D,observation,0
+2014-01-10 17:42:00,OVC,,,,,,1389400920,,KNYC,,40,,,,2600,,,1389393720,35,,1,26,,Nyc/Central Park,3,,,,NE,Cloudy,35,Low,35,,35,92,30.19,,,33,,KNYC,D,observation,0
+2014-01-10 17:51:00,OVC,,,,,,1389401460,,KNYC,,40,,,,2600,,,1389394260,31,,1,26,,Nyc/Central Park,5,,,,NE,Cloudy,35,Low,31,,35,92,30.17,,,33,,KNYC,N,observation,0
+2014-01-10 18:20:00,OVC,,,,,,1389403200,,KNYC,,30,,,,2600,,,1389396000,31,,1,26,,Nyc/Central Park,5,,,,NNE,Cloudy,35,Low,31,,35,92,30.19,,,33,,KNYC,N,observation,0
+2014-01-10 18:51:00,OVC,,36,34,,Falling,1389405060,,KNYC,,20,,,,2600,,,1389397860,35,,1,26,,Nyc/Central Park,3,,,,NNE,Cloudy,35,Low,35,2,35,92,30.16,,,33,,KNYC,N,observation,0
+2014-01-10 19:51:00,OVC,,,,,,1389408660,,KNYC,,40,,,,2600,,,1389401460,33,,1,26,,Nyc/Central Park,5,,,,NE,Cloudy,37,Low,33,,37,89,30.14,,,34,,KNYC,N,observation,0
+2014-01-10 20:51:00,OVC,,,,,,1389412260,,KNYC,,50,,,,2600,,,1389405060,33,,0.75,26,,Nyc/Central Park,5,,,,NE,Cloudy,37,Low,33,,37,89,30.12,,,34,,KNYC,N,observation,0
+2014-01-10 21:03:00,OVC,,,,,,1389412980,,KNYC,,60,,,,2600,,,1389405780,33,,1,26,,Nyc/Central Park,5,,,,ENE,Cloudy,37,Low,33,,37,89,30.14,,,34,,KNYC,N,observation,0
+2014-01-10 21:21:00,OVC,,,,,,1389414060,,KNYC,,50,,,,2600,,,1389406860,32,,1,26,,Nyc/Central Park,5,,,,NE,Cloudy,36,Low,32,,36,93,30.14,,,34,,KNYC,N,observation,0
+2014-01-10 21:51:00,OVC,,,,,Falling,1389415860,,KNYC,,50,,,,2600,,,1389408660,36,,1,26,,Nyc/Central Park,3,,,,NE,Cloudy,36,Low,36,2,36,93,30.11,,,34,,KNYC,N,observation,0
+2014-01-10 22:02:00,OVC,,,,,,1389416520,,KNYC,,40,,,,2600,,,1389409320,36,,1,26,,Nyc/Central Park,3,,,,NE,Cloudy,36,Low,36,,36,93,30.13,,,34,,KNYC,N,observation,0
+2014-01-10 22:46:00,OVC,,,,,,1389419160,,KNYC,,60,,,,2600,,,1389411960,31,,2,26,,Nyc/Central Park,6,,,,ENE,Cloudy,36,Low,31,,36,93,30.11,,,34,,KNYC,N,observation,0
+2014-01-10 22:51:00,OVC,,,,,,1389419460,,KNYC,,60,,,,2600,,,1389412260,31,,2,26,,Nyc/Central Park,6,,,,ENE,Cloudy,36,Low,31,,36,93,30.08,,,34,,KNYC,N,observation,0
+2014-01-10 23:08:00,OVC,,,,,,1389420480,,KNYC,,80,,,,2600,,,1389413280,33,,1,26,,Nyc/Central Park,5,,,,E,Cloudy,37,Low,33,,37,89,30.09,,,34,,KNYC,N,observation,0
+2014-01-10 23:11:00,OVC,,,,,,1389420660,,KNYC,,80,,,,2600,,,1389413460,37,,2,26,,Nyc/Central Park,3,,,,E,Cloudy,37,Low,37,,37,89,30.09,,,34,,KNYC,N,observation,0
+2014-01-10 23:23:00,OVC,,,,,,1389421380,,KNYC,,90,,,,2600,,,1389414180,33,,1,26,,Nyc/Central Park,5,,,,E,Cloudy,37,Low,33,,37,89,30.09,,,34,,KNYC,N,observation,0
+2014-01-10 23:51:00,OVC,,37,30,,,1389423060,,KNYC,,60,,,,2600,,,1389415860,37,,1,26,,Nyc/Central Park,3,0.01,,,ENE,Cloudy,37,Low,37,,37,89,30.04,,,34,,KNYC,N,observation,0
+2014-01-11 00:02:00,OVC,,,,,,1389423720,,KNYC,,60,,,,2600,,,1389416520,37,,2,26,,Nyc/Central Park,3,0.0,,,ENE,Cloudy,37,Low,37,,37,89,30.06,,,34,,KNYC,N,observation,0
+2014-01-11 00:51:00,OVC,,37,35,,Falling Rapidly,1389426660,,KNYC,,40,,,,2600,,,1389419460,37,,2,26,,Nyc/Central Park,3,0.01,,,NE,Cloudy,37,Low,37,2,37,89,30.01,,,34,,KNYC,N,observation,0
+2014-01-11 01:07:00,OVC,,,,,,1389427620,,KNYC,,50,,,,2600,,,1389420420,37,,1,26,,Nyc/Central Park,3,0.0,,,NE,Cloudy,37,Low,37,,37,89,30.03,,,34,,KNYC,N,observation,0
+2014-01-11 01:20:00,OVC,,,,,,1389428400,,KNYC,,50,,,,2600,,,1389421200,37,,2,26,,Nyc/Central Park,3,0.01,,,NE,Cloudy,37,Low,37,,37,89,30.02,,,34,,KNYC,N,observation,0
+2014-01-11 01:29:00,OVC,,,,,,1389428940,,KNYC,,,,,,2600,,,1389421740,37,,1,26,,Nyc/Central Park,,0.01,,,CALM,Cloudy,37,Low,37,,37,93,30.02,,,35,,KNYC,N,observation,0
+2014-01-11 01:51:00,OVC,,,,,,1389430260,,KNYC,,40,,,,2600,,,1389423060,37,,1,26,,Nyc/Central Park,3,0.01,,,NE,Cloudy,37,Low,37,,37,93,29.98,,,35,,KNYC,N,observation,0
+2014-01-11 02:42:00,OVC,,,,,,1389433320,,KNYC,,120,,,,2600,,,1389426120,32,,0.5,26,,Nyc/Central Park,6,0.06,,,ESE,Cloudy,37,Low,32,,37,93,29.96,,,35,,KNYC,N,observation,0
+2014-01-11 02:51:00,OVC,,,,,,1389433860,,KNYC,,80,,,,2600,,,1389426660,34,,0.75,26,,Nyc/Central Park,5,0.07,,,E,Cloudy,38,Low,34,,38,89,29.92,,,35,,KNYC,N,observation,0
+2014-01-11 02:58:00,OVC,,,,,,1389434280,,KNYC,,110,,,,2600,,,1389427080,39,,2,26,,Nyc/Central Park,3,,,,ESE,Cloudy,39,Low,39,,39,89,29.95,,,36,,KNYC,N,observation,0
+2014-01-11 03:51:00,OVC,,,,,Falling,1389437460,,KNYC,,140,,,,2600,,,1389430260,39,,4,26,,Nyc/Central Park,5,,,,SE,Cloudy,42,Low,39,2,42,89,29.9,,,39,,KNYC,N,observation,0
+2014-01-11 04:11:00,OVC,,,,,,1389438660,,KNYC,,140,,,,2600,,,1389431460,39,,2,26,,Nyc/Central Park,5,,,,SE,Cloudy,42,Low,39,,42,92,29.91,,,40,,KNYC,N,observation,0
+2014-01-11 04:15:00,OVC,,,,,,1389438900,,KNYC,,150,,,,2600,,,1389431700,42,,3,26,,Nyc/Central Park,3,,,,SSE,Cloudy,42,Low,42,,42,92,29.91,,,40,,KNYC,N,observation,0
+2014-01-11 04:51:00,OVC,,,,,,1389441060,,KNYC,,,,,,2600,,,1389433860,42,,4,26,,Nyc/Central Park,7,0.0,,,VAR,Cloudy,46,Low,42,,46,93,29.85,,,44,,KNYC,N,observation,0
+2014-01-11 05:25:00,OVC,,,,,,1389443100,,KNYC,,170,,,,2600,,,1389435900,45,,6,26,,Nyc/Central Park,8,0.03,,,S,Cloudy,49,Low,45,,49,90,29.85,,,46,,KNYC,N,observation,0
+2014-01-11 05:51:00,OVC,,,,,,1389444660,,KNYC,,170,,,,2600,,,1389437460,46,,8,26,,Nyc/Central Park,7,0.03,,,S,Cloudy,49,Low,46,,49,90,29.81,,,46,,KNYC,N,observation,0
+2014-01-11 06:04:00,OVC,,,,,,1389445440,,KNYC,,170,23,,,2600,,,1389438240,50,,9,26,,Nyc/Central Park,8,0.01,,,S,Cloudy,50,Low,50,,50,89,29.82,,,47,,KNYC,N,observation,0
+2014-01-11 06:14:00,OVC,,,,,,1389446040,,KNYC,,,,,,2600,,,1389438840,50,,9,26,,Nyc/Central Park,6,0.01,,,VAR,Cloudy,50,Low,50,,50,89,29.82,,,47,,KNYC,N,observation,0
+2014-01-11 06:51:00,OVC,,51,37,,Falling,1389448260,,KNYC,,,20,,,2600,,,1389441060,51,,7,26,,Nyc/Central Park,7,0.01,,,VAR,Cloudy,51,Low,51,2,51,89,29.76,,,48,,KNYC,N,observation,0
+2014-01-11 07:51:00,OVC,,,,,,1389451860,,KNYC,,170,,,,2600,,,1389444660,53,,3,26,,Nyc/Central Park,8,0.01,,,S,Cloudy,53,,53,,53,89,29.73,,,50,,KNYC,N,observation,-4
+2014-01-11 08:05:00,OVC,,,,,,1389452700,,KNYC,,170,,,,2600,,,1389445500,53,,2,26,,Nyc/Central Park,6,,,,S,Cloudy,53,,53,,53,93,29.75,,,51,,KNYC,N,observation,-6
+2014-01-11 08:15:00,OVC,,,,,,1389453300,,KNYC,,190,,,,2600,,,1389446100,53,,1,26,,Nyc/Central Park,5,,,,S,Cloudy,53,,53,,53,93,29.74,,,51,,KNYC,N,observation,-7
+2014-01-11 08:41:00,OVC,,,,,,1389454860,,KNYC,,180,,,,2600,,,1389447660,54,,0.5,26,,Nyc/Central Park,8,,,,S,Cloudy,54,,54,,54,93,29.73,,,52,,KNYC,D,observation,-15
+2014-01-11 08:51:00,OVC,,,,,,1389455460,,KNYC,,170,,,,2600,,,1389448260,54,,0.5,26,,Nyc/Central Park,7,,,,S,Cloudy,54,,54,,54,93,29.71,,,52,,KNYC,D,observation,-20
+2014-01-11 09:04:00,OVC,,,,,,1389456240,,KNYC,,180,,,,2600,,,1389449040,55,,2,26,,Nyc/Central Park,7,,,,S,Cloudy,55,,55,,55,93,29.73,,,53,,KNYC,D,observation,-26
+2014-01-11 09:33:00,OVC,,,,,,1389457980,,KNYC,,170,,,,2600,,,1389450780,54,,1,26,,Nyc/Central Park,8,,,,S,Cloudy,54,,54,,54,93,29.71,,,52,,KNYC,D,observation,-43
+2014-01-11 09:51:00,OVC,,,,,Falling Rapidly,1389459060,,KNYC,,170,,,,2600,,,1389451860,53,,0.5,26,,Nyc/Central Park,8,,,,S,Cloudy,53,,53,2,53,96,29.67,,,52,,KNYC,D,observation,-54
+2014-01-11 10:15:00,OVC,,,,,,1389460500,,KNYC,,170,,,,2600,,,1389453300,53,,1,26,,Nyc/Central Park,6,0.02,,,S,Cloudy,53,,53,,53,93,29.66,,,51,,KNYC,D,observation,-69
+2014-01-11 10:26:00,OVC,,,,,,1389461160,,KNYC,,180,22,,,2600,,,1389453960,54,,2,26,,Nyc/Central Park,9,0.02,,,S,Cloudy,54,,54,,54,93,29.65,,,52,,KNYC,D,observation,-75
+2014-01-11 10:34:00,OVC,,,,,,1389461640,,KNYC,,,22,,,2600,,,1389454440,55,,4,26,,Nyc/Central Park,7,0.02,,,VAR,Cloudy,55,,55,,55,89,29.65,,,52,,KNYC,D,observation,-80
+2014-01-11 11:51:00,OVC,,,,,,1389466260,,KNYC,,180,20,,,2600,,,1389459060,56,,5,26,,Nyc/Central Park,10,0.01,,,S,Cloudy,56,,56,,56,93,29.52,,,54,,KNYC,D,observation,-107
+2014-01-11 12:09:00,OVC,,,,,,1389467340,,KNYC,,190,24,,,2600,,,1389460140,57,,6,26,,Nyc/Central Park,9,,,,S,Cloudy,57,,57,,57,89,29.52,,,54,,KNYC,D,observation,-107
+2014-01-11 12:51:00,OVC,,57,51,,Falling Rapidly,1389469860,,KNYC,,180,22,,,2600,,,1389462660,55,,4,26,,Nyc/Central Park,12,,,,S,Cloudy,55,,55,2,55,93,29.45,,,53,,KNYC,D,observation,-99
+2014-01-11 13:39:00,OVC,,,,,,1389472740,,KNYC,,,,,,2600,,,1389465540,55,,8,26,,Nyc/Central Park,7,,,,VAR,Cloudy,55,,55,,55,93,29.43,,,53,,KNYC,D,observation,-77
+2014-01-11 13:51:00,OVC,,,,,,1389473460,,KNYC,,160,16,,,2600,,,1389466260,55,,7,26,,Nyc/Central Park,8,,,,SSE,Cloudy,55,,55,,55,93,29.38,,,53,,KNYC,D,observation,-69
+2014-01-11 14:23:00,OVC,,,,,,1389475380,,KNYC,,180,20,,,2600,,,1389468180,55,,5,26,,Nyc/Central Park,10,,,,S,Cloudy,55,,55,,55,93,29.37,,,53,,KNYC,D,observation,-49
+2014-01-11 14:39:00,OVC,,,,,,1389476340,,KNYC,,170,21,,,2600,,,1389469140,56,,2,26,,Nyc/Central Park,9,,,,S,Cloudy,56,,56,,56,93,29.36,,,54,,KNYC,D,observation,-40
+2014-01-11 14:51:00,OVC,,,,,,1389477060,,KNYC,,170,17,,,2600,,,1389469860,56,,2,26,,Nyc/Central Park,9,,,,S,Cloudy,56,,56,,56,93,29.32,,,54,,KNYC,D,observation,-33
+2014-01-11 15:16:00,OVC,,,,,,1389478560,,KNYC,,180,18,,,2600,,,1389471360,56,,1,26,,Nyc/Central Park,8,0.0,,,S,Cloudy,56,,56,,56,93,29.34,,,54,,KNYC,D,observation,-20
+2014-01-11 15:51:00,OVC,,,,,Falling,1389480660,,KNYC,,170,,,,2600,,,1389473460,55,,1,26,,Nyc/Central Park,9,0.0,,,S,Cloudy,55,,55,2,55,93,29.28,,,53,,KNYC,D,observation,-8
+2014-01-11 16:25:00,OVC,,,,,,1389482700,,KNYC,,170,,,,2600,,,1389475500,54,,2,26,,Nyc/Central Park,9,0.01,,,S,Cloudy,54,,54,,54,93,29.3,,,52,,KNYC,D,observation,-5
+2014-01-11 16:43:00,OVC,,,,,,1389483780,,KNYC,,,18,,,2600,,,1389476580,54,,2,26,,Nyc/Central Park,6,0.02,,,VAR,Cloudy,54,Low,54,,54,93,29.31,,,52,,KNYC,D,observation,0
+2014-01-11 16:51:00,OVC,,,,,,1389484260,,KNYC,,,23,,,2600,,,1389477060,56,,5,26,,Nyc/Central Park,7,0.02,,,VAR,Cloudy,56,Low,56,,56,93,29.28,,,54,,KNYC,D,observation,0
+2014-01-11 16:56:00,OVC,,,,,,1389484560,,KNYC,,,23,,,2600,,,1389477360,57,,10,26,,Nyc/Central Park,7,0.01,,,VAR,Cloudy,57,Low,57,,57,89,29.29,,,54,,KNYC,D,observation,0
+2014-01-11 17:22:00,OVC,,,,,,1389486120,,KNYC,,,,,,2600,,,1389478920,57,,1,26,,Nyc/Central Park,7,0.04,,,VAR,Cloudy,57,Low,57,,57,89,29.31,,,54,,KNYC,D,observation,0
+2014-01-11 17:51:00,OVC,,,,,,1389487860,,KNYC,,,,,,2600,,,1389480660,57,,3,26,,Nyc/Central Park,7,0.16,,,VAR,Cloudy,57,Low,57,,57,93,29.31,,,55,,KNYC,N,observation,0
+2014-01-11 18:51:00,OVC,,58,54,,Falling Rapidly,1389491460,,KNYC,,,,,,2600,,,1389484260,57,,6,26,,Nyc/Central Park,3,0.1,,,VAR,Cloudy,57,Low,57,2,57,89,29.27,,,54,,KNYC,N,observation,0
+2014-01-11 19:51:00,OVC,,,,,,1389495060,,KNYC,,220,,,,2600,,,1389487860,57,,10,26,,Nyc/Central Park,6,0.04,,,SW,Cloudy,57,Low,57,,57,83,29.23,,,52,,KNYC,N,observation,0
+2014-01-11 20:51:00,BKN,,,,,,1389498660,,KNYC,,180,,,,2700,,,1389491460,55,,10,27,,Nyc/Central Park,7,0.01,,,S,Mostly Cloudy,55,Low,55,,55,89,29.15,,,52,,KNYC,N,observation,0
+2014-01-11 21:51:00,OVC,,,,,Steady,1389502260,,KNYC,,,20,,,2600,,,1389495060,54,,10,26,,Nyc/Central Park,7,,,,VAR,Cloudy,54,Low,54,0,54,93,29.26,,,52,,KNYC,N,observation,0
+2014-01-11 22:31:00,OVC,,,,,,1389504660,,KNYC,,240,16,,,2600,,,1389497460,56,,10,26,,Nyc/Central Park,10,,,,WSW,Cloudy,56,Low,56,,56,87,29.27,,,52,,KNYC,N,observation,0
+2014-01-11 22:51:00,OVC,,,,,,1389505860,,KNYC,,250,18,,,2600,,,1389498660,55,,10,26,,Nyc/Central Park,10,,,,WSW,Cloudy,55,Low,55,,55,86,29.25,,,51,,KNYC,N,observation,0
+2014-01-11 23:01:00,OVC,,,,,,1389506460,,KNYC,,,18,,,2600,,,1389499260,56,,10,26,,Nyc/Central Park,6,,,,VAR,Cloudy,56,Low,56,,56,84,29.28,,,51,,KNYC,N,observation,0
+2014-01-11 23:13:00,OVC,,,,,,1389507180,,KNYC,,240,,,,2600,,,1389499980,55,,10,26,,Nyc/Central Park,8,,,,WSW,Cloudy,55,Low,55,,55,86,29.27,,,51,,KNYC,N,observation,0
+2014-01-11 23:44:00,OVC,,,,,,1389509040,,KNYC,,250,17,,,2600,,,1389501840,54,,10,26,,Nyc/Central Park,9,,,,WSW,Cloudy,54,Low,54,,54,86,29.25,,,50,,KNYC,N,observation,0
+2014-01-11 23:51:00,OVC,,58,37,,,1389509460,,KNYC,,250,17,,,2600,,,1389502260,55,,10,26,,Nyc/Central Park,7,,,,WSW,Cloudy,55,Low,55,,55,83,29.22,,,50,,KNYC,N,observation,0
+2014-01-12 00:05:00,OVC,,,,,,1389510300,,KNYC,,,,,,2600,,,1389503100,,,10,26,,Nyc/Central Park,,,,,,Cloudy,54,Low,54,,54,86,29.25,,,50,,KNYC,N,observation,0
+2014-01-12 00:21:00,OVC,,,,,,1389511260,,KNYC,,220,,,,2600,,,1389504060,54,,10,26,,Nyc/Central Park,5,,,,SW,Cloudy,54,Low,54,,54,86,29.25,,,50,,KNYC,N,observation,0
+2014-01-12 00:29:00,OVC,,,,,,1389511740,,KNYC,,,,,,2600,,,1389504540,53,,4,26,,Nyc/Central Park,5,0.0,,,VAR,Cloudy,53,Low,53,,53,89,29.26,,,50,,KNYC,N,observation,0
+2014-01-12 00:33:00,OVC,,,,,,1389511980,,KNYC,,250,18,,,2600,,,1389504780,53,,1,26,,Nyc/Central Park,8,0.03,,,WSW,Cloudy,53,Low,53,,53,89,29.27,,,50,,KNYC,N,observation,0
+2014-01-12 00:38:00,OVC,,,,,,1389512280,,KNYC,,280,18,,,2600,,,1389505080,53,,2,26,,Nyc/Central Park,12,0.05,,,W,Cloudy,53,Low,53,,53,83,29.26,,,48,,KNYC,N,observation,0
+2014-01-12 00:46:00,OVC,,,,,,1389512760,,KNYC,,280,21,,,2600,,,1389505560,52,,10,26,,Nyc/Central Park,12,0.05,,,W,Cloudy,52,Low,52,,52,82,29.27,,,46,,KNYC,N,observation,0
+2014-01-12 00:51:00,OVC,,57,52,,Steady,1389513060,,KNYC,,270,22,,,2600,,,1389505860,52,,10,26,,Nyc/Central Park,12,0.05,,,W,Cloudy,52,Low,52,0,52,77,29.25,,,45,,KNYC,N,observation,0
+2014-01-12 01:51:00,OVC,,,,,,1389516660,,KNYC,,280,,,,2600,,,1389509460,51,,10,26,,Nyc/Central Park,10,0.0,,,W,Cloudy,51,Low,51,,51,68,29.28,,,41,,KNYC,N,observation,0
+2014-01-12 02:51:00,OVC,,,,,,1389520260,,KNYC,,280,20,,,2600,,,1389513060,50,,10,26,,Nyc/Central Park,13,,,,W,Cloudy,50,Low,50,,50,63,29.3,,,38,,KNYC,N,observation,0
+2014-01-12 03:51:00,BKN,,,,,Rising,1389523860,,KNYC,,280,21,,,2700,,,1389516660,44,,10,27,,Nyc/Central Park,8,,,,W,Mostly Cloudy,48,Low,44,1,48,61,29.32,,,35,,KNYC,N,observation,0
+2014-01-12 04:51:00,SCT,,,,,,1389527460,,KNYC,,290,18,,,2900,,,1389520260,41,,10,29,,Nyc/Central Park,9,,,,WNW,Partly Cloudy,46,Low,41,,46,61,29.35,,,33,,KNYC,N,observation,0
+2014-01-12 05:51:00,FEW,,,,,,1389531060,,KNYC,,300,23,,,3300,,,1389523860,40,,10,33,,Nyc/Central Park,9,,,,WNW,Fair,45,Low,40,,45,53,29.37,,,29,,KNYC,N,observation,0
+2014-01-12 06:51:00,SCT,,51,44,,Rising Rapidly,1389534660,,KNYC,,290,18,,,2900,,,1389527460,41,,10,29,,Nyc/Central Park,6,,,,WNW,Partly Cloudy,44,Low,41,1,44,51,29.42,,,27,,KNYC,N,observation,0
+2014-01-12 07:51:00,OVC,,,,,,1389538260,,KNYC,,290,18,,,2600,,,1389531060,40,,10,26,,Nyc/Central Park,8,,,,WNW,Cloudy,44,,40,,44,53,29.47,,,28,,KNYC,N,observation,-4
+2014-01-12 08:51:00,OVC,,,,,,1389541860,,KNYC,,310,24,,,2600,,,1389534660,40,,10,26,,Nyc/Central Park,8,,,,NW,Cloudy,44,,40,,44,49,29.53,,,26,,KNYC,D,observation,-20
+2014-01-12 09:51:00,OVC,,,,,Rising,1389545460,,KNYC,,300,17,,,2600,,,1389538260,40,,10,26,,Nyc/Central Park,9,,,,WNW,Cloudy,45,,40,1,45,46,29.57,,,25,,KNYC,D,observation,-55
+2014-01-12 10:51:00,OVC,,,,,,1389549060,,KNYC,,,29,,,2600,,,1389541860,41,,10,26,,Nyc/Central Park,6,,,,VAR,Cloudy,44,,41,,44,47,29.59,,,25,,KNYC,D,observation,-90
+2014-01-12 11:51:00,OVC,,,,,,1389552660,,KNYC,,290,25,,,2600,,,1389545460,40,,10,26,,Nyc/Central Park,8,,,,WNW,Cloudy,44,,40,,44,47,29.6,,,25,,KNYC,D,observation,-108
+2014-01-12 12:51:00,OVC,,45,44,,Rising,1389556260,,KNYC,,,21,,,2600,,,1389549060,40,,10,26,,Nyc/Central Park,7,,,,VAR,Cloudy,44,,40,1,44,45,29.62,,,24,,KNYC,D,observation,-101
+2014-01-12 13:51:00,BKN,,,,,,1389559860,,KNYC,,280,26,,,2800,,,1389552660,39,,10,28,,Nyc/Central Park,14,,,,W,Mostly Cloudy,45,,39,,45,44,29.62,,,24,,KNYC,D,observation,-52
+2014-01-12 14:51:00,SCT,,,,,,1389563460,,KNYC,,300,23,,,3000,,,1389556260,41,,10,30,,Nyc/Central Park,8,,,,WNW,Partly Cloudy,45,,41,,45,44,29.67,,,24,,KNYC,D,observation,-16
+2014-01-12 15:51:00,BKN,,,,,Rising Rapidly,1389567060,,KNYC,,,,,,2800,,,1389559860,,,10,28,,Nyc/Central Park,,,,,,Mostly Cloudy,45,,,1,45,44,29.73,,,24,,KNYC,D,observation,-6
+2014-01-12 16:51:00,SCT,,,,,,1389570660,,KNYC,,,16,,,3000,,,1389563460,40,,10,30,,Nyc/Central Park,7,,,,VAR,Partly Cloudy,44,Low,40,,44,47,29.75,,,25,,KNYC,D,observation,0
+2014-01-12 17:51:00,CLR,,,,,,1389574260,,KNYC,,290,,,,3300,,,1389567060,37,,10,33,,Nyc/Central Park,9,,,,WNW,Fair,42,Low,37,,42,51,29.79,,,25,,KNYC,N,observation,0
+2014-01-12 18:51:00,CLR,,45,41,,Rising Rapidly,1389577860,,KNYC,,,,,,3300,,,1389570660,38,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,42,Low,38,1,42,51,29.83,,,25,,KNYC,N,observation,0
+2014-01-12 19:51:00,CLR,,,,,,1389581460,,KNYC,,280,,,,3300,,,1389574260,35,,10,33,,Nyc/Central Park,9,,,,W,Fair,41,Low,35,,41,53,29.83,,,25,,KNYC,N,observation,0
+2014-01-12 20:51:00,CLR,,,,,,1389585060,,KNYC,,,,,,3300,,,1389577860,39,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,39,Low,39,,39,57,29.86,,,25,,KNYC,N,observation,0
+2014-01-12 21:51:00,CLR,,,,,Rising Rapidly,1389588660,,KNYC,,250,,,,3300,,,1389581460,35,,10,33,,Nyc/Central Park,6,,,,WSW,Fair,39,Low,35,1,39,57,29.87,,,25,,KNYC,N,observation,0
+2014-01-12 22:51:00,CLR,,,,,,1389592260,,KNYC,,,,,,3300,,,1389585060,33,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,38,Low,33,,38,60,29.89,,,25,,KNYC,N,observation,0
+2014-01-12 23:51:00,CLR,,54,38,,,1389595860,,KNYC,,270,,,,3300,,,1389588660,33,,10,33,,Nyc/Central Park,8,,,,W,Fair,39,Low,33,,39,57,29.9,,,25,,KNYC,N,observation,0
+2014-01-13 00:51:00,CLR,,42,38,,Rising,1389599460,,KNYC,,250,,,,3300,,,1389592260,33,,10,33,,Nyc/Central Park,6,,,,WSW,Fair,38,Low,33,1,38,60,29.91,,,25,,KNYC,N,observation,0
+2014-01-13 01:51:00,CLR,,,,,,1389603060,,KNYC,,,,,,3300,,,1389595860,33,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,38,Low,33,,38,60,29.93,,,25,,KNYC,N,observation,0
+2014-01-13 02:51:00,CLR,,,,,,1389606660,,KNYC,,,,,,3300,,,1389599460,37,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,37,Low,37,,37,62,29.94,,,25,,KNYC,N,observation,0
+2014-01-13 03:51:00,CLR,,,,,Steady,1389610260,,KNYC,,260,,,,3300,,,1389603060,32,,10,33,,Nyc/Central Park,6,,,,W,Fair,37,Low,32,0,37,62,29.93,,,25,,KNYC,N,observation,0
+2014-01-13 04:51:00,CLR,,,,,,1389613860,,KNYC,,,,,,3300,,,1389606660,37,,10,33,,Nyc/Central Park,,,,,CALM,Fair,37,Low,37,,37,65,29.95,,,26,,KNYC,N,observation,0
+2014-01-13 05:51:00,CLR,,,,,,1389617460,,KNYC,,260,,,,3300,,,1389610260,38,,10,33,,Nyc/Central Park,3,,,,W,Fair,38,Low,38,,38,62,29.95,,,26,,KNYC,N,observation,0
+2014-01-13 06:51:00,CLR,,39,37,,Steady,1389621060,,KNYC,,,,,,3300,,,1389613860,37,,10,33,,Nyc/Central Park,,,,,CALM,Fair,37,Low,37,0,37,67,29.93,,,27,,KNYC,N,observation,0
+2014-01-13 07:51:00,CLR,,,,,,1389624660,,KNYC,,,,,,3300,,,1389617460,40,,9,33,,Nyc/Central Park,,,,,CALM,Fair,40,Low,40,,40,60,29.95,,,27,,KNYC,N,observation,0
+2014-01-13 08:51:00,CLR,,,,,,1389628260,,KNYC,,60,,,,3400,,,1389621060,38,,7,34,,Nyc/Central Park,5,,,,ENE,Fair,41,Low,38,,41,62,29.97,,,29,,KNYC,D,observation,0
+2014-01-13 09:51:00,CLR,,,,,Steady,1389631860,,KNYC,,,,,,3400,,,1389624660,43,,9,34,,Nyc/Central Park,5,,,,VAR,Fair,45,Low,43,0,45,53,29.96,,,29,,KNYC,D,observation,0
+2014-01-13 10:51:00,CLR,,,,,,1389635460,,KNYC,,,,,,3400,,,1389628260,47,,10,34,,Nyc/Central Park,,,,,CALM,Fair,47,Low,47,,47,52,29.94,,,30,,KNYC,D,observation,0
+2014-01-13 11:51:00,CLR,,,,,,1389639060,,KNYC,,,,,,3400,,,1389631860,,,10,34,,Nyc/Central Park,,,,,,Fair,48,Low,,,48,58,29.89,,,34,,KNYC,D,observation,0
+2014-01-13 12:51:00,CLR,,50,37,,Falling Rapidly,1389642660,,KNYC,,,,,,3400,,,1389635460,50,,10,34,,Nyc/Central Park,5,,,,VAR,Fair,50,Low,50,2,50,61,29.86,,,37,,KNYC,D,observation,0
+2014-01-13 13:51:00,CLR,,,,,,1389646260,,KNYC,,170,,,,3400,,,1389639060,47,,10,34,,Nyc/Central Park,5,,,,S,Fair,49,Low,47,,49,66,29.85,,,38,,KNYC,D,observation,0
+2014-01-13 14:51:00,CLR,,,,,,1389649860,,KNYC,,,,,,3400,,,1389642660,50,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,50,Low,50,,50,59,29.82,,,36,,KNYC,D,observation,0
+2014-01-13 15:51:00,CLR,,,,,Falling,1389653460,,KNYC,,,,,,3400,,,1389646260,50,,10,34,,Nyc/Central Park,7,,,,VAR,Fair,50,Low,50,2,50,59,29.81,,,36,,KNYC,D,observation,0
+2014-01-13 16:51:00,CLR,,,,,,1389657060,,KNYC,,180,24,,,3400,,,1389649860,45,,10,34,,Nyc/Central Park,8,,,,S,Fair,49,Low,45,,49,59,29.79,,,35,,KNYC,D,observation,0
+2014-01-13 17:51:00,CLR,,,,,,1389660660,,KNYC,,180,18,,,3400,,,1389653460,45,,10,34,,Nyc/Central Park,8,,,,S,Fair,49,Low,45,,49,59,29.81,,,35,,KNYC,D,observation,0
+2014-01-13 18:51:00,CLR,,51,48,,Falling Rapidly,1389664260,,KNYC,,190,21,,,3300,,,1389657060,44,,10,33,,Nyc/Central Park,12,,,,S,Fair,49,Low,44,2,49,56,29.79,,,34,,KNYC,N,observation,0
+2014-01-13 19:51:00,CLR,,,,,,1389667860,,KNYC,,,,,,3300,,,1389660660,50,,10,33,,Nyc/Central Park,7,,,,VAR,Fair,50,Low,50,,50,52,29.77,,,33,,KNYC,N,observation,0
+2014-01-13 21:51:00,CLR,,,,,Falling,1389675060,,KNYC,,170,17,,,3300,,,1389667860,44,,10,33,,Nyc/Central Park,8,,,,S,Fair,48,Low,44,2,48,61,29.76,,,35,,KNYC,N,observation,0
+2014-01-13 22:51:00,CLR,,,,,,1389678660,,KNYC,,,,,,3300,,,1389671460,47,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,49,Low,47,,49,56,29.74,,,34,,KNYC,N,observation,0
+2014-01-13 23:51:00,CLR,,51,37,,,1389682260,,KNYC,,180,,,,3300,,,1389675060,50,,10,33,,Nyc/Central Park,7,,,,S,Fair,50,Low,50,,50,57,29.73,,,35,,KNYC,N,observation,0
+2014-01-14 00:51:00,CLR,,50,48,,Falling,1389685860,,KNYC,,180,,,,3300,,,1389678660,46,,10,33,,Nyc/Central Park,7,,,,S,Fair,49,Low,46,2,49,61,29.71,,,36,,KNYC,N,observation,0
+2014-01-14 01:51:00,CLR,,,,,,1389689460,,KNYC,,180,,,,3300,,,1389682260,46,,10,33,,Nyc/Central Park,7,,,,S,Fair,49,Low,46,,49,64,29.7,,,37,,KNYC,N,observation,0
+2014-01-14 02:51:00,SCT,,,,,,1389693060,,KNYC,,180,,,,2900,,,1389685860,47,,10,29,,Nyc/Central Park,6,,,,S,Partly Cloudy,49,Low,47,,49,66,29.67,,,38,,KNYC,N,observation,0
+2014-01-14 03:51:00,OVC,,,,,Falling Rapidly,1389696660,,KNYC,,,,,,2600,,,1389689460,47,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,49,Low,47,2,49,66,29.66,,,38,,KNYC,N,observation,0
+2014-01-14 04:51:00,OVC,,,,,,1389700260,,KNYC,,220,21,,,2600,,,1389693060,51,,10,26,,Nyc/Central Park,10,,,,SW,Cloudy,51,Low,51,,51,59,29.66,,,37,,KNYC,N,observation,0
+2014-01-14 05:51:00,OVC,,,,,,1389703860,,KNYC,,240,,,,2600,,,1389696660,50,,10,26,,Nyc/Central Park,3,0.0,,,WSW,Cloudy,50,Low,50,,50,66,29.64,,,39,,KNYC,N,observation,0
+2014-01-14 06:51:00,OVC,,52,48,,Falling Rapidly,1389707460,,KNYC,,,20,,,2600,,,1389700260,50,,10,26,,Nyc/Central Park,3,,,,VAR,Cloudy,50,Low,50,2,50,66,29.64,,,39,,KNYC,N,observation,0
+2014-01-14 07:51:00,OVC,,,,,,1389711060,,KNYC,,,,,,2600,,,1389703860,46,,9,26,,Nyc/Central Park,5,0.01,,,VAR,Cloudy,48,,46,,48,80,29.64,,,42,,KNYC,N,observation,-4
+2014-01-14 08:51:00,OVC,,,,,,1389714660,,KNYC,,160,,,,2600,,,1389707460,44,,6,26,,Nyc/Central Park,7,0.04,,,SSE,Cloudy,47,,44,,47,83,29.64,,,42,,KNYC,D,observation,-21
+2014-01-14 09:51:00,OVC,,,,,Falling Rapidly,1389718260,,KNYC,,150,,,,2600,,,1389711060,44,,9,26,,Nyc/Central Park,6,0.02,,,SSE,Cloudy,47,,44,2,47,90,29.61,,,44,,KNYC,D,observation,-56
+2014-01-14 10:51:00,OVC,,,,,,1389721860,,KNYC,,150,,,,2600,,,1389714660,46,,7,26,,Nyc/Central Park,5,0.01,,,SSE,Cloudy,48,,46,,48,89,29.59,,,45,,KNYC,D,observation,-92
+2014-01-14 12:41:00,OVC,,,,,,1389728460,,KNYC,,250,,,,2600,,,1389721260,45,,7,26,,Nyc/Central Park,6,0.0,,,WSW,Cloudy,48,,45,,48,89,29.58,,,45,,KNYC,D,observation,-107
+2014-01-14 13:51:00,OVC,,,,,,1389732660,,KNYC,,,,,,2600,,,1389725460,48,,2,26,,Nyc/Central Park,,,,,CALM,Cloudy,48,,48,,48,89,29.53,,,45,,KNYC,D,observation,-73
+2014-01-14 14:51:00,OVC,,,,,,1389736260,,KNYC,,290,,,,2600,,,1389729060,45,,2,26,,Nyc/Central Park,7,0.08,,,WNW,Cloudy,48,,45,,48,89,29.51,,,45,,KNYC,D,observation,-35
+2014-01-14 15:51:00,OVC,,,,,Rising Rapidly,1389739860,,KNYC,,310,,,,2600,,,1389732660,44,,5,26,,Nyc/Central Park,6,0.06,,,NW,Cloudy,47,,44,1,47,90,29.52,,,44,,KNYC,D,observation,-8
+2014-01-14 16:51:00,OVC,,,,,,1389743460,,KNYC,,300,,,,2600,,,1389736260,47,,10,26,,Nyc/Central Park,3,0.02,,,WNW,Cloudy,47,Low,47,,47,83,29.51,,,42,,KNYC,D,observation,0
+2014-01-14 17:51:00,OVC,,,,,,1389747060,,KNYC,,290,,,,2600,,,1389739860,44,,10,26,,Nyc/Central Park,5,0.05,,,WNW,Cloudy,46,Low,44,,46,89,29.53,,,43,,KNYC,D,observation,0
+2014-01-14 18:51:00,BKN,,49,46,,Rising,1389750660,,KNYC,,280,,,,2700,,,1389743460,46,,10,27,,Nyc/Central Park,3,0.01,,,W,Mostly Cloudy,46,Low,46,1,46,86,29.53,,,42,,KNYC,N,observation,0
+2014-01-14 19:51:00,OVC,,,,,,1389754260,,KNYC,,,,,,2600,,,1389747060,42,,10,26,,Nyc/Central Park,7,,,,VAR,Cloudy,46,Low,42,,46,83,29.6,,,41,,KNYC,N,observation,0
+2014-01-14 20:51:00,OVC,,,,,,1389757860,,KNYC,,,,,,2600,,,1389750660,47,,10,26,,Nyc/Central Park,,0.0,,,CALM,Cloudy,47,Low,47,,47,80,29.64,,,41,,KNYC,N,observation,0
+2014-01-14 21:51:00,FEW,,,,,Rising,1389761460,,KNYC,,260,,,,3300,,,1389754260,44,,10,33,,Nyc/Central Park,7,,,,W,Fair,47,Low,44,1,47,80,29.67,,,41,,KNYC,N,observation,0
+2014-01-14 22:51:00,CLR,,,,,,1389765060,,KNYC,,,,,,3300,,,1389757860,45,,7,33,,Nyc/Central Park,,,,,CALM,Fair,45,Low,45,,45,82,29.66,,,40,,KNYC,N,observation,0
+2014-01-14 23:51:00,OVC,,52,44,,,1389768660,,KNYC,,290,,,,2600,,,1389761460,42,,8,26,,Nyc/Central Park,6,,,,WNW,Cloudy,45,Low,42,,45,82,29.68,,,40,,KNYC,N,observation,0
+2014-01-15 00:51:00,SCT,,,,,,1389772260,,KNYC,,270,,,,2900,,,1389765060,44,,8,29,,Nyc/Central Park,3,,,,W,Partly Cloudy,44,Low,44,,44,85,29.68,,,40,,KNYC,N,observation,0
+2014-01-15 01:51:00,,,,,,,1389775860,,KNYC,,,,,,,,,1389768660,,,,,,Nyc/Central Park,,,,,,,41,Low,,,41,87,,,,37,,KNYC,N,observation,0
+2014-01-15 02:51:00,,,,,,,1389779460,,KNYC,,,,,,,,,1389772260,,,,,,Nyc/Central Park,,,,,,,41,Low,,,41,87,,,,37,,KNYC,N,observation,0
+2014-01-15 03:51:00,,,,,,,1389783060,,KNYC,,,,,,,,,1389775860,,,,,,Nyc/Central Park,,,,,,,41,Low,,,41,87,,,,37,,KNYC,N,observation,0
+2014-01-15 04:51:00,,,,,,,1389786660,,KNYC,,,,,,,,,1389779460,,,,,,Nyc/Central Park,,,,,,,39,Low,,,39,87,,,,36,,KNYC,N,observation,0
+2014-01-15 05:51:00,,,,,,,1389790260,,KNYC,,,,,,,,,1389783060,,,,,,Nyc/Central Park,,,,,,,39,Low,,,39,81,,,,34,,KNYC,N,observation,0
+2014-01-15 06:51:00,,,,,,,1389793860,,KNYC,,,,,,,,,1389786660,,,,,,Nyc/Central Park,,,,,,,39,Low,,,39,87,,,,36,,KNYC,N,observation,0
+2014-01-15 07:51:00,,,,,,,1389797460,,KNYC,,,,,,,,,1389790260,,,,,,Nyc/Central Park,,,,,,,39,Low,,,39,87,,,,36,,KNYC,N,observation,0
+2014-01-15 08:51:00,,,,,,,1389801060,,KNYC,,,,,,-99999,,,1389793860,,,,,,Nyc/Central Park,,,,,,,41,Low,,,41,87,,,,37,,KNYC,D,observation,0
+2014-01-15 09:51:00,,,,,,,1389804660,,KNYC,,,,,,-99999,,,1389797460,,,,,,Nyc/Central Park,,,,,,,43,Low,,,43,76,,,,36,,KNYC,D,observation,0
+2014-01-15 11:51:00,,,,,,,1389811860,,KNYC,,,,,,-99999,,,1389804660,,,,,,Nyc/Central Park,,,,,,,,Low,,,,,,,,,,KNYC,D,observation,0
+2014-01-15 12:51:00,,,,,,,1389815460,,KNYC,,,,,,-99999,,,1389808260,,,,,,Nyc/Central Park,,,,,,,,Low,,,,,,,,,,KNYC,D,observation,0
+2014-01-15 14:51:00,CLR,,,,,,1389822660,,KNYC,,,,,,3400,,,1389815460,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,76,,,,37,,KNYC,D,observation,0
+2014-01-15 15:51:00,CLR,,,,,,1389826260,,KNYC,,,,,,3400,,,1389819060,,,6,34,,Nyc/Central Park,,,,,,Fair,43,Low,,,43,81,,,,37,,KNYC,D,observation,0
+2014-01-15 16:51:00,CLR,,,,,,1389829860,,KNYC,,,,,,3400,,,1389822660,,,6,34,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,87,,,,37,,KNYC,D,observation,0
+2014-01-15 17:51:00,CLR,,,,,,1389833460,,KNYC,,,,,,3400,,,1389826260,,,6,34,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,87,,,,37,,KNYC,D,observation,0
+2014-01-15 18:51:00,CLR,,,,,,1389837060,,KNYC,,,,,,3300,,,1389829860,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,87,,,,37,,KNYC,N,observation,0
+2014-01-15 19:51:00,CLR,,,,,,1389840660,,KNYC,,,,,,3300,,,1389833460,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,93,,,,39,,KNYC,N,observation,0
+2014-01-15 20:51:00,CLR,,,,,,1389844260,,KNYC,,,,,,3300,,,1389837060,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,93,,,,39,,KNYC,N,observation,0
+2014-01-15 21:51:00,CLR,,,,,,1389847860,,KNYC,,,,,,3300,,,1389840660,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,93,,,,39,,KNYC,N,observation,0
+2014-01-15 22:51:00,CLR,,,,,,1389851460,,KNYC,,,,,,3300,,,1389844260,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,93,,,,39,,KNYC,N,observation,0
+2014-01-15 23:51:00,CLR,,,,,,1389855060,,KNYC,,,,,,3300,,,1389847860,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,93,,,,39,,KNYC,N,observation,0
+2014-01-16 00:51:00,CLR,,,,,,1389858660,,KNYC,,,,,,3300,,,1389851460,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,93,,,,39,,KNYC,N,observation,0
+2014-01-16 01:51:00,CLR,,,,,,1389862260,,KNYC,,,,,,3300,,,1389855060,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,93,,,,37,,KNYC,N,observation,0
+2014-01-16 02:51:00,CLR,,,,,,1389865860,,KNYC,,,,,,3300,,,1389858660,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,75,,,,,,KNYC,N,observation,0
+2014-01-16 03:51:00,CLR,,,,,,1389869460,,KNYC,,,,,,3300,,,1389862260,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,61,,,,28,,KNYC,N,observation,0
+2014-01-16 04:51:00,CLR,,,,,,1389873060,,KNYC,,,,,,3300,,,1389865860,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,70,,,,30,,KNYC,N,observation,0
+2014-01-16 05:51:00,CLR,,,,,,1389876660,,KNYC,,,,,,3300,,,1389869460,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,70,,,,30,,KNYC,N,observation,0
+2014-01-16 06:51:00,CLR,,,,,,1389880260,,KNYC,,,,,,3300,,,1389873060,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,75,,,,,,KNYC,N,observation,0
+2014-01-16 07:51:00,CLR,,,,,,1389883860,,KNYC,,,,,,3300,,,1389876660,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,81,,,,34,,KNYC,N,observation,0
+2014-01-16 08:51:00,CLR,,,,,,1389887460,,KNYC,,,,,,3400,,,1389880260,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,81,,,,34,,KNYC,D,observation,0
+2014-01-16 09:51:00,CLR,,,,,,1389891060,,KNYC,,,,,,3400,,,1389883860,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,75,,,,,,KNYC,D,observation,0
+2014-01-16 10:51:00,CLR,,,,,,1389894660,,KNYC,,,,,,3400,,,1389887460,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,75,,,,,,KNYC,D,observation,0
+2014-01-16 11:51:00,CLR,,,,,,1389898260,,KNYC,,,,,,3400,,,1389891060,,,6,34,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,81,,,,,,KNYC,D,observation,0
+2014-01-16 12:51:00,CLR,,,,,,1389901860,,KNYC,,,,,,3400,,,1389894660,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,70,,,,30,,KNYC,D,observation,0
+2014-01-16 13:45:00,OVC,,,,,,1389905100,,KNYC,,340,,,,2600,,,1389897900,37,,10,26,,Nyc/Central Park,5,,,,NNW,Cloudy,40,,37,,40,65,29.68,,,29,,KNYC,D,observation,-80
+2014-01-16 14:51:00,,,,,,,1389909060,,KNYC,,,,,,-99999,,,1389901860,,,,,,Nyc/Central Park,,,,,,,38,Low,,,38,67,29.73,,,28,,KNYC,D,observation,0
+2014-01-16 15:51:00,,,,,,,1389912660,,KNYC,,,,,,-99999,,,1389905460,,,,,,Nyc/Central Park,,,,,,,38,Low,,,38,67,29.73,,,28,,KNYC,D,observation,0
+2014-01-16 16:51:00,,,,,,,1389916260,,KNYC,,,,,,-99999,,,1389909060,,,,,,Nyc/Central Park,,,,,,,38,Low,,,38,68,29.74,,,28,,KNYC,D,observation,0
+2014-01-16 17:51:00,,,,,,,1389919860,,KNYC,,,,,,-99999,,,1389912660,,,,,,Nyc/Central Park,,,,,,,37,Low,,,37,67,29.75,,,27,,KNYC,D,observation,0
+2014-01-16 18:51:00,,,,,,,1389923460,,KNYC,,,,,,,,,1389916260,,,,,,Nyc/Central Park,,,,,,,36,Low,,,36,69,29.77,,,27,,KNYC,N,observation,0
+2014-01-16 19:51:00,,,,,,,1389927060,,KNYC,,,,,,,,,1389919860,,,,,,Nyc/Central Park,,,,,,,36,Low,,,36,69,29.79,,,27,,KNYC,N,observation,0
+2014-01-16 20:51:00,,,,,,,1389930660,,KNYC,,,,,,,,,1389923460,,,,,,Nyc/Central Park,,,,,,,36,Low,,,36,69,29.8,,,27,,KNYC,N,observation,0
+2014-01-16 21:51:00,,,,,,,1389934260,,KNYC,,,,,,,,,1389927060,,,,,,Nyc/Central Park,,,,,,,36,Low,,,36,67,,,,26,,KNYC,N,observation,0
+2014-01-16 22:51:00,,,,,,,1389937860,,KNYC,,,,,,,,,1389930660,,,,,,Nyc/Central Park,,,,,,,36,Low,,,36,73,29.81,,,28,,KNYC,N,observation,0
+2014-01-16 23:51:00,,,,,,,1389941460,,KNYC,,,,,,,,,1389934260,,,,,,Nyc/Central Park,,,,,,,35,Low,,,35,74,,,,28,,KNYC,N,observation,0
+2014-01-17 00:51:00,,,,,,,1389945060,,KNYC,,,,,,,,,1389937860,,,,,,Nyc/Central Park,,,,,,,35,Low,,,35,76,,,,28,,KNYC,N,observation,0
+2014-01-17 01:51:00,,,,,,,1389948660,,KNYC,,,,,,,,,1389941460,,,,,,Nyc/Central Park,,,,,,,35,Low,,,35,71,,,,26,,KNYC,N,observation,0
+2014-01-17 02:51:00,,,,,,,1389952260,,KNYC,,,,,,,,,1389945060,,,,,,Nyc/Central Park,,,,,,,34,Low,,,34,68,,,,24,,KNYC,N,observation,0
+2014-01-17 03:51:00,,,,,,,1389955860,,KNYC,,,,,,,,,1389948660,,,,,,Nyc/Central Park,,,,,,,33,Low,,,33,61,,,,20,,KNYC,N,observation,0
+2014-01-17 04:51:00,,,,,,,1389959460,,KNYC,,,,,,,,,1389952260,,,,,,Nyc/Central Park,,,,,,,34,Low,,,34,52,,,,18,,KNYC,N,observation,0
+2014-01-17 05:51:00,,,,,,,1389963060,,KNYC,,,,,,,,,1389955860,,,,,,Nyc/Central Park,,,,,,,34,Low,,,34,52,,,,18,,KNYC,N,observation,0
+2014-01-17 06:51:00,,,,,,,1389966660,,KNYC,,,,,,,,,1389959460,,,,,,Nyc/Central Park,,,,,,,34,Low,,,34,48,,,,16,,KNYC,N,observation,0
+2014-01-17 07:51:00,CLR,,,,,,1389970260,,KNYC,,,,,,3300,,,1389963060,,,6,33,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,52,,,,18,,KNYC,N,observation,0
+2014-01-17 08:51:00,CLR,,,,,,1389973860,,KNYC,,,,,,3400,,,1389966660,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,52,,,,19,,KNYC,D,observation,0
+2014-01-17 09:51:00,CLR,,,,,,1389977460,,KNYC,,,,,,3400,,,1389970260,,,6,34,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,48,,,,19,,KNYC,D,observation,0
+2014-01-17 10:51:00,CLR,,,,,,1389981060,,KNYC,,,,,,3400,,,1389973860,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,56,,,,25,,KNYC,D,observation,0
+2014-01-17 11:51:00,CLR,,,,,,1389984660,,KNYC,,,,,,3400,,,1389977460,,,6,34,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,53,,,,25,,KNYC,D,observation,0
+2014-01-17 12:51:00,CLR,,,,,,1389988260,,KNYC,,,,,,3400,,,1389981060,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,49,,,,27,,KNYC,D,observation,0
+2014-01-17 13:51:00,CLR,,,,,,1389991860,,KNYC,,,,,,3400,,,1389984660,,,6,34,,Nyc/Central Park,,,,,,Fair,43,Low,,,43,53,,,,27,,KNYC,D,observation,0
+2014-01-17 14:51:00,CLR,,,,,,1389995460,,KNYC,,,,,,3400,,,1389988260,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,46,,,,25,,KNYC,D,observation,0
+2014-01-17 15:51:00,CLR,,,,,,1389999060,,KNYC,,,,,,3400,,,1389991860,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,46,,,,25,,KNYC,D,observation,0
+2014-01-17 16:51:00,CLR,,,,,,1390002660,,KNYC,,,,,,3400,,,1389995460,,,6,34,,Nyc/Central Park,,,,,,Fair,43,Low,,,43,46,,,,23,,KNYC,D,observation,0
+2014-01-17 17:51:00,CLR,,,,,,1390006260,,KNYC,,,,,,3400,,,1389999060,,,6,34,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,49,,,,23,,KNYC,D,observation,0
+2014-01-17 18:51:00,CLR,,,,,,1390009860,,KNYC,,,,,,3300,,,1390002660,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,49,,,,23,,KNYC,N,observation,0
+2014-01-17 19:51:00,CLR,,,,,,1390013460,,KNYC,,,,,,3300,,,1390006260,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,49,,,,23,,KNYC,N,observation,0
+2014-01-17 20:51:00,CLR,,,,,,1390017060,,KNYC,,,,,,3300,,,1390009860,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,52,,,,23,,KNYC,N,observation,0
+2014-01-17 21:51:00,CLR,,,,,,1390020660,,KNYC,,,,,,3300,,,1390013460,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,49,,,,23,,KNYC,N,observation,0
+2014-01-17 22:51:00,CLR,,,,,,1390024260,,KNYC,,,,,,3300,,,1390017060,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,56,,,,25,,KNYC,N,observation,0
+2014-01-17 23:51:00,CLR,,,,,,1390027860,,KNYC,,,,,,3300,,,1390020660,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,56,,,,25,,KNYC,N,observation,0
+2014-01-18 00:51:00,CLR,,,,,,1390031460,,KNYC,,,,,,3300,,,1390024260,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,61,,,,27,,KNYC,N,observation,0
+2014-01-18 01:51:00,CLR,,,,,,1390035060,,KNYC,,,,,,3300,,,1390027860,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,61,,,,27,,KNYC,N,observation,0
+2014-01-18 02:51:00,CLR,,,,,,1390038660,,KNYC,,,,,,3300,,,1390031460,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,65,,,,28,,KNYC,N,observation,0
+2014-01-18 03:51:00,CLR,,,,,,1390042260,,KNYC,,,,,,3300,,,1390035060,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,70,,,,30,,KNYC,N,observation,0
+2014-01-18 04:51:00,CLR,,,,,,1390045860,,KNYC,,,,,,3300,,,1390038660,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,75,,,,30,,KNYC,N,observation,0
+2014-01-18 05:51:00,CLR,,,,,,1390049460,,KNYC,,,,,,3300,,,1390042260,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,81,,,,,,KNYC,N,observation,0
+2014-01-18 06:51:00,CLR,,,,,,1390053060,,KNYC,,,,,,3300,,,1390045860,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,81,,,,,,KNYC,N,observation,0
+2014-01-18 07:51:00,CLR,,,,,,1390056660,,KNYC,,,,,,3300,,,1390049460,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,87,,,,34,,KNYC,N,observation,0
+2014-01-18 10:51:00,CLR,,,,,,1390067460,,KNYC,,,,,,3400,,,1390060260,,,6,34,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,93,,,,,,KNYC,D,observation,0
+2014-01-18 11:51:00,CLR,,,,,,1390071060,,KNYC,,,,,,3400,,,1390063860,,,6,34,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,100,,,,34,,KNYC,D,observation,0
+2014-01-18 12:51:00,CLR,,,,,,1390074660,,KNYC,,,,,,3400,,,1390067460,,,6,34,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,75,,,,30,,KNYC,D,observation,0
+2014-01-18 13:51:00,CLR,,,,,,1390078260,,KNYC,,,,,,3400,,,1390071060,,,6,34,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,75,,,,30,,KNYC,D,observation,0
+2014-01-18 14:51:00,CLR,,,,,,1390081860,,KNYC,,,,,,3400,,,1390074660,,,6,34,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,60,,,,25,,KNYC,D,observation,0
+2014-01-18 15:51:00,CLR,,,,,,1390085460,,KNYC,,,,,,3400,,,1390078260,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,56,,,,21,,KNYC,D,observation,0
+2014-01-18 16:51:00,CLR,,,,,,1390089060,,KNYC,,,,,,3400,,,1390081860,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,56,,,,21,,KNYC,D,observation,0
+2014-01-18 17:51:00,CLR,,,,,,1390092660,,KNYC,,,,,,3400,,,1390085460,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,56,,,,21,,KNYC,D,observation,0
+2014-01-18 18:51:00,CLR,,,,,,1390096260,,KNYC,,,,,,3300,,,1390089060,,,6,33,,Nyc/Central Park,,,,,,Fair,,Low,,,,60,,,,19,,KNYC,N,observation,0
+2014-01-18 19:51:00,CLR,,,,,,1390099860,,KNYC,,,,,,3300,,,1390092660,,,6,33,,Nyc/Central Park,,,,,,Fair,30,Low,,,30,64,,,,19,,KNYC,N,observation,0
+2014-01-18 20:51:00,CLR,,,,,,1390103460,,KNYC,,,,,,3300,,,1390096260,,,6,33,,Nyc/Central Park,,,,,,Fair,30,Low,,,30,60,,,,18,,KNYC,N,observation,0
+2014-01-18 21:51:00,CLR,,,,,,1390107060,,KNYC,,,,,,3300,,,1390099860,,,6,33,,Nyc/Central Park,,,,,,Fair,30,Low,,,30,60,,,,18,,KNYC,N,observation,0
+2014-01-18 22:51:00,CLR,,,,,,1390110660,,KNYC,,,,,,3300,,,1390103460,,,6,33,,Nyc/Central Park,,,,,,Fair,30,Low,,,30,69,,,,21,,KNYC,N,observation,0
+2014-01-18 23:51:00,CLR,,,,,,1390114260,,KNYC,,,,,,3300,,,1390107060,,,6,33,,Nyc/Central Park,,,,,,Fair,28,Low,,,28,64,,,,18,,KNYC,N,observation,0
+2014-01-19 00:51:00,CLR,,,,,,1390117860,,KNYC,,,,,,3300,,,1390110660,,,6,33,,Nyc/Central Park,,,,,,Fair,28,Low,,,28,64,,,,18,,KNYC,N,observation,0
+2014-01-19 01:51:00,CLR,,,,,,1390121460,,KNYC,,,,,,3300,,,1390114260,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,74,,,,19,,KNYC,N,observation,0
+2014-01-19 02:51:00,CLR,,,,,,1390125060,,KNYC,,,,,,3300,,,1390117860,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,69,,,,18,,KNYC,N,observation,0
+2014-01-19 03:51:00,CLR,,,,,,1390128660,,KNYC,,,,,,3300,,,1390121460,,,6,33,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,69,,,,16,,KNYC,N,observation,0
+2014-01-19 04:51:00,CLR,,,,,,1390132260,,KNYC,,,,,,3300,,,1390125060,,,6,33,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,69,,,,16,,KNYC,N,observation,0
+2014-01-19 05:51:00,CLR,,,,,,1390135860,,KNYC,,,,,,3300,,,1390128660,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,59,,,,14,,KNYC,N,observation,0
+2014-01-19 06:51:00,CLR,,,,,,1390139460,,KNYC,,,,,,3300,,,1390132260,,,6,33,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,69,,,,16,,KNYC,N,observation,0
+2014-01-19 07:51:00,CLR,,,,,,1390143060,,KNYC,,,,,,3300,,,1390135860,,,6,33,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,59,,,,12,,KNYC,N,observation,0
+2014-01-19 08:51:00,CLR,,,,,,1390146660,,KNYC,,,,,,3400,,,1390139460,,,6,34,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,59,,,,12,,KNYC,D,observation,0
+2014-01-19 09:51:00,CLR,,,,,,1390150260,,KNYC,,,,,,3400,,,1390143060,,,6,34,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,59,,,,12,,KNYC,D,observation,0
+2014-01-19 10:51:00,CLR,,,,,,1390153860,,KNYC,,,,,,3400,,,1390146660,,,6,34,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,55,,,,12,,KNYC,D,observation,0
+2014-01-19 11:51:00,CLR,,,,,,1390157460,,KNYC,,,,,,3400,,,1390150260,,,6,34,,Nyc/Central Park,,,,,,Fair,28,Low,,,28,47,,,,10,,KNYC,D,observation,0
+2014-01-19 12:51:00,CLR,,,,,,1390161060,,KNYC,,,,,,3400,,,1390153860,,,6,34,,Nyc/Central Park,,,,,,Fair,30,Low,,,30,47,,,,12,,KNYC,D,observation,0
+2014-01-19 13:51:00,CLR,,,,,,1390164660,,KNYC,,,,,,3400,,,1390157460,,,6,34,,Nyc/Central Park,,,,,,Fair,,Low,,,,47,,,,14,,KNYC,D,observation,0
+2014-01-19 14:51:00,CLR,,,,,,1390168260,,KNYC,,,,,,3400,,,1390161060,,,6,34,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,52,,,,18,,KNYC,D,observation,0
+2014-01-19 15:51:00,CLR,,,,,,1390171860,,KNYC,,,,,,3400,,,1390164660,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,48,,,,18,,KNYC,D,observation,0
+2014-01-19 16:51:00,CLR,,,,,,1390175460,,KNYC,,,,,,3400,,,1390168260,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,48,,,,18,,KNYC,D,observation,0
+2014-01-19 16:52:00,CLR,,,,,,1390175520,,KNYC,,,,,,3400,,,1390168320,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,48,,,,18,,KNYC,D,observation,0
+2014-01-19 17:00:00,CLR,,,,,,1390176000,,KNYC,,,,,,3400,,,1390168800,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,48,,,,18,,KNYC,D,observation,0
+2014-01-19 17:51:00,CLR,,,,,,1390179060,,KNYC,,,,,,3400,,,1390171860,,,6,34,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,48,,,,18,,KNYC,D,observation,0
+2014-01-19 18:51:00,CLR,,,,,,1390182660,,KNYC,,,,,,3300,,,1390175460,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,52,,,,19,,KNYC,N,observation,0
+2014-01-19 19:51:00,CLR,,,,,,1390186260,,KNYC,,,,,,3300,,,1390179060,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,56,,,,21,,KNYC,N,observation,0
+2014-01-19 20:51:00,CLR,,,,,,1390189860,,KNYC,,,,,,3300,,,1390182660,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,56,,,,21,,KNYC,N,observation,0
+2014-01-19 21:51:00,CLR,,,,,,1390193460,,KNYC,,,,,,3300,,,1390186260,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,44,,,,16,,KNYC,N,observation,0
+2014-01-19 22:51:00,CLR,,,,,,1390197060,,KNYC,,,,,,3300,,,1390189860,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,44,,,,16,,KNYC,N,observation,0
+2014-01-19 23:51:00,CLR,,,,,,1390200660,,KNYC,,,,,,3300,,,1390193460,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,48,,,,19,,KNYC,N,observation,0
+2014-01-20 00:51:00,CLR,,,,,,1390204260,,KNYC,,,,,,3300,,,1390197060,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,48,,,,19,,KNYC,N,observation,0
+2014-01-20 01:51:00,CLR,,,,,,1390207860,,KNYC,,,,,,3300,,,1390200660,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,52,,,,19,,KNYC,N,observation,0
+2014-01-20 02:51:00,CLR,,,,,,1390211460,,KNYC,,,,,,3300,,,1390204260,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,48,,,,18,,KNYC,N,observation,0
+2014-01-20 03:51:00,CLR,,,,,,1390215060,,KNYC,,,,,,3300,,,1390207860,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,48,,,,19,,KNYC,N,observation,0
+2014-01-20 04:51:00,CLR,,,,,,1390218660,,KNYC,,,,,,3300,,,1390211460,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,52,,,,19,,KNYC,N,observation,0
+2014-01-20 05:51:00,CLR,,,,,,1390222260,,KNYC,,,,,,3300,,,1390215060,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,52,,,,21,,KNYC,N,observation,0
+2014-01-20 06:51:00,CLR,,,,,,1390225860,,KNYC,,,,,,3300,,,1390218660,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,52,,,,21,,KNYC,N,observation,0
+2014-01-20 07:51:00,CLR,,,,,,1390229460,,KNYC,,,,,,3300,,,1390222260,,,6,33,,Nyc/Central Park,,,,,,Fair,37,Low,,,37,56,,,,23,,KNYC,N,observation,0
+2014-01-20 08:51:00,CLR,,,,,,1390233060,,KNYC,,,,,,3400,,,1390225860,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,52,,,,23,,KNYC,D,observation,0
+2014-01-20 09:51:00,CLR,,,,,,1390236660,,KNYC,,,,,,3400,,,1390229460,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,52,,,,23,,KNYC,D,observation,0
+2014-01-20 10:51:00,CLR,,,,,,1390240260,,KNYC,,,,,,3400,,,1390233060,,,6,34,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,52,,,,23,,KNYC,D,observation,0
+2014-01-20 11:51:00,CLR,,,,,,1390243860,,KNYC,,,,,,3400,,,1390236660,,,6,34,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,45,,,,21,,KNYC,D,observation,0
+2014-01-20 12:51:00,CLR,,,,,,1390247460,,KNYC,,,,,,3400,,,1390240260,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,39,,,,21,,KNYC,D,observation,0
+2014-01-20 13:51:00,CLR,,,,,,1390251060,,KNYC,,,,,,3400,,,1390243860,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,39,,,,21,,KNYC,D,observation,0
+2014-01-20 14:51:00,CLR,,,,,,1390254660,,KNYC,,,,,,3400,,,1390247460,,,6,34,,Nyc/Central Park,,,,,,Fair,45,Low,,,45,39,,,,21,,KNYC,D,observation,0
+2014-01-20 15:51:00,CLR,,,,,,1390258260,,KNYC,,,,,,3400,,,1390251060,,,6,34,,Nyc/Central Park,,,,,,Fair,43,Low,,,43,42,,,,21,,KNYC,D,observation,0
+2014-01-20 16:51:00,CLR,,,,,,1390261860,,KNYC,,,,,,3400,,,1390254660,,,6,34,,Nyc/Central Park,,,,,,Fair,43,Low,,,43,49,,,,25,,KNYC,D,observation,0
+2014-01-20 17:51:00,CLR,,,,,,1390265460,,KNYC,,,,,,3400,,,1390258260,,,6,34,,Nyc/Central Park,,,,,,Fair,43,Low,,,43,49,,,,25,,KNYC,D,observation,0
+2014-01-20 18:51:00,CLR,,,,,,1390269060,,KNYC,,,,,,3300,,,1390261860,,,6,33,,Nyc/Central Park,,,,,,Fair,41,Low,,,41,53,,,,25,,KNYC,N,observation,0
+2014-01-20 19:51:00,CLR,,,,,,1390272660,,KNYC,,,,,,3300,,,1390265460,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,56,,,,25,,KNYC,N,observation,0
+2014-01-20 20:51:00,CLR,,,,,,1390276260,,KNYC,,,,,,3300,,,1390269060,,,6,33,,Nyc/Central Park,,,,,,Fair,39,Low,,,39,65,,,,28,,KNYC,N,observation,0
+2014-01-20 21:51:00,CLR,,,,,,1390279860,,KNYC,,,,,,3300,,,1390272660,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,56,,,,21,,KNYC,N,observation,0
+2014-01-20 22:51:00,CLR,,,,,,1390283460,,KNYC,,,,,,3300,,,1390276260,,,6,33,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,52,,,,18,,KNYC,N,observation,0
+2014-01-20 23:51:00,CLR,,,,,,1390287060,,KNYC,,,,,,3300,,,1390279860,,,6,33,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,52,,,,18,,KNYC,N,observation,0
+2014-01-21 00:51:00,CLR,,,,,,1390290660,,KNYC,,,,,,3300,,,1390283460,,,6,33,,Nyc/Central Park,,,,,,Fair,34,Low,,,34,44,,,,14,,KNYC,N,observation,0
+2014-01-21 01:51:00,CLR,,,,,,1390294260,,KNYC,,,,,,3300,,,1390287060,,,6,33,,Nyc/Central Park,,,,,,Fair,36,Low,,,36,35,,,,10,,KNYC,N,observation,0
+2014-01-21 02:51:00,CLR,,,,,,1390297860,,KNYC,,,,,,3300,,,1390290660,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,43,,,,7,,KNYC,N,observation,0
+2014-01-21 03:51:00,CLR,,,,,,1390301460,,KNYC,,,,,,3300,,,1390294260,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,43,,,,7,,KNYC,N,observation,0
+2014-01-21 04:51:00,CLR,,,,,,1390305060,,KNYC,,,,,,3300,,,1390297860,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,43,,,,7,,KNYC,N,observation,0
+2014-01-21 05:51:00,CLR,,,,,,1390308660,,KNYC,,,,,,3300,,,1390301460,,,6,33,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,43,,,,7,,KNYC,N,observation,0
+2014-01-21 06:51:00,CLR,,,,,,1390312260,,KNYC,,,,,,3300,,,1390305060,,,6,33,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,50,,,,9,,KNYC,N,observation,0
+2014-01-21 07:51:00,CLR,,,,,,1390315860,,KNYC,,,,,,3300,,,1390308660,,,6,33,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,46,,,,7,,KNYC,N,observation,0
+2014-01-21 08:51:00,CLR,,,,,,1390319460,,KNYC,,,,,,3400,,,1390312260,,,6,34,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,59,,,,12,,KNYC,D,observation,0
+2014-01-21 09:51:00,CLR,,,,,,1390323060,,KNYC,,,,,,3400,,,1390315860,,,6,34,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,74,,,,14,,KNYC,D,observation,0
+2014-01-21 10:51:00,CLR,,,,,,1390326660,,KNYC,,,,,,3400,,,1390319460,,,6,34,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,80,,,,16,,KNYC,D,observation,0
+2014-01-21 11:51:00,CLR,,,,,,1390330260,,KNYC,,,,,,3400,,,1390323060,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,86,,,,16,,KNYC,D,observation,0
+2014-01-21 12:51:00,CLR,,,,,,1390333860,,KNYC,,,,,,3400,,,1390326660,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,93,,,,16,,KNYC,D,observation,0
+2014-01-21 13:51:00,CLR,,,,,,1390337460,,KNYC,,,,,,3400,,,1390330260,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,100,,,,16,,KNYC,D,observation,0
+2014-01-21 14:51:00,CLR,,,,,,1390341060,,KNYC,,,,,,3400,,,1390333860,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,100,,,,16,,KNYC,D,observation,0
+2014-01-21 15:51:00,CLR,,,,,,1390344660,,KNYC,,,,,,3400,,,1390337460,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,79,,,,10,,KNYC,D,observation,0
+2014-01-21 16:51:00,CLR,,,,,,1390348260,,KNYC,,,,,,3400,,,1390341060,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,79,,,,10,,KNYC,D,observation,0
+2014-01-21 17:51:00,CLR,,,,,,1390351860,,KNYC,,,,,,3400,,,1390344660,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,79,,,,10,,KNYC,D,observation,0
+2014-01-21 18:51:00,CLR,,,,,,1390355460,,KNYC,,,,,,3300,,,1390348260,,,6,33,,Nyc/Central Park,,,,,,Fair,14,Low,,,14,86,,,,10,,KNYC,N,observation,0
+2014-01-21 19:51:00,CLR,,,,,,1390359060,,KNYC,,,,,,3300,,,1390351860,,,6,33,,Nyc/Central Park,,,,,,Fair,14,Low,,,14,79,,,,9,,KNYC,N,observation,0
+2014-01-21 20:51:00,CLR,,,,,,1390362660,,KNYC,,,,,,3300,,,1390355460,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,92,,,,10,,KNYC,N,observation,0
+2014-01-21 21:51:00,CLR,,,,,,1390366260,,KNYC,,,,,,3300,,,1390359060,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,92,,,,10,,KNYC,N,observation,0
+2014-01-21 22:51:00,CLR,,,,,,1390369860,,KNYC,,,,,,3300,,,1390362660,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,79,,,,7,,KNYC,N,observation,0
+2014-01-21 23:51:00,CLR,,,,,,1390373460,,KNYC,,,,,,3300,,,1390366260,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,67,,,,3,,KNYC,N,observation,0
+2014-01-22 00:51:00,CLR,,,,,,1390377060,,KNYC,,,,,,3300,,,1390369860,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,67,,,,3,,KNYC,N,observation,0
+2014-01-22 01:51:00,CLR,,,,,,1390380660,,KNYC,,,,,,3300,,,1390373460,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,62,,,,1,,KNYC,N,observation,0
+2014-01-22 02:51:00,CLR,,,,,,1390384260,,KNYC,,,,,,3300,,,1390377060,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,67,,,,1,,KNYC,N,observation,0
+2014-01-22 03:51:00,CLR,,,,,,1390387860,,KNYC,,,,,,3300,,,1390380660,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,62,,,,0,,KNYC,N,observation,0
+2014-01-22 04:51:00,CLR,,,,,,1390391460,,KNYC,,,,,,3300,,,1390384260,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,62,,,,0,,KNYC,N,observation,0
+2014-01-22 05:51:00,CLR,,,,,,1390395060,,KNYC,,,,,,3300,,,1390387860,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,62,,,,-2,,KNYC,N,observation,0
+2014-01-22 06:51:00,CLR,,,,,,1390398660,,KNYC,,,,,,3300,,,1390391460,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,57,,,,-4,,KNYC,N,observation,0
+2014-01-22 07:51:00,CLR,,,,,,1390402260,,KNYC,,,,,,3300,,,1390395060,,,6,33,,Nyc/Central Park,,,,,,Fair,7,Low,,,7,61,,,,-4,,KNYC,N,observation,0
+2014-01-22 08:51:00,CLR,,,,,,1390405860,,KNYC,,,,,,3400,,,1390398660,,,6,34,,Nyc/Central Park,,,,,,Fair,7,Low,,,7,61,,,,-4,,KNYC,D,observation,0
+2014-01-22 09:51:00,CLR,,,,,,1390409460,,KNYC,,,,,,3400,,,1390402260,,,6,34,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,57,,,,-4,,KNYC,D,observation,0
+2014-01-22 10:51:00,CLR,,,,,,1390413060,,KNYC,,,,,,3400,,,1390405860,,,6,34,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,52,,,,-4,,KNYC,D,observation,0
+2014-01-22 11:51:00,CLR,,,,,,1390416660,,KNYC,,,,,,3400,,,1390409460,,,6,34,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,45,,,,-6,,KNYC,D,observation,0
+2014-01-22 12:51:00,CLR,,,,,,1390420260,,KNYC,,,,,,3400,,,1390413060,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,41,,,,-4,,KNYC,D,observation,0
+2014-01-22 13:51:00,CLR,,,,,,1390423860,,KNYC,,,,,,3400,,,1390416660,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,42,,,,-2,,KNYC,D,observation,0
+2014-01-22 14:51:00,CLR,,,,,,1390427460,,KNYC,,,,,,3400,,,1390420260,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,42,,,,-2,,KNYC,D,observation,0
+2014-01-22 15:51:00,CLR,,,,,,1390431060,,KNYC,,,,,,3400,,,1390423860,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,42,,,,-2,,KNYC,D,observation,0
+2014-01-22 16:51:00,CLR,,,,,,1390434660,,KNYC,,,,,,3400,,,1390427460,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,D,observation,0
+2014-01-22 17:51:00,CLR,,,,,,1390438260,,KNYC,,,,,,3400,,,1390431060,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,45,,,,-2,,KNYC,D,observation,0
+2014-01-22 18:51:00,CLR,,,,,,1390441860,,KNYC,,,,,,3300,,,1390434660,,,6,33,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,45,,,,-2,,KNYC,N,observation,0
+2014-01-22 19:51:00,CLR,,,,,,1390445460,,KNYC,,,,,,3300,,,1390438260,,,6,33,,Nyc/Central Park,,,,,,Fair,14,Low,,,14,45,,,,-4,,KNYC,N,observation,0
+2014-01-22 20:51:00,CLR,,,,,,1390449060,,KNYC,,,,,,3300,,,1390441860,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,48,,,,-4,,KNYC,N,observation,0
+2014-01-22 21:58:00,CLR,,,,,,1390453080,,KNYC,,,,,,3300,,,1390445880,,,6,33,,Nyc/Central Park,,,,,,Fair,14,Low,,,14,62,,,,3,,KNYC,N,observation,0
+2014-01-22 22:56:00,CLR,,,,,,1390456560,,KNYC,,,,,,3300,,,1390449360,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,48,,,,-6,,KNYC,N,observation,0
+2014-01-22 23:59:00,CLR,,,,,,1390460340,,KNYC,,,,,,3300,,,1390453140,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,48,,,,-6,,KNYC,N,observation,0
+2014-01-23 00:58:00,CLR,,,,,,1390463880,,KNYC,,,,,,3300,,,1390456680,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,48,,,,-6,,KNYC,N,observation,0
+2014-01-23 01:58:00,CLR,,,,,,1390467480,,KNYC,,,,,,3300,,,1390460280,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,52,,,,-6,,KNYC,N,observation,0
+2014-01-23 02:58:00,CLR,,,,,,1390471080,,KNYC,,,,,,3300,,,1390463880,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,52,,,,-6,,KNYC,N,observation,0
+2014-01-23 03:58:00,CLR,,,,,,1390474680,,KNYC,,,,,,3300,,,1390467480,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,57,,,,-4,,KNYC,N,observation,0
+2014-01-23 04:58:00,CLR,,,,,,1390478280,,KNYC,,,,,,3300,,,1390471080,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,62,,,,-2,,KNYC,N,observation,0
+2014-01-23 05:51:00,CLR,,,,,,1390481460,,KNYC,,,,,,3300,,,1390474260,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,62,,,,-2,,KNYC,N,observation,0
+2014-01-23 06:51:00,CLR,,,,,,1390485060,,KNYC,,,,,,3300,,,1390477860,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,57,,,,-4,,KNYC,N,observation,0
+2014-01-23 07:51:00,CLR,,,,,,1390488660,,KNYC,,,,,,3300,,,1390481460,,,6,33,,Nyc/Central Park,,,,,,Fair,9,Low,,,9,57,,,,-4,,KNYC,N,observation,0
+2014-01-23 08:51:00,CLR,,,,,,1390492260,,KNYC,,,,,,3400,,,1390485060,,,6,34,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,57,,,,-2,,KNYC,D,observation,0
+2014-01-23 09:51:00,CLR,,,,,,1390495860,,KNYC,,,,,,3400,,,1390488660,,,6,34,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,53,,,,-2,,KNYC,D,observation,0
+2014-01-23 10:51:00,CLR,,,,,,1390499460,,KNYC,,,,,,3400,,,1390492260,,,6,34,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,49,,,,0,,KNYC,D,observation,0
+2014-01-23 11:51:00,CLR,,,,,,1390503060,,KNYC,,,,,,3400,,,1390495860,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,D,observation,0
+2014-01-23 12:51:00,CLR,,,,,,1390506660,,KNYC,,,,,,3400,,,1390499460,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,D,observation,0
+2014-01-23 13:51:00,CLR,,,,,,1390510260,,KNYC,,,,,,3400,,,1390503060,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,46,,,,1,,KNYC,D,observation,0
+2014-01-23 14:51:00,CLR,,,,,,1390513860,,KNYC,,,,,,3400,,,1390506660,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,42,,,,0,,KNYC,D,observation,0
+2014-01-23 15:51:00,CLR,,,,,,1390517460,,KNYC,,,,,,3400,,,1390510260,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,46,,,,1,,KNYC,D,observation,0
+2014-01-23 17:51:00,CLR,,,,,,1390524660,,KNYC,,,,,,3400,,,1390517460,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,42,,,,0,,KNYC,D,observation,0
+2014-01-23 18:51:00,CLR,,,,,,1390528260,,KNYC,,,,,,3300,,,1390521060,,,6,33,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,46,,,,1,,KNYC,N,observation,0
+2014-01-23 19:51:00,CLR,,,,,,1390531860,,KNYC,,,,,,3300,,,1390524660,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,53,,,,3,,KNYC,N,observation,0
+2014-01-23 20:51:00,CLR,,,,,,1390535460,,KNYC,,,,,,3300,,,1390528260,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,53,,,,3,,KNYC,N,observation,0
+2014-01-23 22:51:00,CLR,,,,,,1390542660,,KNYC,,,,,,3300,,,1390535460,,,6,33,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,53,,,,1,,KNYC,N,observation,0
+2014-01-23 23:51:00,CLR,,,,,,1390546260,,KNYC,,,,,,3300,,,1390539060,,,6,33,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,53,,,,1,,KNYC,N,observation,0
+2014-01-24 00:51:00,CLR,,,,,,1390549860,,KNYC,,,,,,3300,,,1390542660,,,6,33,,Nyc/Central Park,,,,,,Fair,14,Low,,,14,53,,,,0,,KNYC,N,observation,0
+2014-01-24 01:51:00,CLR,,,,,,1390553460,,KNYC,,,,,,3300,,,1390546260,,,6,33,,Nyc/Central Park,,,,,,Fair,14,Low,,,14,49,,,,-2,,KNYC,N,observation,0
+2014-01-24 02:51:00,CLR,,,,,,1390557060,,KNYC,,,,,,3300,,,1390549860,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,53,,,,-2,,KNYC,N,observation,0
+2014-01-24 03:51:00,CLR,,,,,,1390560660,,KNYC,,,,,,3300,,,1390553460,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,48,,,,-4,,KNYC,N,observation,0
+2014-01-24 04:51:00,CLR,,,,,,1390564260,,KNYC,,,,,,3300,,,1390557060,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,48,,,,-4,,KNYC,N,observation,0
+2014-01-24 05:51:00,CLR,,,,,,1390567860,,KNYC,,,,,,3300,,,1390560660,,,6,33,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,48,,,,-4,,KNYC,N,observation,0
+2014-01-24 06:51:00,CLR,,,,,,1390571460,,KNYC,,,,,,3300,,,1390564260,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,48,,,,-6,,KNYC,N,observation,0
+2014-01-24 07:51:00,CLR,,,,,,1390575060,,KNYC,,,,,,3300,,,1390567860,,,6,33,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,48,,,,-6,,KNYC,N,observation,0
+2014-01-24 08:51:00,CLR,,,,,,1390578660,,KNYC,,,,,,3400,,,1390571460,,,6,34,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,48,,,,-6,,KNYC,D,observation,0
+2014-01-24 09:51:00,CLR,,,,,,1390582260,,KNYC,,,,,,3400,,,1390575060,,,6,34,,Nyc/Central Park,,,,,,Fair,10,Low,,,10,44,,,,-8,,KNYC,D,observation,0
+2014-01-24 10:51:00,CLR,,,,,,1390585860,,KNYC,,,,,,3400,,,1390578660,,,6,34,,Nyc/Central Park,,,,,,Fair,12,Low,,,12,45,,,,-6,,KNYC,D,observation,0
+2014-01-24 11:51:00,CLR,,,,,,1390589460,,KNYC,,,,,,3400,,,1390582260,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,35,,,,-6,,KNYC,D,observation,0
+2014-01-24 12:51:00,CLR,,,,,,1390593060,,KNYC,,,,,,3400,,,1390585860,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,35,,,,-6,,KNYC,D,observation,0
+2014-01-24 13:51:00,CLR,,,,,,1390596660,,KNYC,,,,,,3400,,,1390589460,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,32,,,,-8,,KNYC,D,observation,0
+2014-01-24 14:51:00,CLR,,,,,,1390600260,,KNYC,,,,,,3400,,,1390593060,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,30,,,,-8,,KNYC,D,observation,0
+2014-01-24 15:51:00,CLR,,,,,,1390603860,,KNYC,,,,,,3400,,,1390596660,,,6,34,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,28,,,,-9,,KNYC,D,observation,0
+2014-01-24 16:51:00,CLR,,,,,,1390607460,,KNYC,,,,,,3400,,,1390600260,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,35,,,,-6,,KNYC,D,observation,0
+2014-01-24 17:51:00,CLR,,,,,,1390611060,,KNYC,,,,,,3400,,,1390603860,,,6,34,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,42,,,,-2,,KNYC,D,observation,0
+2014-01-24 18:51:00,CLR,,,,,,1390614660,,KNYC,,,,,,3300,,,1390607460,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,N,observation,0
+2014-01-24 19:51:00,CLR,,,,,,1390618260,,KNYC,,,,,,3300,,,1390611060,,,6,33,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,45,,,,-2,,KNYC,N,observation,0
+2014-01-24 20:51:00,CLR,,,,,,1390621860,,KNYC,,,,,,3300,,,1390614660,,,6,33,,Nyc/Central Park,,,,,,Fair,16,Low,,,16,45,,,,-2,,KNYC,N,observation,0
+2014-01-24 21:51:00,CLR,,,,,,1390625460,,KNYC,,,,,,3300,,,1390618260,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,42,,,,-2,,KNYC,N,observation,0
+2014-01-24 22:51:00,CLR,,,,,,1390629060,,KNYC,,,,,,3300,,,1390621860,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,N,observation,0
+2014-01-24 23:51:00,CLR,,,,,,1390632660,,KNYC,,,,,,3300,,,1390625460,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,N,observation,0
+2014-01-25 00:51:00,CLR,,,,,,1390636260,,KNYC,,,,,,3300,,,1390629060,,,6,33,,Nyc/Central Park,,,,,,Fair,18,Low,,,18,45,,,,0,,KNYC,N,observation,0
+2014-01-25 01:51:00,CLR,,,,,,1390639860,,KNYC,,,,,,3300,,,1390632660,,,6,33,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,46,,,,1,,KNYC,N,observation,0
+2014-01-25 02:51:00,CLR,,,,,,1390643460,,KNYC,,,,,,3300,,,1390636260,,,6,33,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,46,,,,1,,KNYC,N,observation,0
+2014-01-25 03:51:00,CLR,,,,,,1390647060,,KNYC,,,,,,3300,,,1390639860,,,6,33,,Nyc/Central Park,,,,,,Fair,19,Low,,,19,49,,,,3,,KNYC,N,observation,0
+2014-01-25 04:51:00,CLR,,,,,,1390650660,,KNYC,,,,,,3300,,,1390643460,,,6,33,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,46,,,,3,,KNYC,N,observation,0
+2014-01-25 05:51:00,CLR,,,,,,1390654260,,KNYC,,,,,,3300,,,1390647060,,,6,33,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,50,,,,5,,KNYC,N,observation,0
+2014-01-25 06:51:00,CLR,,,,,,1390657860,,KNYC,,,,,,3300,,,1390650660,,,6,33,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,46,,,,3,,KNYC,N,observation,0
+2014-01-25 07:51:00,CLR,,,,,,1390661460,,KNYC,,,,,,3300,,,1390654260,,,6,33,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,54,,,,7,,KNYC,N,observation,0
+2014-01-25 08:51:00,CLR,,,,,,1390665060,,KNYC,,,,,,3400,,,1390657860,,,6,34,,Nyc/Central Park,,,,,,Fair,23,Low,,,23,54,,,,9,,KNYC,D,observation,0
+2014-01-25 09:51:00,CLR,,,,,,1390668660,,KNYC,,,,,,3400,,,1390661460,,,6,34,,Nyc/Central Park,,,,,,Fair,25,Low,,,25,46,,,,7,,KNYC,D,observation,0
+2014-01-25 10:51:00,CLR,,,,,,1390672260,,KNYC,,,,,,3400,,,1390665060,,,6,34,,Nyc/Central Park,,,,,,Fair,27,Low,,,27,47,,,,9,,KNYC,D,observation,0
+2014-01-25 11:51:00,OVC,,,,,,1390675860,,KNYC,,270,,,,2600,,,1390668660,19,,10,26,,Nyc/Central Park,8,,,,W,Cloudy,27,,19,,27,45,29.46,,,8,,KNYC,D,observation,-132
+2014-01-25 12:51:00,OVC,,28,21,,,1390679460,,KNYC,,210,17,,,2600,,,1390672260,19,,10,26,,Nyc/Central Park,9,,,,SSW,Cloudy,28,,19,,28,45,29.39,,,9,,KNYC,D,observation,-125
+2014-01-25 13:51:00,OVC,,,,,,1390683060,,KNYC,,,,,,2600,,,1390675860,,,0.75,26,,Nyc/Central Park,,0.01,,,,Cloudy,26,,,,26,75,29.32,,,19,,KNYC,D,observation,-92
+2014-01-25 14:51:00,OVC,,,,,,1390686660,,KNYC,,,,,,2600,,,1390679460,,,0.75,26,,Nyc/Central Park,,0.01,,,,Cloudy,26,,,,26,75,29.32,,,19,,KNYC,D,observation,-48
+2014-01-25 15:51:00,OVC,,,,,Falling,1390690260,,KNYC,,,16,,,2600,,,1390683060,19,,0.75,26,,Nyc/Central Park,6,0.0,,,VAR,Cloudy,26,,19,2,26,75,29.29,,,19,,KNYC,D,observation,-13
+2014-01-25 16:51:00,OVC,,,,,,1390693860,,KNYC,,220,,,,2600,,,1390686660,16,,0.25,26,,Nyc/Central Park,8,0.02,,,SW,Cloudy,25,,16,,25,81,29.28,,,20,,KNYC,D,observation,-6
+2014-01-25 18:51:00,OVC,,28,25,,Rising,1390701060,,KNYC,,,,,,2600,,,1390693860,25,,10,26,,Nyc/Central Park,3,0.0,,,VAR,Cloudy,25,Low,25,1,25,75,29.29,,,18,,KNYC,N,observation,0
+2014-01-25 19:51:00,BKN,,,,,,1390704660,,KNYC,,,18,,,2700,,,1390697460,19,,10,27,,Nyc/Central Park,5,,,,VAR,Mostly Cloudy,25,Low,19,,25,72,29.29,,,17,,KNYC,N,observation,0
+2014-01-25 20:51:00,SCT,,,,,,1390708260,,KNYC,,250,21,,,2900,,,1390701060,14,,10,29,,Nyc/Central Park,12,,,,WSW,Partly Cloudy,25,Low,14,,25,72,29.29,,,17,,KNYC,N,observation,0
+2014-01-25 21:51:00,CLR,,,,,Falling Rapidly,1390711860,,KNYC,,,,,,3300,,,1390704660,17,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,24,Low,17,2,24,69,29.28,,,15,,KNYC,N,observation,0
+2014-01-25 22:51:00,CLR,,,,,,1390715460,,KNYC,,,,,,3300,,,1390708260,,,10,33,,Nyc/Central Park,,,,,,Fair,24,Low,,,24,69,29.28,,,15,,KNYC,N,observation,0
+2014-01-25 23:51:00,CLR,,28,19,,,1390719060,,KNYC,,,,,,3300,,,1390711860,16,,9,33,,Nyc/Central Park,6,,,,VAR,Fair,23,Low,16,,23,72,29.29,,,15,,KNYC,N,observation,0
+2014-01-26 00:51:00,FEW,,25,22,,Rising Rapidly,1390722660,,KNYC,,280,20,,,3300,,,1390715460,13,,9,33,,Nyc/Central Park,9,,,,W,Fair,23,Low,13,1,23,68,29.32,,,14,,KNYC,N,observation,0
+2014-01-26 01:51:00,CLR,,,,,,1390726260,,KNYC,,280,23,,,3300,,,1390719060,10,,10,33,,Nyc/Central Park,15,,,,W,Fair,23,Low,10,,23,65,29.37,,,13,,KNYC,N,observation,0
+2014-01-26 02:51:00,CLR,,,,,,1390729860,,KNYC,,280,26,,,3300,,,1390722660,10,,10,33,,Nyc/Central Park,16,,,,W,Fair,23,Low,10,,23,50,29.44,,,7,,KNYC,N,observation,0
+2014-01-26 04:51:00,CLR,,,,,,1390737060,,KNYC,,,17,,,3300,,,1390729860,11,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,19,Low,11,,19,38,29.53,,,-3,,KNYC,N,observation,0
+2014-01-26 05:51:00,CLR,,,,,,1390740660,,KNYC,,290,23,,,3300,,,1390733460,7,,10,33,,Nyc/Central Park,10,,,,WNW,Fair,19,Low,7,,19,40,29.56,,,-2,,KNYC,N,observation,0
+2014-01-26 06:51:00,CLR,,24,18,,Rising Rapidly,1390744260,,KNYC,,280,20,,,3300,,,1390737060,5,,10,33,,Nyc/Central Park,12,,,,W,Fair,18,Low,5,1,18,41,29.61,,,-2,,KNYC,N,observation,0
+2014-01-26 07:51:00,CLR,,,,,,1390747860,,KNYC,,270,17,,,3300,,,1390740660,6,,10,33,,Nyc/Central Park,9,,,,W,Fair,17,Low,6,,17,41,29.67,,,-3,,KNYC,N,observation,0
+2014-01-26 08:51:00,SCT,,,,,,1390751460,,KNYC,,,,,,3000,,,1390744260,9,,10,30,,Nyc/Central Park,7,,,,VAR,Partly Cloudy,18,,9,,18,41,29.7,,,-2,,KNYC,D,observation,-13
+2014-01-26 09:51:00,CLR,,,,,Rising,1390755060,,KNYC,,280,20,,,3400,,,1390747860,7,,10,34,,Nyc/Central Park,9,,,,W,Fair,18,Low,7,1,18,40,29.72,,,-3,,KNYC,D,observation,0
+2014-01-26 10:51:00,CLR,,,,,,1390758660,,KNYC,,,21,,,3400,,,1390751460,12,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,20,Low,12,,20,37,29.73,,,-3,,KNYC,D,observation,0
+2014-01-26 11:51:00,CLR,,,,,,1390762260,,KNYC,,,,,,3400,,,1390755060,12,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,20,Low,12,,20,37,29.69,,,-3,,KNYC,D,observation,0
+2014-01-26 12:51:00,CLR,,21,17,,Falling Rapidly,1390765860,,KNYC,,,,,,3400,,,1390758660,21,,10,34,,Nyc/Central Park,,,,,CALM,Fair,21,Low,21,2,21,36,29.66,,,-2,,KNYC,D,observation,0
+2014-01-26 13:51:00,OVC,,,,,,1390769460,,KNYC,,,,,,2600,,,1390762260,,,10,26,,Nyc/Central Park,,,,,,Cloudy,21,,,,21,38,29.68,,,-1,,KNYC,D,observation,-94
+2014-01-26 14:51:00,OVC,,,,,,1390773060,,KNYC,,,,,,2600,,,1390765860,12,,10,26,,Nyc/Central Park,7,,,,VAR,Cloudy,21,,12,,21,44,29.69,,,2,,KNYC,D,observation,-49
+2014-01-26 15:51:00,OVC,,,,,,1390776660,,KNYC,,,,,,2600,,,1390769460,,,7,26,,Nyc/Central Park,,0.0,,,,Cloudy,21,,,,21,60,29.69,,,9,,KNYC,D,observation,-14
+2014-01-26 16:51:00,BKN,,,,,,1390780260,,KNYC,,,,,,2800,,,1390773060,,,10,28,,Nyc/Central Park,,,,,,Mostly Cloudy,22,,,,22,55,29.66,,,8,,KNYC,D,observation,-4
+2014-01-26 18:51:00,OVC,,25,21,,Falling,1390787460,,KNYC,,,20,,,2600,,,1390780260,25,,10,26,,Nyc/Central Park,3,,,,VAR,Cloudy,25,Low,25,2,25,51,29.67,,,9,,KNYC,N,observation,0
+2014-01-26 19:51:00,OVC,,,,,,1390791060,,KNYC,,,,,,2600,,,1390783860,27,,10,26,,Nyc/Central Park,3,,,,VAR,Cloudy,27,Low,27,,27,47,29.67,,,9,,KNYC,N,observation,0
+2014-01-26 20:51:00,OVC,,,,,,1390794660,,KNYC,,,,,,2600,,,1390787460,22,,10,26,,Nyc/Central Park,6,,,,VAR,Cloudy,28,Low,22,,28,51,29.66,,,12,,KNYC,N,observation,0
+2014-01-26 21:51:00,OVC,,,,,,1390798260,,KNYC,,190,17,,,2600,,,1390791060,25,,10,26,,Nyc/Central Park,6,,,,S,Cloudy,31,Low,25,,31,50,29.66,,,14,,KNYC,N,observation,0
+2014-01-26 22:51:00,OVC,,,,,,1390801860,,KNYC,,190,,,,2600,,,1390794660,27,,10,26,,Nyc/Central Park,5,,,,S,Cloudy,32,Low,27,,,51,29.63,,,16,,KNYC,N,observation,0
+2014-01-26 23:51:00,OVC,,,,,,1390805460,,KNYC,,,,,,2600,,,1390798260,29,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,33,Low,29,,33,56,29.6,,,19,,KNYC,N,observation,0
+2014-01-27 00:51:00,OVC,,34,25,,Falling,1390809060,,KNYC,,310,,,,2600,,,1390801860,27,,10,26,,Nyc/Central Park,5,,,,NW,Cloudy,32,Low,27,2,,56,29.58,,,18,,KNYC,N,observation,0
+2014-01-27 01:51:00,CLR,,,,,,1390812660,,KNYC,,,,,,3300,,,1390805460,31,,10,33,,Nyc/Central Park,,,,,CALM,Fair,31,Low,31,,31,61,29.56,,,19,,KNYC,N,observation,0
+2014-01-27 02:51:00,CLR,,,,,,1390816260,,KNYC,,270,,,,3300,,,1390809060,30,,10,33,,Nyc/Central Park,5,,,,W,Fair,34,Low,30,,34,61,29.54,,,22,,KNYC,N,observation,0
+2014-01-27 03:51:00,FEW,,,,,Falling,1390819860,,KNYC,,260,,,,3300,,,1390812660,31,,10,33,,Nyc/Central Park,6,,,,W,Fair,36,Low,31,2,36,59,29.53,,,23,,KNYC,N,observation,0
+2014-01-27 04:51:00,CLR,,,,,,1390823460,,KNYC,,,,,,3300,,,1390816260,37,,10,33,,Nyc/Central Park,,,,,CALM,Fair,37,Low,37,,37,57,29.49,,,23,,KNYC,N,observation,0
+2014-01-27 05:51:00,OVC,,,,,,1390827060,,KNYC,,190,,,,2600,,,1390819860,34,,10,26,,Nyc/Central Park,5,,,,S,Cloudy,38,Low,34,,38,55,29.48,,,23,,KNYC,N,observation,0
+2014-01-27 06:51:00,OVC,,39,30,,Falling,1390830660,,KNYC,,190,,,,2600,,,1390823460,33,,10,26,,Nyc/Central Park,6,,,,S,Cloudy,38,Low,33,2,38,57,29.45,,,24,,KNYC,N,observation,0
+2014-01-27 07:51:00,OVC,,,,,,1390834260,,KNYC,,,,,,2600,,,1390827060,37,,10,26,,Nyc/Central Park,6,,,,VAR,Cloudy,41,,37,,41,51,29.44,,,24,,KNYC,N,observation,-5
+2014-01-27 08:51:00,OVC,,,,,,1390837860,,KNYC,,,,,,2600,,,1390830660,35,,10,26,,Nyc/Central Park,7,,,,VAR,Cloudy,40,,35,,40,55,29.45,,,25,,KNYC,D,observation,-27
+2014-01-27 09:51:00,SCT,,,,,Rising Rapidly,1390841460,,KNYC,,250,22,,,3000,,,1390834260,32,,10,30,,Nyc/Central Park,10,,,,WSW,Partly Cloudy,39,,32,1,39,55,29.46,,,24,,KNYC,D,observation,-34
+2014-01-27 10:51:00,BKN,,,,,,1390845060,,KNYC,,250,21,,,2800,,,1390837860,32,,10,28,,Nyc/Central Park,10,,,,WSW,Mostly Cloudy,39,,32,,39,57,29.46,,,25,,KNYC,D,observation,-84
+2014-01-27 11:51:00,CLR,,,,,,1390848660,,KNYC,,240,,,,3400,,,1390841460,36,,10,34,,Nyc/Central Park,8,,,,WSW,Fair,41,Low,36,,41,53,29.47,,,25,,KNYC,D,observation,0
+2014-01-27 12:51:00,CLR,,44,38,,Rising Rapidly,1390852260,,KNYC,,300,28,,,3400,,,1390845060,36,,10,34,,Nyc/Central Park,17,,,,WNW,Fair,44,Low,36,1,44,45,29.48,,,24,,KNYC,D,observation,0
+2014-01-27 13:51:00,OVC,,,,,,1390855860,,KNYC,,,,,,2600,,,1390848660,,,10,26,,Nyc/Central Park,,,,,,Cloudy,40,,,,40,47,29.53,,,21,,KNYC,D,observation,-96
+2014-01-27 14:51:00,OVC,,,,,,1390859460,,KNYC,,310,24,,,2600,,,1390852260,30,,10,26,,Nyc/Central Park,10,,,,NW,Cloudy,37,,30,,37,48,29.59,,,19,,KNYC,D,observation,-51
+2014-01-27 15:51:00,OVC,,,,,Rising Rapidly,1390863060,,KNYC,,310,23,,,2600,,,1390855860,24,,10,26,,Nyc/Central Park,10,,,,NW,Cloudy,32,,24,1,,40,29.64,,,10,,KNYC,D,observation,-15
+2014-01-27 16:51:00,OVC,,,,,,1390866660,,KNYC,,310,22,,,2600,,,1390859460,19,,10,26,,Nyc/Central Park,13,,,,NW,Cloudy,29,,19,,29,33,29.69,,,3,,KNYC,D,observation,-5
+2014-01-27 17:51:00,OVC,,,,,,1390870260,,KNYC,,320,22,,,2600,,,1390863060,19,,10,26,,Nyc/Central Park,10,,,,NW,Cloudy,28,Low,19,,28,27,29.71,,,-2,,KNYC,D,observation,0
+2014-01-27 18:51:00,CLR,,44,28,,Rising Rapidly,1390873860,,KNYC,,310,20,,,3300,,,1390866660,19,,10,33,,Nyc/Central Park,9,,,,NW,Fair,28,Low,19,1,28,25,29.78,,,-4,,KNYC,N,observation,0
+2014-01-27 19:51:00,CLR,,,,,,1390877460,,KNYC,,,,,,3300,,,1390870260,19,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,26,Low,19,,26,30,29.8,,,-2,,KNYC,N,observation,0
+2014-01-27 20:51:00,CLR,,,,,,1390881060,,KNYC,,320,21,,,3300,,,1390873860,14,,10,33,,Nyc/Central Park,10,,,,NW,Fair,24,Low,14,,24,28,29.83,,,-5,,KNYC,N,observation,0
+2014-01-27 21:51:00,CLR,,,,,Rising Rapidly,1390884660,,KNYC,,310,25,,,3300,,,1390877460,11,,10,33,,Nyc/Central Park,13,,,,NW,Fair,23,Low,11,1,23,31,29.86,,,-4,,KNYC,N,observation,0
+2014-01-27 22:51:00,CLR,,,,,,1390888260,,KNYC,,310,25,,,3300,,,1390881060,9,,10,33,,Nyc/Central Park,14,,,,NW,Fair,22,Low,9,,22,32,29.89,,,-4,,KNYC,N,observation,0
+2014-01-27 23:51:00,CLR,,,,,,1390891860,,KNYC,,310,22,,,3300,,,1390884660,9,,10,33,,Nyc/Central Park,13,,,,NW,Fair,21,Low,9,,21,35,29.91,,,-3,,KNYC,N,observation,0
+2014-01-28 00:51:00,CLR,,28,20,,Rising,1390895460,,KNYC,,310,21,,,3300,,,1390888260,8,,10,33,,Nyc/Central Park,12,,,,NW,Fair,20,Low,8,1,20,37,29.93,,,-3,,KNYC,N,observation,0
+2014-01-28 02:51:00,CLR,,,,,,1390902660,,KNYC,,310,21,,,3300,,,1390895460,8,,10,33,,Nyc/Central Park,8,,,,NW,Fair,18,Low,8,,18,36,29.99,,,-5,,KNYC,N,observation,0
+2014-01-28 03:51:00,FEW,,,,,,1390906260,,KNYC,,300,,,,3300,,,1390899060,6,,10,33,,Nyc/Central Park,7,,,,WNW,Fair,16,Low,6,,16,38,30.03,,,-6,,KNYC,N,observation,0
+2014-01-28 04:51:00,FEW,,,,,,1390909860,,KNYC,,310,21,,,3300,,,1390902660,1,,10,33,,Nyc/Central Park,13,,,,NW,Fair,15,Low,1,,15,41,30.06,,,-5,,KNYC,N,observation,0
+2014-01-28 05:51:00,CLR,,,,,,1390913460,,KNYC,,,21,,,3300,,,1390906260,5,,10,33,,Nyc/Central Park,6,,,,VAR,Fair,14,Low,5,,14,41,30.09,,,-6,,KNYC,N,observation,0
+2014-01-28 06:51:00,CLR,,20,14,,Rising,1390917060,,KNYC,,310,22,,,3300,,,1390909860,1,,10,33,,Nyc/Central Park,10,,,,NW,Fair,14,Low,1,1,14,43,30.13,,,-5,,KNYC,N,observation,0
+2014-01-28 07:51:00,CLR,,,,,,1390920660,,KNYC,,310,24,,,3300,,,1390913460,0,,10,33,,Nyc/Central Park,10,,,,NW,Fair,13,Low,0,,13,39,30.16,,,-8,,KNYC,N,observation,0
+2014-01-28 08:51:00,CLR,,,,,,1390924260,,KNYC,,310,18,,,3400,,,1390917060,0,,10,34,,Nyc/Central Park,10,,,,NW,Fair,13,Low,0,,13,39,30.17,,,-8,,KNYC,D,observation,0
+2014-01-28 09:51:00,CLR,,,,,Rising,1390927860,,KNYC,,310,18,,,3400,,,1390920660,1,,10,34,,Nyc/Central Park,9,,,,NW,Fair,13,Low,1,1,13,37,30.2,,,-9,,KNYC,D,observation,0
+2014-01-28 10:51:00,CLR,,,,,,1390931460,,KNYC,,,,,,3400,,,1390924260,15,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,15,Low,15,,15,31,30.2,,,-11,,KNYC,D,observation,0
+2014-01-28 11:51:00,CLR,,,,,,1390935060,,KNYC,,,,,,3400,,,1390927860,16,,10,34,,Nyc/Central Park,,,,,CALM,Fair,16,Low,16,,16,31,30.17,,,-10,,KNYC,D,observation,0
+2014-01-28 12:51:00,CLR,,18,12,,Falling Rapidly,1390938660,,KNYC,,,,,,3400,,,1390931460,,,10,34,,Nyc/Central Park,,,,,,Fair,18,Low,,2,18,29,30.14,,,-10,,KNYC,D,observation,0
+2014-01-28 13:51:00,FEW,,,,,,1390942260,,KNYC,,,,,,3400,,,1390935060,18,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,18,,18,,18,29,30.13,,,-10,,KNYC,D,observation,-23
+2014-01-28 14:51:00,SCT,,,,,,1390945860,,KNYC,,,,,,3000,,,1390938660,18,,10,30,,Nyc/Central Park,3,,,,VAR,Partly Cloudy,18,,18,,18,27,30.14,,,-11,,KNYC,D,observation,-25
+2014-01-28 15:51:00,BKN,,,,,,1390949460,,KNYC,,,,,,2800,,,1390942260,12,,10,28,,Nyc/Central Park,5,,,,VAR,Mostly Cloudy,19,,12,,19,29,30.14,,,-9,,KNYC,D,observation,-11
+2014-01-28 16:51:00,OVC,,,,,,1390953060,,KNYC,,310,,,,2600,,,1390945860,11,,10,26,,Nyc/Central Park,5,,,,NW,Cloudy,18,,11,,18,26,30.14,,,-12,,KNYC,D,observation,-5
+2014-01-28 17:51:00,OVC,,,,,,1390956660,,KNYC,,,,,,2600,,,1390949460,18,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,18,Low,18,,18,27,30.13,,,-11,,KNYC,D,observation,0
+2014-01-28 18:51:00,OVC,,,,,Falling Rapidly,1390960260,,KNYC,,280,,,,2600,,,1390953060,10,,10,26,,Nyc/Central Park,6,,,,W,Cloudy,18,Low,10,2,18,30,30.13,,,-9,,KNYC,N,observation,0
+2014-01-28 19:51:00,OVC,,,,,,1390963860,,KNYC,,300,,,,2600,,,1390956660,11,,10,26,,Nyc/Central Park,5,,,,WNW,Cloudy,18,Low,11,,18,29,30.13,,,-10,,KNYC,N,observation,0
+2014-01-28 20:51:00,OVC,,,,,,1390967460,,KNYC,,310,,,,2600,,,1390960260,10,,10,26,,Nyc/Central Park,6,,,,NW,Cloudy,18,Low,10,,18,29,30.11,,,-10,,KNYC,N,observation,0
+2014-01-28 21:51:00,OVC,,,,,Falling Rapidly,1390971060,,KNYC,,,,,,2600,,,1390963860,11,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,18,Low,11,2,18,30,30.08,,,-9,,KNYC,N,observation,0
+2014-01-28 22:51:00,OVC,,,,,Falling Rapidly,1390974660,,KNYC,,,,,,2600,,,1390967460,18,,10,26,,Nyc/Central Park,3,,,,VAR,Cloudy,18,Low,18,2,18,35,30.08,,,-6,,KNYC,N,observation,0
+2014-01-28 23:51:00,OVC,,21,12,,,1390978260,,KNYC,,,,,,2600,,,1390971060,10,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,17,Low,10,,17,37,30.06,,,-5,,KNYC,N,observation,0
+2014-01-29 00:51:00,OVC,,18,16,,Falling Rapidly,1390981860,,KNYC,,,,,,2600,,,1390974660,6,,4,26,,Nyc/Central Park,7,0.0,,,VAR,Cloudy,16,Low,6,2,16,52,30.05,,,1,,KNYC,N,observation,0
+2014-01-29 01:51:00,OVC,,,,,,1390985460,,KNYC,,,,,,2600,,,1390978260,15,,1,26,,Nyc/Central Park,3,0.01,,,VAR,Cloudy,15,Low,15,,15,74,30.03,,,8,,KNYC,N,observation,0
+2014-01-29 02:51:00,OVC,,,,,,1390989060,,KNYC,,290,,,,2600,,,1390981860,6,,2,26,,Nyc/Central Park,5,0.01,,,WNW,Cloudy,14,Low,6,,14,74,30.01,,,7,,KNYC,N,observation,0
+2014-01-29 03:51:00,OVC,,,,,Falling,1390992660,,KNYC,,320,,,,2600,,,1390985460,2,,2,26,,Nyc/Central Park,9,0.01,,,NW,Cloudy,14,Low,2,2,14,77,30.0,,,8,,KNYC,N,observation,0
+2014-01-29 04:51:00,OVC,,,,,,1390996260,,KNYC,,320,,,,2600,,,1390989060,4,,2,26,,Nyc/Central Park,7,0.01,,,NW,Cloudy,14,Low,4,,14,77,29.97,,,8,,KNYC,N,observation,0
+2014-01-29 05:51:00,OVC,,,,,,1390999860,,KNYC,,280,,,,2600,,,1390992660,4,,10,26,,Nyc/Central Park,7,0.0,,,W,Cloudy,14,Low,4,,14,71,29.98,,,6,,KNYC,N,observation,0
+2014-01-29 06:51:00,BKN,,16,14,,Steady,1391003460,,KNYC,,,,,,2700,,,1390996260,5,,10,27,,Nyc/Central Park,6,,,,VAR,Mostly Cloudy,14,Low,5,0,14,64,29.99,,,4,,KNYC,N,observation,0
+2014-01-29 07:51:00,CLR,,,,,,1391007060,,KNYC,,310,,,,3300,,,1390999860,4,,10,33,,Nyc/Central Park,7,,,,NW,Fair,14,Low,4,,14,56,30.0,,,1,,KNYC,N,observation,0
+2014-01-29 08:51:00,CLR,,,,,,1391010660,,KNYC,,290,,,,3400,,,1391003460,3,,10,34,,Nyc/Central Park,8,,,,WNW,Fair,14,Low,3,,14,45,30.01,,,-4,,KNYC,D,observation,0
+2014-01-29 09:51:00,CLR,,,,,Rising Rapidly,1391014260,,KNYC,,,18,,,3400,,,1391007060,9,,10,34,,Nyc/Central Park,5,,,,VAR,Fair,16,Low,9,1,16,36,30.01,,,-7,,KNYC,D,observation,0
+2014-01-29 10:51:00,CLR,,,,,,1391017860,,KNYC,,320,,,,3400,,,1391010660,6,,10,34,,Nyc/Central Park,7,,,,NW,Fair,16,Low,6,,16,38,30.0,,,-6,,KNYC,D,observation,0
+2014-01-29 11:51:00,CLR,,,,,,1391021460,,KNYC,,,,,,3400,,,1391014260,10,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,18,Low,10,,18,31,29.98,,,-8,,KNYC,D,observation,0
+2014-01-29 12:51:00,CLR,,21,14,,Falling Rapidly,1391025060,,KNYC,,300,,,,3400,,,1391017860,11,,10,34,,Nyc/Central Park,8,,,,WNW,Fair,21,Low,11,2,21,30,29.95,,,-6,,KNYC,D,observation,0
+2014-01-29 13:51:00,CLR,,,,,,1391028660,,KNYC,,300,,,,3400,,,1391021460,12,,10,34,,Nyc/Central Park,9,,,,WNW,Fair,22,Low,12,,22,28,29.93,,,-7,,KNYC,D,observation,0
+2014-01-29 14:51:00,CLR,,,,,,1391032260,,KNYC,,270,,,,3400,,,1391025060,13,,10,34,,Nyc/Central Park,8,,,,W,Fair,22,Low,13,,22,30,29.93,,,-5,,KNYC,D,observation,0
+2014-01-29 15:51:00,CLR,,,,,Steady,1391035860,,KNYC,,250,20,,,3400,,,1391028660,11,,10,34,,Nyc/Central Park,10,,,,WSW,Fair,22,Low,11,0,22,30,29.93,,,-5,,KNYC,D,observation,0
+2014-01-29 16:51:00,CLR,,,,,,1391039460,,KNYC,,260,,,,3400,,,1391032260,13,,10,34,,Nyc/Central Park,8,,,,W,Fair,22,Low,13,,22,30,29.95,,,-5,,KNYC,D,observation,0
+2014-01-29 17:51:00,CLR,,,,,,1391043060,,KNYC,,,,,,3400,,,1391035860,,,10,34,,Nyc/Central Park,,,,,,Fair,21,Low,,,21,32,29.98,,,-5,,KNYC,D,observation,0
+2014-01-29 18:51:00,CLR,,23,21,,Rising Rapidly,1391046660,,KNYC,,260,21,,,3300,,,1391039460,10,,10,33,,Nyc/Central Park,10,,,,W,Fair,21,Low,10,1,21,35,30.02,,,-3,,KNYC,N,observation,0
+2014-01-29 19:51:00,CLR,,,,,,1391050260,,KNYC,,,,,,3300,,,1391043060,20,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,20,Low,20,,20,38,30.06,,,-2,,KNYC,N,observation,0
+2014-01-29 20:51:00,CLR,,,,,,1391053860,,KNYC,,,,,,3300,,,1391046660,19,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,19,Low,19,,19,38,30.08,,,-3,,KNYC,N,observation,0
+2014-01-29 21:51:00,CLR,,,,,Rising,1391057460,,KNYC,,260,21,,,3300,,,1391050260,9,,10,33,,Nyc/Central Park,10,,,,W,Fair,20,Low,9,1,20,37,30.08,,,-3,,KNYC,N,observation,0
+2014-01-29 22:51:00,CLR,,,,,,1391061060,,KNYC,,280,,,,3300,,,1391053860,19,,10,33,,Nyc/Central Park,3,,,,W,Fair,19,Low,19,,19,40,30.1,,,-2,,KNYC,N,observation,0
+2014-01-29 23:51:00,CLR,,23,14,,,1391064660,,KNYC,,,,,,3300,,,1391057460,18,,10,33,,Nyc/Central Park,,,,,CALM,Fair,18,Low,18,,18,41,30.13,,,-2,,KNYC,N,observation,0
+2014-01-30 00:51:00,CLR,,21,17,,Rising Rapidly,1391068260,,KNYC,,,,,,3300,,,1391061060,12,,10,33,,Nyc/Central Park,5,,,,VAR,Fair,19,Low,12,1,19,38,30.16,,,-3,,KNYC,N,observation,0
+2014-01-30 01:51:00,CLR,,,,,,1391071860,,KNYC,,,,,,3300,,,1391064660,17,,10,33,,Nyc/Central Park,,,,,CALM,Fair,17,Low,17,,17,43,30.16,,,-2,,KNYC,N,observation,0
+2014-01-30 02:51:00,CLR,,,,,,1391075460,,KNYC,,,,,,3300,,,1391068260,18,,10,33,,Nyc/Central Park,,,,,CALM,Fair,18,Low,18,,18,40,30.19,,,-3,,KNYC,N,observation,0
+2014-01-30 03:51:00,CLR,,,,,Rising,1391079060,,KNYC,,,,,,3300,,,1391071860,18,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,18,Low,18,1,18,41,30.2,,,-2,,KNYC,N,observation,0
+2014-01-30 04:51:00,CLR,,,,,,1391082660,,KNYC,,250,,,,3300,,,1391075460,7,,10,33,,Nyc/Central Park,6,,,,WSW,Fair,16,Low,7,,16,47,30.23,,,-1,,KNYC,N,observation,0
+2014-01-30 05:51:00,CLR,,,,,,1391086260,,KNYC,,260,,,,3300,,,1391079060,10,,10,33,,Nyc/Central Park,5,,,,W,Fair,17,Low,10,,17,45,30.24,,,-1,,KNYC,N,observation,0
+2014-01-30 06:51:00,CLR,,19,16,,Rising,1391089860,,KNYC,,,,,,3300,,,1391082660,17,,10,33,,Nyc/Central Park,,,,,CALM,Fair,17,Low,17,1,17,45,30.25,,,-1,,KNYC,N,observation,0
+2014-01-30 07:51:00,CLR,,,,,,1391093460,,KNYC,,,,,,3300,,,1391086260,18,,10,33,,Nyc/Central Park,3,,,,VAR,Fair,18,Low,18,,18,44,30.26,,,-1,,KNYC,N,observation,0
+2014-01-30 08:51:00,CLR,,,,,,1391097060,,KNYC,,300,,,,3400,,,1391089860,10,,10,34,,Nyc/Central Park,7,,,,WNW,Fair,19,Low,10,,19,42,30.27,,,-1,,KNYC,D,observation,0
+2014-01-30 09:51:00,CLR,,,,,Rising,1391100660,,KNYC,,,,,,3400,,,1391093460,12,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,20,Low,12,1,20,40,30.28,,,-1,,KNYC,D,observation,0
+2014-01-30 10:51:00,CLR,,,,,,1391104260,,KNYC,,270,,,,3400,,,1391097060,16,,10,34,,Nyc/Central Park,5,,,,W,Fair,22,Low,16,,22,37,30.28,,,-1,,KNYC,D,observation,0
+2014-01-30 11:51:00,CLR,,,,,,1391107860,,KNYC,,,,,,3400,,,1391100660,25,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,25,Low,25,,25,34,30.25,,,0,,KNYC,D,observation,0
+2014-01-30 12:51:00,CLR,,26,17,,Falling Rapidly,1391111460,,KNYC,,,,,,3400,,,1391104260,19,,10,34,,Nyc/Central Park,6,,,,VAR,Fair,26,Low,19,2,26,34,30.5,,,1,,KNYC,D,observation,0
+2014-01-30 13:51:00,CLR,,,,,,1391115060,,KNYC,,,,,,3400,,,1391107860,22,,10,34,,Nyc/Central Park,5,,,,VAR,Fair,27,Low,22,,27,34,30.19,,,2,,KNYC,D,observation,0
+2014-01-30 14:51:00,CLR,,,,,,1391118660,,KNYC,,,,,,3400,,,1391111460,29,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,29,Low,29,,29,36,30.17,,,5,,KNYC,D,observation,0
+2014-01-30 15:51:00,CLR,,,,,Falling,1391122260,,KNYC,,,,,,3400,,,1391115060,28,,10,34,,Nyc/Central Park,3,,,,VAR,Fair,28,Low,28,2,28,34,30.17,,,3,,KNYC,D,observation,0
+2014-01-30 16:51:00,CLR,,,,,,1391125860,,KNYC,,,,,,3400,,,1391118660,27,,10,34,,Nyc/Central Park,,,,,CALM,Fair,27,Low,27,,27,39,30.16,,,5,,KNYC,D,observation,0
+2014-01-30 17:51:00,CLR,,,,,,1391129460,,KNYC,,,,,,3400,,,1391122260,21,,10,34,,Nyc/Central Park,5,,,,VAR,Fair,26,Low,21,,26,47,30.14,,,8,,KNYC,D,observation,0
+2014-01-30 18:51:00,CLR,,30,25,,Falling Rapidly,1391133060,,KNYC,,,,,,3300,,,1391125860,25,,10,33,,Nyc/Central Park,,,,,CALM,Fair,25,Low,25,2,25,51,30.11,,,9,,KNYC,N,observation,0
+2014-01-30 19:51:00,CLR,,,,,,1391136660,,KNYC,,170,,,,3300,,,1391129460,22,,10,33,,Nyc/Central Park,5,,,,S,Fair,27,Low,22,,27,47,30.09,,,9,,KNYC,N,observation,0
+2014-01-30 20:51:00,CLR,,,,,,1391140260,,KNYC,,220,,,,3300,,,1391133060,18,,10,33,,Nyc/Central Park,8,,,,SW,Fair,27,Low,18,,27,43,30.09,,,7,,KNYC,N,observation,0
+2014-01-30 21:51:00,CLR,,,,,Falling Rapidly,1391143860,,KNYC,,210,,,,3300,,,1391136660,22,,10,33,,Nyc/Central Park,5,,,,SSW,Fair,27,Low,22,2,27,49,30.06,,,10,,KNYC,N,observation,0
+2014-01-30 22:51:00,CLR,,,,,,1391147460,,KNYC,,270,16,,,3300,,,1391140260,18,,10,33,,Nyc/Central Park,9,,,,W,Fair,27,Low,18,,27,43,30.05,,,7,,KNYC,N,observation,0
+2014-01-30 23:51:00,CLR,,30,16,,,1391151060,,KNYC,,250,18,,,3300,,,1391143860,18,,10,33,,Nyc/Central Park,7,,,,WSW,Fair,26,Low,18,,26,44,30.03,,,7,,KNYC,N,observation,0
+2014-01-31 00:51:00,BKN,,28,25,,Falling Rapidly,1391154660,,KNYC,,,,,,2700,,,1391147460,25,,10,27,,Nyc/Central Park,,,,,CALM,Mostly Cloudy,25,Low,25,2,25,51,30.01,,,9,,KNYC,N,observation,0
+2014-01-31 01:51:00,CLR,,,,,,1391158260,,KNYC,,260,17,,,3300,,,1391151060,16,,10,33,,Nyc/Central Park,10,,,,W,Fair,26,Low,16,,26,47,29.98,,,8,,KNYC,N,observation,0
+2014-01-31 02:51:00,CLR,,,,,,1391161860,,KNYC,,280,18,,,3300,,,1391154660,19,,10,33,,Nyc/Central Park,6,,,,W,Fair,26,Low,19,,26,55,29.97,,,12,,KNYC,N,observation,0
+2014-01-31 03:51:00,CLR,,,,,Falling,1391165460,,KNYC,,,,,,3300,,,1391158260,27,,10,33,,Nyc/Central Park,,,,,CALM,Fair,27,Low,27,2,27,47,29.95,,,9,,KNYC,N,observation,0
+2014-01-31 04:51:00,CLR,,,,,,1391169060,,KNYC,,,,,,3300,,,1391161860,,,10,33,,Nyc/Central Park,,,,,,Fair,28,Low,,,28,43,29.95,,,8,,KNYC,N,observation,0
+2014-01-31 05:51:00,CLR,,,,,,1391172660,,KNYC,,260,,,,3300,,,1391165460,19,,10,33,,Nyc/Central Park,9,,,,W,Fair,28,Low,19,,28,43,29.93,,,8,,KNYC,N,observation,0
+2014-01-31 06:51:00,OVC,,28,25,,Steady,1391176260,,KNYC,,260,16,,,2600,,,1391169060,19,,10,26,,Nyc/Central Park,9,,,,W,Cloudy,28,Low,19,0,28,45,29.94,,,9,,KNYC,N,observation,0
+2014-01-31 07:51:00,BKN,,,,,,1391179860,,KNYC,,260,,,,2700,,,1391172660,20,,10,27,,Nyc/Central Park,8,,,,W,Mostly Cloudy,28,,20,,28,47,29.95,,,10,,KNYC,N,observation,-4
+2014-01-31 08:51:00,BKN,,,,,,1391183460,,KNYC,,280,,,,2800,,,1391176260,24,,10,28,,Nyc/Central Park,5,,,,W,Mostly Cloudy,29,,24,,29,49,29.97,,,12,,KNYC,D,observation,-22
+2014-01-31 09:51:00,OVC,,,,,Rising Rapidly,1391187060,,KNYC,,270,,,,2600,,,1391179860,22,,10,26,,Nyc/Central Park,10,,,,W,Cloudy,31,,22,1,31,42,29.98,,,10,,KNYC,D,observation,-76
+2014-01-31 10:51:00,OVC,,,,,,1391190660,,KNYC,,,,,,2600,,,1391183460,27,,10,26,,Nyc/Central Park,5,,,,VAR,Cloudy,,,27,,,40,29.98,,,10,,KNYC,D,observation,-122
+2014-01-31 11:51:00,OVC,,,,,,1391194260,,KNYC,,260,,,,2600,,,1391187060,26,,10,26,,Nyc/Central Park,6,,,,W,Cloudy,,,26,,,42,29.96,,,11,,KNYC,D,observation,-147
+2014-01-31 12:51:00,OVC,,34,28,,Rising Rapidly,1391197860,,KNYC,,280,,,,2600,,,1391190660,29,,10,26,,Nyc/Central Park,6,,,,W,Cloudy,34,,29,1,34,38,29.95,,,11,,KNYC,D,observation,-141
+2014-01-31 13:51:00,BKN,,,,,,1391201460,,KNYC,,270,,,,2800,,,1391194260,30,,10,28,,Nyc/Central Park,7,,,,W,Mostly Cloudy,36,,30,,36,36,29.95,,,11,,KNYC,D,observation,-78
+2014-01-31 14:51:00,BKN,,,,,,1391205060,,KNYC,,300,,,,2800,,,1391197860,34,,10,28,,Nyc/Central Park,7,,,,WNW,Mostly Cloudy,39,,34,,39,32,29.95,,,11,,KNYC,D,observation,-42
+2014-01-31 15:51:00,OVC,,,,,Falling Rapidly,1391208660,,KNYC,,290,,,,2600,,,1391201460,35,,10,26,,Nyc/Central Park,6,,,,WNW,Cloudy,39,,35,2,39,32,29.94,,,11,,KNYC,D,observation,-17
+2014-01-31 16:51:00,BKN,,,,,,1391212260,,KNYC,,,,,,2800,,,1391205060,39,,10,28,,Nyc/Central Park,,,,,CALM,Mostly Cloudy,39,,39,,39,33,29.95,,,12,,KNYC,D,observation,-3
+2014-01-31 17:51:00,SCT,,,,,,1391215860,,KNYC,,280,,,,3000,,,1391208660,35,,10,30,,Nyc/Central Park,6,,,,W,Partly Cloudy,39,Low,35,,39,33,29.98,,,12,,KNYC,D,observation,0
+2014-01-31 18:51:00,OVC,,39,34,,Rising Rapidly,1391219460,,KNYC,,,,,,2600,,,1391212260,38,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,38,Low,38,1,38,36,30.01,,,13,,KNYC,N,observation,0
+2014-01-31 19:51:00,CLR,,,,,,1391223060,,KNYC,,270,,,,3300,,,1391215860,33,,10,33,,Nyc/Central Park,6,,,,W,Fair,38,Low,33,,38,36,30.02,,,13,,KNYC,N,observation,0
+2014-01-31 20:51:00,CLR,,,,,,1391226660,,KNYC,,260,,,,3300,,,1391219460,37,,10,33,,Nyc/Central Park,3,,,,W,Fair,37,Low,37,,37,39,30.03,,,14,,KNYC,N,observation,0
+2014-01-31 21:51:00,OVC,,,,,Rising Rapidly,1391230260,,KNYC,,,,,,2600,,,1391223060,37,,10,26,,Nyc/Central Park,,,,,CALM,Cloudy,37,Low,37,1,37,39,30.04,,,14,,KNYC,N,observation,0
+2014-01-31 22:51:00,BKN,,,,,,1391233860,,KNYC,,270,,,,2700,,,1391226660,32,,10,27,,Nyc/Central Park,6,,,,W,Mostly Cloudy,37,Low,32,,37,37,30.06,,,13,,KNYC,N,observation,0
